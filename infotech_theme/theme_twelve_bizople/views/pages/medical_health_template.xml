@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="medical_health_template" model="ir.ui.view">
+		<field name="name">Medical &amp; Health Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.medical_health_template</field>
+		<field name="arch" type="xml">
+			<t name="Medical and Health Template"
+				t-name="medical_health_template">
+				<t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section id="banner2"
+        class="s_medical_banner spacer banner p-b-0 " style="background-image: url(/theme_twelve_bizople/static/src/img/banner-bg_medical.jpg);" >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 align-self-center hidden-md-down ">
+              <section class="p-40 bg-info-1 o_animate_preview o_animate o_anim_fade_in_down">
+                <h3 class="text-white">The Best Medical Treatment Which You Deserve
+                </h3>
+                <p class="text-white op-7 m-t-20 custom_p">To accomplish great things, we must not only act
+                  but also dream and plan.
+                </p>
+              </section>
+            </div>
+            <div class="col-md-7 col-lg-4 ml-auto o_animate_preview o_animate o_anim_fade_in_up">
+              <section class="s_website_form pt16 pb16 o_colored_level bg-white " data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+                <div class="container">
+                
+                  <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required contact-form appointment-form" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="crm.lead">
+                    <div class="s_website_form_rows  s_col_no_bgcolor">
+                      <div class="form-group s_website_form_field col-12  s_website_form_required" data-type="char" data-name="Field">
+                        <label class="s_website_form_label  " style="width: 200px" for="medical_contactus5_form_name">
+                          <span class="s_website_form_label_content">Your Name</span>
+                          <span class="s_website_form_mark"> *</span>
+                        </label>
+                        
+                          <input type="text" placeholder="Enter Your Name*" class="form-control s_website_form_input" name="contact_name" required="1" id="medical_contactus5_form_name"/>
+                        
+                      </div>
+
+                      <div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="email" data-name="Field">
+                        <label class="s_website_form_label  " style="width: 200px" for="medical_contactus5_form_email">
+                          <span class="s_website_form_label_content">Your Email</span>
+                          <span class="s_website_form_mark"> *</span>
+                        </label>
+                        
+                          <input type="email" placeholder="Enter Your E-mail*" class="form-control s_website_form_input" name="email_from" required="1" id="medical_contactus5_form_email"/>
+                        
+                      </div>
+
+                      <div class="form-group  s_website_form_field col-12" data-type="tel" data-name="Field">
+                        <label class="s_website_form_label  " style="width: 200px" for="medical_contactus5_form_phone">
+                          <span class="s_website_form_label_content">Phone Number</span>
+                        </label>
+                        
+                          <input type="tel" placeholder="Enter Your Phone Number" class="form-control s_website_form_input" name="phone" id="medical_contactus5_form_phone"/>
+                        
+                      </div>
+                      
+                      
+                      <div class="form-group  s_website_form_field col-12  s_website_form_model_required  " data-type="char" data-name="Field">
+                        
+                        <label class="s_website_form_label  " style="width: 200px" for="medical_contactus5_form_subject">
+                          <span class="s_website_form_label_content">Subject</span>
+                          <span class="s_website_form_mark"> *</span>
+                        </label>
+                        
+                          <input type="text" placeholder="Enter Your Subject*" class="form-control s_website_form_input" name="name" required="true" id="medical_contactus5_form_subject"/>
+                      </div>
+                      <div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="text" data-name="Field">
+                        <label class="s_website_form_label  " style="width: 200px" for="medical_contactus5_form_message">
+                          <span class="s_website_form_label_content">Message</span>
+                          <span class="s_website_form_mark"> *</span>
+                        </label>
+                        
+                          <textarea class="form-control s_website_form_input" name="description" placeholder="Enter Your Question*" required="1" id="medical_contactus5_form_message" rows="5"/>
+                      </div>
+                      <div class="form-group  col-12 s_website_form_submit" data-name="Submit Button">
+                        
+                        <a href="#" class="s_website_form_send bg-danger-gradient btn btn-block btn-lg flat arrow-btn text-white" type="submit">Book Your Appointment Now<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span></a>
+                        <span id="s_website_form_result"/>
+                      </div>											
+                    </div>
+                  </form>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="oe_structure"/>
+
+      <section class="s_medical_three_feature_box">
+      <div class="feature6">
+        <div class="container">
+          <div class="row m-t-40">
+            <div class="col-md-4 wrap-feature6-box">
+              <section
+                class="card bg-success-light text-white o_animate_preview o_animate o_anim_fade_in_left">
+                <div class="card-box">
+                  <h6 class="font-medium text-white">Cashless Insurance</h6>
+                  <p class="m-t-20">Lorem ipsum dolor sit amet, consecte tuam
+                    porttitor, nunc et fringilla.
+                  </p>
+                  <a href="#f4" class="linking">
+                    Learn More
+                    <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                  </a>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-4 wrap-feature6-box">
+              <section
+                class="card bg-success-1 text-white o_animate_preview o_animate o_anim_fade_in_down">
+                <div class="card-box">
+                  <h6 class="font-medium text-white">Affordable Charges</h6>
+                  <p class="m-t-20">Lorem ipsum dolor sit amet, consecte tuam
+                    porttitor,
+                    nunc et fringilla.
+                  </p>
+                  <a href="#f4" class="linking">
+                    Learn More
+                    <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                  </a>
+                </div>
+              </section>
+
+            </div>
+            <div class="col-md-4 wrap-feature6-box">
+              <section
+                class="card bg-info-1 text-white o_animate_preview o_animate o_anim_fade_in_right">
+                <div class="card-box">
+                  <h6 class="font-medium text-white">Trusted Brand Name</h6>
+                  <p class="m-t-20">Lorem ipsum dolor sit amet, consecte tuam
+                    porttitor,
+                    nunc et fringilla.
+                  </p>
+                  <a href="#f4" class="linking">
+                    Learn More
+                    <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                  </a>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div class="oe_structure"/>
+
+      <section class="s_medical_four_block_with_features">
+      <div class="spacer feature9">
+        <div class="container">
+          <div class="row m-t-40">
+            <div class="col-md-6 wrap-feature9-box b-r b-b">
+              <section class="card o_animate_preview o_animate o_anim_fade_in_left" data-aos="fade-right"
+                data-aos-duration="1200">
+                <div class="card-body d-flex">
+                  <div class="align-self-center">
+                    <h2 class="font-medium">We are Leading Health Care Hospital in NewYork
+                    </h2>
+                    <p class="m-t-20">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 wrap-feature9-box b-b">
+              <section class="card o_animate_preview o_animate o_anim_fade_in_right" data-aos="fade-left"
+                data-aos-duration="1200">
+                <div class="card-body d-flex">
+                  <div class="icon-space align-self-center">
+                    <span class="fa fa-desktop display-4 text-success-gradient-1"></span>
+                  </div>
+                  <div class="align-self-center">
+                    <h5 class="font-medium">
+                      <a href="#" class="linking">
+                        Online Appointment
+                        <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1">
+                        </span>
+                      </a>
+                    </h5>
+                    <p class="m-t-20">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 wrap-feature9-box b-r">
+              <section class="card o_animate_preview o_animate o_anim_fade_in_left" data-aos="fade-right"
+                data-aos-duration="1200">
+                <div class="card-body d-flex">
+                  <div class="icon-space align-self-center">
+                    <span
+                      class="fa fa-mobile display-4 text-success-gradient-1"></span>
+                  </div>
+                  <div class="align-self-center">
+                    <h5 class="font-medium">
+                      <a href="#" class="linking">
+                        Latest Technologies
+                        <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                      </a>
+                    </h5>
+                    <p class="m-t-20">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 wrap-feature9-box">
+              <section class="card o_animate_preview o_animate o_anim_fade_in_right" data-aos="fade-left"
+                data-aos-duration="1200">
+                <div class="card-body d-flex">
+                  <div class="icon-space align-self-center">
+                    <span
+                      class="demo-icon fa fa-users display-4 text-success-gradient-1"></span>
+                  </div>
+                  <div class="align-self-center">
+                    <h5 class="font-medium">
+                      <a href="#" class="linking">
+                        Experienced Team
+                        <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                      </a>
+                    </h5>
+                    <p class="m-t-20">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div class="oe_structure"/>
+
+      <section class="s_medical_fourblock_img_with_icons bg-light-1 ">
+      <div class="spacer feature18">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="title">Powerful Services at Bizople</h2>
+              <h6 class="subtitle">You can relay on our amazing features list and
+                also our customer services will be great experience for you
+                without doubt and in no-time
+              </h6>
+            </div>
+          </div>
+          <div class="row  wrap-feature-18">
+            <div class="col-lg-6 o_animate_preview o_animate o_anim_fade_in_left" data-aos="fade-right"
+              data-aos-duration="1200">
+              <div class="card">
+                <div class="row">
+                  <div class="col-md-5 icon-position">
+                    <img src="/theme_twelve_bizople/static/src/img/s1.jpg"/>
+                    <section
+                      class="icon-round bg-success-gradient-1 text-white display-6">
+                      <span class="fa fa-file"></span>
+                    </section>
+                  </div>
+                  <div class="col-md-7">
+                    <div class=" p-40">
+                      <h5 class="font-medium">Dental Care with Easy Treatments</h5>
+                      <p class="m-t-20">You can relay on our amazing features list and
+                        also our customer services will be great experience.
+                      </p>
+                      <a href="#" class="linking text-underline font-medium">
+                        Lets Talk
+                        <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 o_animate_preview o_animate o_anim_fade_in_right" data-aos="fade-left"
+              data-aos-duration="1200">
+              <div class="card">
+                <div class="row">
+                  <div class="col-md-5 icon-position">
+                    <img src="/theme_twelve_bizople/static/src/img/s2.jpg"/>
+                    <section
+                      class="icon-round bg-success-gradient-1 text-white display-6">
+                      <span class="fa fa-heartbeat"></span>
+                    </section>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="p-40">
+                      <h5 class="font-medium">We are Heart Specialist and Surgeon</h5>
+                      <p class="m-t-20">You can relay on our amazing features list and
+                        also our customer services will be great experience.
+                      </p>
+                      <a href="#" class="linking text-underline font-medium">
+                        Lets Talk
+                        <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 o_animate_preview o_animate o_anim_fade_in_up" data-aos="fade-up"
+              data-aos-duration="1200">
+              <div class="card">
+                <div class="row">
+                  <div class="col-md-5 icon-position">
+                    <img src="/theme_twelve_bizople/static/src/img/s3.jpg"/>
+                    <section
+                      class="icon-round bg-success-gradient-1 text-white display-6">
+                      <span class="fa fa-music"></span>
+                    </section>
+                  </div>
+                  <div class="col-md-7">
+                    <div class=" p-40">
+                      <h5 class="font-medium">We do have Department for Research</h5>
+                      <p class="m-t-20">You can relay on our amazing features list and
+                        also our customer services will be great experience.
+                      </p>
+                      <a href="#" class="linking text-underline font-medium">
+                        Lets Talk
+                        <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 o_animate_preview o_animate o_anim_fade_in_up" data-aos="fade-up"
+              data-aos-duration="1200">
+              <div class="card">
+                <div class="row">
+                  <div class="col-md-5 icon-position">
+                    <img src="/theme_twelve_bizople/static/src/img/s4.jpg"/>
+                    <section
+                      class="icon-round bg-success-gradient-1 text-white display-6">
+                      <span class="fa fa-keyboard-o"></span>
+                    </section>
+                  </div>
+                  <div class="col-md-7">
+                    <div class=" p-40">
+                      <h5 class="font-medium">Child Care Department for Everyone</h5>
+                      <p class="m-t-20">You can relay on our amazing features list and
+                        also our customer services will be great experience.
+                      </p>
+                      <a href="#" class="linking text-underline font-medium">
+                        Lets Talk
+                        <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 m-t-40 text-center">
+              <a class="btn btn-info-gradient btn-md arrow-btn" 
+                href="#">
+                  View Other Services
+                  <span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div class="oe_structure"/>
+
+      <section class="s_medical_icons_block spacer feature24" data-name="Icons Block with paragraph">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="title o_default_snippet_text">Departments At Our Medical Center</h2>
+              <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+							also our customer services will be great experience for you
+							without doubt and in no-time
+						</h6>
+            </div>
+          </div>
+          <div class="row wrap-feature-24">
+            <div class="col-lg-3 col-md-6">
+              <div class="card card-shadow">
+                <a href="#" class="service-24">
+                  <div class="display-5 t-icon">
+                    <i class="fa fa-sun-o"/>
+                  </div>
+                  <h6 class="ser-title o_default_snippet_text">Neurology Department</h6>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card card-shadow">
+                <a href="#" class="service-24">
+                  <div class="display-5 t-icon">
+                    <i class="fa fa-cog"/>
+                  </div>
+                  <h6 class="ser-title o_default_snippet_text">Dental Care</h6>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card card-shadow">
+                <a href="#" class="service-24">
+                  <div class="display-5 t-icon">
+                    <i class="fa fa-heart"/>
+                  </div>
+                  <h6 class="ser-title o_default_snippet_text">Heart Specialist</h6>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card card-shadow">
+                <a href="#" class="service-24">
+                  <div class="display-5 t-icon">
+                    <i class="fa fa-music"/>
+                  </div>
+                  <h6 class="ser-title o_default_snippet_text">Ear Specialist</h6>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card card-shadow">
+                <a href="#" class="service-24">
+                  <div class="display-5 t-icon">
+                    <i class="fa fa-eye"/>
+                  </div>
+                  <h6 class="ser-title o_default_snippet_text">Eye Care</h6>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card card-shadow">
+                <a href="#" class="service-24">
+                  <div class="display-5 t-icon">
+                    <i class="fa fa-laptop"/>
+                  </div>
+                  <h6 class="ser-title o_default_snippet_text">Lung Disease</h6>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card card-shadow">
+                <a href="#" class="service-24">
+                  <div class="display-5 t-icon">
+                    <i class="fa fa-briefcase"/>
+                  </div>
+                  <h6 class="ser-title o_default_snippet_text">Nose Specialist</h6>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card card-shadow">
+                <a href="#" class="service-24">
+                  <div class="display-5 t-icon">
+                    <i class="fa fa-smile-o"/>
+                  </div>
+                  <h6 class="ser-title o_default_snippet_text">General Care</h6>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="oe_structure"/>
+
+      <section class="s_medical_doctor_team">
+      <div class="spacer feature14">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="title">Experienced Team of Doctors</h2>
+              <h6 class="subtitle">You can relay on our amazing features list and
+                also our customer services will be great experience for you
+                without doubt and in no-time
+              </h6>
+            </div>
+          </div>
+          <div class="row m-t-40 p-t-20">
+            <div class="col-lg-3 col-md-6 wrap-feature14-box">
+              <div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <img class="rounded img-responsive"
+                  src="/theme_twelve_bizople/static/src/img/t1.jpg" alt="bizople kit" />
+                <div class="m-t-30">
+                  <h5 class="font-medium m-b-0">Dr. Micheal Anderson</h5>
+                  <h6 class="subtitle">Heart Sergeon</h6>
+                  <p class="m-t-20 text-dark">You can relay on our amazing features list and
+                    also our customer services will be great.
+                  </p>
+                  <a href="#" class="text-info-1 font-medium">Learn More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wrap-feature14-box">
+              <div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <img class="rounded img-responsive"
+                  src="/theme_twelve_bizople/static/src/img/t2.jpg" alt="bizople kit" />
+                <div class="m-t-30">
+                  <h5 class="font-medium m-b-0">Dr. Julia D’Souza</h5>
+                  <h6 class="subtitle">Family Physician</h6>
+                  <p class="m-t-20 text-dark">You can relay on our amazing features list and
+                    also our customer services will be great.
+                  </p>
+                  <a href="#" class="text-info-1 font-medium">Learn More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wrap-feature14-box">
+              <div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <img class="rounded img-responsive"
+                  src="/theme_twelve_bizople/static/src/img/t3.jpg" alt="bizople kit" />
+                <div class="m-t-30">
+                  <h5 class="font-medium m-b-0">Dr. Megan Doe</h5>
+                  <h6 class="subtitle">Cancer Care Specialist</h6>
+                  <p class="m-t-20 text-dark">You can relay on our amazing features list and
+                    also our customer services will be great.
+                  </p>
+                  <a href="#" class="text-info-1 font-medium">Learn More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wrap-feature14-box">
+              <div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <img class="rounded img-responsive"
+                  src="/theme_twelve_bizople/static/src/img/t4.jpg" alt="bizople kit" />
+                <div class="m-t-30">
+                  <h5 class="font-medium m-b-0">Dr. Johnathan Birt</h5>
+                  <h6 class="subtitle">General Care</h6>
+                  <p class="m-t-20 text-dark">You can relay on our amazing features list and
+                    also our customer services will be great.
+                  </p>
+                  <a href="#" class="text-info-1 font-medium">Learn More </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div class="oe_structure"/>
+
+      <section class="s_medical_img_with_features bg-light-1 s_tabs" data-js="navTabs" data-name="Image With tab options">
+        <div class=" spacer feature41">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <h2 class="title o_default_snippet_text">Create beautiful Websites in Record Time</h2>
+                <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+								also our customer services will be great experience for you
+								without doubt and in no-time
+							</h6>
+              </div>
+            </div>
+            <div class="row m-t-40 wrap-feature41-box s_tabs_main">
+              <div class="col-md-4  s_tabs_nav">
+                <ul class="nav nav-tabs vtab f41-tab">
+                  <li class="nav-item">
+                    <a class="nav-link" id="nav_tabs_link_1580985040482_60" data-toggle="tab" href="#nav_tabs_content_1580985040482_60" aria-controls="nav_tabs_content_1580985040482_60">
+                      <div class="display-5 t-icon">
+                        <i class="fa fa-pencil"/>
+                      </div>
+                      <div>
+                        <h5 class="m-b-0 o_default_snippet_text">Perfectly Structured</h5>
+                        <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list.
+											</h6>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="nav_tabs_link_1580985040483_61" data-toggle="tab" href="#nav_tabs_content_1580985040483_61" aria-controls="nav_tabs_content_1580985040483_61">
+                      <div class="display-5 t-icon">
+                        <i class="fa fa-shopping-cart"/>
+                      </div>
+                      <div>
+                        <h5 class="m-b-0 o_default_snippet_text">Thinkful Products</h5>
+                        <h6 class="subtitle" data-original-title="" title="" aria-describedby="tooltip248769">You can relay on our amazing features list.
+											</h6>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="nav_tabs_link_1580985040483_62" data-toggle="tab" href="#nav_tabs_content_1580985040483_62" aria-controls="nav_tabs_content_1580985040483_62">
+                      <div class="display-5 t-icon">
+                        <i class="fa fa-diamond"/>
+                      </div>
+                      <div>
+                        <h5 class="m-b-0" data-original-title="" title="" aria-describedby="tooltip412726">Make Money</h5>
+                        <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list.
+											</h6>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="nav_tabs_link_1580985040483_63" data-toggle="tab" href="#nav_tabs_content_1580985040483_63" aria-controls="nav_tabs_content_1580985040483_63">
+                      <div class="display-5 t-icon">
+                        <i class="fa fa-cloud-upload"/>
+                      </div>
+                      <div>
+                        <h5 class="m-b-0" data-original-title="" title="" aria-describedby="tooltip908595">SSD Storage</h5>
+                        <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list.
+											</h6>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-7 ml-auto">
+                <div class="s_tabs_content tab-content" id="myTabContent">
+                  <div class="tab-pane fade" id="nav_tabs_content_1580985040482_60" role="tabpanel" aria-labelledby="nav_tabs_link_1580985040482_60">
+                    <img src="/theme_twelve_bizople/static/src/img/d1.jpg" alt="bizople" class="rounded img-fluid"/>
+                    <p class="m-t-40 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit, sed diam nonummy nibh euismod tincidunt
+										ut
+										laoreet dolore magna aliquam erat volutpat.
+									</p>
+                    <a class="btn btn-info-gradient btn-md arrow-btn m-t-20 o_default_snippet_text" href="#f41">
+											View Features
+											<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"/>
+									</a>
+                  </div>
+                  <div class="tab-pane fade" id="nav_tabs_content_1580985040483_61" role="tabpanel" aria-labelledby="nav_tabs_link_1580985040483_61">
+                    <img src="/theme_twelve_bizople/static/src/img/d2.jpg" alt="bizople" class="rounded img-fluid"/>
+                    <p class="m-t-40 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit, sed diam nonummy nibh euismod tincidunt
+										ut
+										laoreet dolore magna aliquam erat volutpat.
+									</p>
+                    <a class="btn btn-danger-gradient btn-md arrow-btn m-t-20 o_default_snippet_text" href="#f41">
+											View Features
+											<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"/>
+									</a>
+                  </div>
+                  <div class="tab-pane fade" id="nav_tabs_content_1580985040483_62" role="tabpanel" aria-labelledby="nav_tabs_link_1580985040483_62">
+                    <img src="/theme_twelve_bizople/static/src/img/d1.jpg" alt="bizople" class="rounded img-fluid"/>
+                    <p class="m-t-40 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit, sed diam nonummy nibh euismod tincidunt
+										ut
+										laoreet dolore magna aliquam erat volutpat.
+									</p>
+                    <a class="btn btn-info-gradient btn-md arrow-btn m-t-20 o_default_snippet_text" href="#f41">
+											View Features
+											<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"/>
+									</a>
+                  </div>
+                  <div class="tab-pane fade active show" id="nav_tabs_content_1580985040483_63" role="tabpanel" aria-labelledby="nav_tabs_link_1580985040483_63">
+                    <img src="/theme_twelve_bizople/static/src/img/d2.jpg" alt="bizople" class="rounded img-fluid"/>
+                    <p class="m-t-40 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit, sed diam nonummy nibh euismod tincidunt
+										ut
+										laoreet dolore magna aliquam erat volutpat.
+									</p>
+                    <a class="btn btn-info-gradient btn-md arrow-btn m-t-20 o_default_snippet_text" href="#f41">
+											View Features
+											<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"/>
+									</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="oe_structure"/>
+
+      <section class="s_medical_testimonial" data-name="Testimonial Two">
+        <div class="testimonial2 pt40">
+          <div class="container">
+            <div class="heading">
+					</div>
+            <div id="myCarousel1580985080099" class="owl-carousel owl-theme testi2 m-t-40 s_carousel_default carousel slide" data-interval="10000">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel1580985080099" data-slide-to="0" class="active"/>
+                <li data-target="#myCarousel1580985080099" data-slide-to="1"/>
+                <li data-target="#myCarousel1580985080099" data-slide-to="2"/>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-name="Slide">
+                  <div class="container">
+                    <div class="item">
+                      <div class="row po-relative">
+                        <div class="col-lg-6 col-md-6 align-self-center">
+                          <button class="btn btn-circle btn-info-gradient btn-md">
+                            <i class="fa fa-quote-left"/>
+                          </button>
+                          <h3 class="m-t-20 m-b-20 o_default_snippet_text">Customer Reviews</h3>
+                          <p class="o_default_snippet_text">
+													Lorem ipsum dolor sit amet, consectetur adipisicing
+													elit,
+													sed
+													do
+													eiusmod tempor incididunt ut labore et dolore
+													magna
+													aliqua.
+													Ut enim ad minim veniam, quis nostrud
+													exercitation
+													ullamco
+													laboris nisi ut aliquip ex ea
+													commodo
+													consequat.
+												</p>
+                          <h5 class="m-t-30 o_default_snippet_text">Simon Duo</h5>
+                          <h6 class="subtitle o_default_snippet_text">Partner, Brevin</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 image-thumb hidden-sm-down">
+                          <img src="/theme_twelve_bizople/static/src/img/1.jpg" alt=" " class="circle img-fluid"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide">
+                  <div class="container">
+                    <div class="item">
+                      <div class="row po-relative">
+                        <div class="col-lg-6 col-md-6 align-self-center">
+                          <button class="btn btn-circle btn-info-gradient btn-md">
+                            <i class="fa fa-quote-left"/>
+                          </button>
+                          <h3 class="m-t-20 m-b-20 o_default_snippet_text">Customer Reviews</h3>
+                          <p class="o_default_snippet_text">
+													Lorem ipsum dolor sit amet, consectetur adipisicing
+													elit,
+													sed
+													do
+													eiusmod tempor incididunt ut labore et dolore
+													magna
+													aliqua.
+													Ut enim ad minim veniam, quis nostrud
+													exercitation
+													ullamco
+													laboris nisi ut aliquip ex ea commodo
+													consequat.
+												</p>
+                          <h5 class="m-t-30 o_default_snippet_text">Simon Duo</h5>
+                          <h6 class="subtitle o_default_snippet_text">Partner, Brevin</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 image-thumb hidden-sm-down">
+                          <img src="/theme_twelve_bizople/static/src/img/2.jpg" alt=" " class="circle img-fluid"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg pb80" data-name="Slide">
+                  <div class="container">
+                    <div class="item">
+                      <div class="row po-relative">
+                        <div class="col-lg-6 col-md-6 align-self-center">
+                          <button class="btn btn-circle btn-info-gradient btn-md">
+                            <i class="fa fa-quote-left"/>
+                          </button>
+                          <h3 class="m-t-20 m-b-20 o_default_snippet_text">Customer Reviews</h3>
+                          <p class="o_default_snippet_text">
+													Lorem ipsum dolor sit amet, consectetur adipisicing
+													elit,
+													sed
+													do
+													eiusmod tempor incididunt ut labore et dolore
+													magna
+													aliqua.
+													Ut enim ad minim veniam, quis nostrud
+													exercitation
+													ullamco
+													laboris nisi ut aliquip ex ea
+													commodo
+													consequat.
+												</p>
+                          <h5 class="m-t-30 o_default_snippet_text">Simon Duo</h5>
+                          <h6 class="subtitle o_default_snippet_text">Partner, Brevin</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 image-thumb hidden-sm-down">
+                          <img src="/theme_twelve_bizople/static/src/img/3.jpg" alt=" " class="circle img-fluid"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="oe_structure"/>
+
+      <section class="s_blog_posts_big_picture" data-name="Latest Posts - Big Images">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="title o_default_snippet_text">Latest Posts</h2>
+              <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+								also
+								our customer services will be great experience for you
+								without
+								doubt and in no-time
+							</h6>
+            </div>
+          </div>
+          <div class="row js_get_posts" data-loading="true" data-template="website_blog.dynamic_filter_template_blog_post_list"/>
+        </div>
+      </section>
+
+      <div class="oe_structure"/>
+      
+    </div>
+  </t>
+			</t>
+		</field>
+	</record>
+
+	<record id="medical_health_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/medical_health-template</field>
+		<field name="view_id" ref="medical_health_template" />
+	</record>
+
+</odoo>
+

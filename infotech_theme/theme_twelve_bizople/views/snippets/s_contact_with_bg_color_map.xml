@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_contact_with_bg_color_map"
+		name="Contact us Four">
+		<section class="s_contact_with_bg_color_map bg-info-1">
+			<div class="contact4">
+				<div class="container">
+						<div class="row align-items-center">
+							<div class="col-md-6 contact-box">
+								<div class="aos-init" data-aos="fade-right"
+									data-aos-duration="1200">
+									<h1 class="title font-light text-white m-t-10">Contact
+										Us
+									</h1>
+									<section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+										<div class="container">
+										
+											<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required contact-form o_animate_preview o_animate o_anim_fade_in_right" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="crm.lead">
+												<div class="s_website_form_rows row s_col_no_bgcolor">
+													<div class="form-group  s_website_form_field col-12  s_website_form_required" data-type="char" data-name="Field">
+														<label class="s_website_form_label  d-none" style="width: 200px" for="contact_with_bg_color_contactus3_form_name">
+															<span class="s_website_form_label_content">Your Name</span>
+															<span class="s_website_form_mark"> *</span>
+														</label>
+														
+															<input type="text" placeholder="Enter Your Name*" class="form-control s_website_form_input" name="contact_name" required="1" id="contact_with_bg_color_contactus3_form_name"/>
+														
+													</div>
+
+													<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="email" data-name="Field">
+														<label class="s_website_form_label  d-none" style="width: 200px" for="contact_with_bg_color_contactus3_form_email">
+															<span class="s_website_form_label_content">Your Email</span>
+															<span class="s_website_form_mark"> *</span>
+														</label>
+														
+															<input type="email" placeholder="Enter Your E-mail*" class="form-control s_website_form_input" name="email_from" required="1" id="contact_with_bg_color_contactus3_form_email"/>
+														
+													</div>
+
+													<div class="form-group  s_website_form_field col-12" data-type="tel" data-name="Field">
+														<label class="s_website_form_label  d-none" style="width: 200px" for="contact_with_bg_color_contactus3_form_phone">
+															<span class="s_website_form_label_content">Phone Number</span>
+														</label>
+														
+															<input type="tel" placeholder="Enter Your Phone Number" class="form-control s_website_form_input" name="phone" id="contact_with_bg_color_contactus3_form_phone"/>
+														
+													</div>
+													
+													
+													<div class="form-group  s_website_form_field col-12  s_website_form_model_required  " data-type="char" data-name="Field">
+														
+														<label class="s_website_form_label  d-none" style="width: 200px" for="contact_with_bg_color_contactus3_form_subject">
+															<span class="s_website_form_label_content">Subject</span>
+															<span class="s_website_form_mark"> *</span>
+														</label>
+														
+															<input type="text" placeholder="Enter Your Subject*" class="form-control s_website_form_input" name="name" required="true" id="contact_with_bg_color_contactus3_form_subject"/>
+													</div>
+													<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="text" data-name="Field">
+														<label class="s_website_form_label  d-none" style="width: 200px" for="contact_with_bg_color_contactus3_form_message">
+															<span class="s_website_form_label_content">Message</span>
+															<span class="s_website_form_mark"> *</span>
+														</label>
+														
+															<textarea class="form-control s_website_form_input" name="description" placeholder="Enter Your Question*" required="1" id="contact_with_bg_color_contactus3_form_message" rows="5"/>
+													</div>
+													<div class="form-group  col-6 s_website_form_submit" data-name="Submit Button">
+														<a href="#" role="button" class="btn btn-danger-gradient  s_website_form_send o_default_snippet_text"><span class="icofont icofont-paper-plane mr-2" style="font-size: 17px; vertical-align: middle;"/>SUBMIT MESSAGE</a>
+														<span id="s_website_form_result"/>
+														
+													</div>
+													<div class="text-right text-white align-self-center col-6">
+														<i class="fa fa-phone m-r-10"></i>
+														251 546 9442
+													</div>
+												</div>
+											</form>
+										</div>
+									</section>
+								</div>
+							</div>
+
+							<div class=" col-md-6 right-image p-r-0 ">
+								<img class="img-img-responsive img-fluid"
+									src="/theme_twelve_bizople/static/src/img/map-icon-6.jpg" />
+
+							</div>
+						</div>
+
+
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

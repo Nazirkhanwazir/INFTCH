@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_accounting_parallex"
+		name="Parallex with center paragraph and button">
+		<section
+			class="s_accounting_parallex spacer feature21 wrap-feature21-box"
+			style="background-image:url(/theme_twelve_bizople/static/src/img/bg1.jpg)">
+			<div class="container">
+				<div class="row text-white">
+					<div class="col-md-5 both-space">
+						<div class="aos-init o_animate_preview o_animate o_anim_fade_in_left">
+							<h2 class="text-white m-t-20 m-b-30">Dont go by Queue, Create your Own Way Faster
+							</h2>
+							<p class="op-8 custom_p">You can relay on our amazing features list and
+								also our customer services will be great experience.
+							</p>
+							<a class="btn btn-info-gradient btn-md arrow-btn m-t-20"
+								 href="#">
+									View Features
+									<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

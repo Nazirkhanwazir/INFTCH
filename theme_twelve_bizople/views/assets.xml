@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="preload_fonts" name="Preload Fonts" inherit_id="web.layout">
+		<xpath expr="//head/link[last()]" position="after">
+			
+			<link rel="preload" href="/theme_twelve_bizople/static/lib/themify-icons/fonts/themify.woff?-fvbane" as="font" crossorigin="" />
+
+		</xpath>
+	</template>
+</odoo>

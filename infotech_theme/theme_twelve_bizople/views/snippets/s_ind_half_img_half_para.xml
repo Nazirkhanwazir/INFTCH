@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_ind_half_img_half_para" name="Half image half paragraph with lists">
+		<section class="s_ind_half_img_half_para">
+			<div class="spacer feature8">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<small class="text-info">Featured Project</small>
+							<h3 class="font-bold">NY Power Plant at California</h3>
+							<p class="custom_p">Lorem ipsum dolor sit amet, consectetuer adipiscing
+								elit,
+								sed diam nonummy nibh euismod tincidunt ut laoreet.
+							</p>
+							<ul class="list-block m-b-30">
+								<li>
+									<span class="fa fa-check-circle mr-2 text-info"></span>
+									Powerful and Faster Results for your site
+								</li>
+								<li>
+									<span class="fa fa-check-circle mr-2 text-info"></span>
+									Make your site in no-time with your Bootstrap Theme
+								</li>
+								<li>
+									<span class="fa fa-check-circle mr-2 text-info"></span>
+									Tons of Features and Elements available here
+								</li>
+								<li>
+									<span class="fa fa-check-circle mr-2 text-info"></span>
+									What are you wait for? Go and Get it.
+								</li>
+							</ul>
+							<a class="btn btn-info-gradient btn-md arrow-btn" href="#">
+									View More Projects
+									<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+							</a>
+						</div>
+						<div class="col-lg-6">
+							<div class="p-20">
+								<img src="/theme_twelve_bizople/static/src/img/8.jpg" alt=""
+									class="img-responsive img-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

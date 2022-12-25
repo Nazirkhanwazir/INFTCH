@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_homepage_one_page" name="Home Page One Page">
+		<section class="s_homepage_one_page">
+			<div class="oe_structure oe_empty"/>
+			<section class="s_one_page_banner static-slider2 spacer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5 align-self-center o_animate_preview o_animate o_anim_fade_in_left">
+							<h1 class="title">
+								<span class="typewrite" data-period="2000"
+									data-type='[ "Creative", "Jquery", "Design", "Angular" ]'></span>
+								<br />
+								Done
+								<span class="text-megna">.</span>
+							</h1>
+							<h6 class="subtitle">I’m John Doe, a Web &amp; Mobile App
+								Designer,Specialize in Website Design, Illustration &amp;
+								Mobile
+								Application Work.
+							</h6>
+							<a
+								class="btn btn-danger-gradient btn-md arrow-btn m-t-20 m-b-10"
+								 href="#">
+									Hire Me
+									<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+							</a>
+							<a
+								class="btn btn-link btn-md arrow-btn m-t-20 m-b-10 font-medium underline"
+								 href="#">
+									Check my work
+									<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+							</a>
+						</div>
+						<div class="col-md-7 img-anim o_animate_preview o_animate o_anim_fade_in_up">
+							<img src="/theme_twelve_bizople/static/src/img/one_page_img.jpg"
+								alt=" " class="img-fluid m-t-20" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_one_page_six_blocks bg-light-1 spacer">
+				<div class="feature5" id="feature">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-7 text-center">
+								<h2 class="title">Awesome with Extra Ordinary Flexibility</h2>
+								<h6 class="subtitle">You can relay on our amazing features list and
+									also our customer services will be great experience for you
+									without doubt and in no-time
+								</h6>
+							</div>
+						</div>
+						<div class="row m-t-40">
+							<div class="col-md-4 wrap-feature5-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_left">
+									<div class="card-body d-flex">
+										<div class="icon-space">
+											<span class="text-danger-gradient-1 fa fa-clock-o"></span>
+										</div>
+										<div class="">
+											<h6 class="font-medium">
+												<a href="#" class="linking">Instant Solutions</a>
+											</h6>
+											<p class="m-t-20 custom_p">You can relay on our amaz features list and also
+												our customer services.
+											</p>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4 wrap-feature5-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_down">
+									<div class="card-body d-flex">
+										<div class="icon-space">
+											<span class="text-danger-gradient-1 fa fa-check"></span>
+										</div>
+										<div class="">
+											<h6 class="font-medium">
+												<a href="#" class="linking">Powerful Tech </a>
+											</h6>
+											<p class="m-t-20 custom_p">You can relay on our amaz features list and also
+												our customer services.
+											</p>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4 wrap-feature5-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_right">
+									<div class="card-body d-flex">
+										<div class="icon-space">
+											<span class="text-danger-gradient-1 fa fa-globe"></span>
+										</div>
+										<div class="">
+											<h6 class="font-medium">
+												<a href="#" class="linking">100% Satisfaction </a>
+											</h6>
+											<p class="m-t-20 custom_p">You can relay on our amaz features list and also
+												our customer services.
+											</p>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4 wrap-feature5-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_left">
+									<div class="card-body d-flex">
+										<div class="icon-space">
+											<span class="text-danger-gradient-1 fa fa-dot-circle-o"></span>
+										</div>
+										<div class="">
+											<h6 class="font-medium">
+												<a href="#" class="linking">Targeting Market</a>
+											</h6>
+											<p class="m-t-20 custom_p">You can relay on our amaz features list and also
+												our customer services.
+											</p>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4 wrap-feature5-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_up">
+									<div class="card-body d-flex">
+										<div class="icon-space">
+											<span class="text-danger-gradient-1 fa fa-smile-o"></span>
+										</div>
+										<div class="">
+											<h6 class="font-medium">
+												<a href="#" class="linking">Goal Achievement </a>
+											</h6>
+											<p class="m-t-20 custom_p">You can relay on our amaz features list and also
+												our customer services.
+											</p>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4 wrap-feature5-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_right">
+									<div class="card-body d-flex">
+										<div class="icon-space">
+											<span class="text-danger-gradient-1 fa fa-laptop"></span>
+										</div>
+										<div class="">
+											<h6 class="font-medium">
+												<a href="#" class="linking">Fully Responsive</a>
+											</h6>
+											<p class="m-t-20 custom_p">You can relay on our amaz features list and also
+												our customer services.
+											</p>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-12 text-center m-t-40">
+								<p class="custom_p">
+									Do you have any questions regarding our features?
+									<a href="#" class="linking font-bold">
+										Let's Talk
+										<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_one_page_half_img_para spacer">
+				<div class="feature22">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-8 text-center">
+								<h2 class="title">Craft Beautiful About Section With Bizople</h2>
+								<h6 class="subtitle">You can relay on our amazing features list and
+									also our customer services will be great experience for you
+									without doubt and in no-time
+								</h6>
+							</div>
+						</div>
+						<div class="row wrap-feature-22">
+							<div class="col-lg-6 o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+								<img src="/theme_twelve_bizople/static/src/img/img1_one.jpg"
+									class="rounded img-shadow img-responsive" alt="" />
+							</div>
+							<div class="col-lg-6">
+								<div class="text-box">
+									<small class="text-danger-gradient-1 font-medium">Make your site in No-Time</small>
+									<h3 class="font-light">
+										Bizople helps you to
+										<span class="font-medium">build your project</span>
+										in record time with fun making it.
+									</h3>
+									<p class="custom_p">Lorem ipsum dolor sit amet, consectetuer
+										adipiscing elit,
+										sed diam nonummy nibh euismod tincidunt ut
+										laoreet dolore
+										magna aliquam erat volutpat.
+									</p>
+									<p class="custom_p">Quis nostrud exerci tation ullamcorper suscipit
+										lobortis
+										nisl ut aliquis would be good to have.
+									</p>
+									<a class="btn btn-danger-gradient btn-md arrow-btn m-t-20"
+										 href="#">
+											Checkout Our Team
+											<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_one_page_para_with_bg_img">
+				<div class="feature37 wrap-feature38-box" id="about">
+					<section class="row bg-success-gradient-1">
+						<div class="col-lg-6 po-absolute">
+							<img src="/theme_twelve_bizople/static/src/img/img2_bg.png" alt=""
+								class="img img-fluid" />
+						</div>
+						<div class="container">
+							<div class="row spacer">
+								<div class="col-lg-6">
+									<div class="p-20">
+										<h2 class="title text-white">Why you should choose Bizople? Here are some
+											numbers!
+										</h2>
+										<p class="text-white op-8 custom_p">You can relay on our amazing features list and
+											also our customer services will be great.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class=" card-shadow m-b-0">
+								<div class="container p-20">
+									<div class="row">
+										<div class="col-lg-3 col-md-4">
+											<div class="d-flex no-block m-t-10 m-b-10">
+												<div class="display-4 m-r-20">
+													<span class="fa fa-file text-danger-gradient-1"></span>
+												</div>
+												<div class="">
+													<h2 class="m-b-0 font-light">6455</h2>
+													<h6 class="subtitle">Projects</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4">
+											<div class="d-flex no-block m-t-10 m-b-10">
+												<div class="display-4 m-r-20">
+													<span class="fa fa-star-half text-danger-gradient-1"></span>
+												</div>
+												<div class="">
+													<h2 class="m-b-0 font-light">85.5%</h2>
+													<h6 class="subtitle">Success Rate</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4">
+											<div class="d-flex no-block m-t-10 m-b-10">
+												<div class="display-4 m-r-20">
+													<span class="fa fa-users text-danger-gradient-1"></span>
+												</div>
+												<div class="">
+													<h2 class="m-b-0 font-light">354</h2>
+													<h6 class="subtitle">Users</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section
+				class="s_one_page_para_with_four_imgs bg-light-1 spacer">
+				<div class="feature12" id="service">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6">
+								<h2 class="m-b-30 m-t-20">Awesome with Extra Ordinary Flexibility &amp;
+									Features
+								</h2>
+								<h4 class="text-muted font-light">You can relay on our amazing features list and
+									also our customer services will be great experience for you
+									without doubt and in no-time
+								</h4>
+								<div class="row">
+									<div class="col-md-6 m-t-30">
+										<h5 class="font-medium">Instant Solutions</h5>
+										<p class="custom_p">You can relay on our amazing features list and
+											also our
+											customer services will.
+										</p>
+									</div>
+									<div class="col-md-6 m-t-30">
+										<h5 class="font-medium">Retargeting Market</h5>
+										<p class="custom_p">You can relay on our amazing features list and
+											also our
+											customer services will.
+										</p>
+									</div>
+									<div class="col-md-6 m-t-30">
+										<h5 class="font-medium">Fruitful Results</h5>
+										<p class="custom_p">You can relay on our amazing features list and
+											also our
+											customer services will.
+										</p>
+									</div>
+									<div class="col-md-6 m-t-30">
+										<h5 class="font-medium">100% Satisfection</h5>
+										<p class="custom_p">You can relay on our amazing features list and
+											also our
+											customer services will.
+										</p>
+									</div>
+									<div class="col-lg-12 m-t-30 m-b-30">
+										<a class="btn btn-danger-gradient btn-md arrow-btn"
+											 href="#">
+												View Other Features
+												<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="row wrap-feature-12">
+									<div class="col-md-6">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="/theme_twelve_bizople/static/src/img/img3_o.jpg"
+													class="rounded img-shadow img-responsive" alt="" />
+											</div>
+											<div class="col-md-12">
+												<img src="/theme_twelve_bizople/static/src/img/img4_o.jpg"
+													class="rounded img-shadow img-responsive" alt="" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 uneven-box">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="/theme_twelve_bizople/static/src/img/img5_o.jpg"
+													class="rounded img-shadow img-responsive" alt="" />
+											</div>
+											<div class="col-md-12">
+												<img src="/theme_twelve_bizople/static/src/img/img6_o.jpg"
+													class="rounded img-shadow img-responsive" alt="" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section
+				class="s_web_agency_images_with_center_para bg-light-1">
+				<div class="spacer ">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-7 text-center">
+								<h2 class="title">Our Recent Web Project</h2>
+								<h6 class="subtitle">You can relay on our amazing features list and
+									also our customer services will be great experience for you
+									without doubt and in no-time
+								</h6>
+							</div>
+						</div>
+						<div class="row m-t-40">
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<a href="#" class="img-ho">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/c1.jpg" alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<h5 class="font-medium m-b-0">Branding for Theme Designer</h5>
+										<p class="m-b-0 font-14">Digital Marketing</p>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+									<a href="#" class="img-ho">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/c2.jpg" alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<h5 class="font-medium m-b-0">Button Designs Free</h5>
+										<p class="m-b-0 font-14">Search Engine</p>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<a href="#" class="img-ho">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/c3.jpg" alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<h5 class="font-medium m-b-0">Branding &amp; Co Agency</h5>
+										<p class="m-b-0 font-14">Admin templates</p>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<a href="#" class="img-ho">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/c4.jpg" alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<h5 class="font-medium m-b-0">Zukandre Phoniex</h5>
+										<p class="m-b-0 font-14">Branding</p>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+									<a href="#" class="img-ho">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/c5.jpg" alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<h5 class="font-medium m-b-0">Sionage Mokcup</h5>
+										<p class="m-b-0 font-14">Wll Mockup</p>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<a href="#" class="img-ho">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/c6.jpg" alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<h5 class="font-medium m-b-0">Hard Cover Book Mock</h5>
+										<p class="m-b-0 font-14">Book Covers</p>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_one_page_testimonial spacer bg-dark"
+				style="background-image:url(/theme_twelve_bizople/static/src/img/bg.jpg)">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-7 text-center">
+							<div class="testimonial-content text-center">
+								<h2 class="title text-white">Few Words from our Valuable Customers</h2>
+								<p class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-lg-4 one-page-testimonial">
+							<div id="myCarousel1580451466791" class="s_carousel carousel slide s_carousel_rounded" data-interval="3000" data-name="Carousel">
+						        <div class="carousel-inner text-center">
+						            <div class="carousel-item active" data-name="Slide">
+						            	<div class="container">
+											<div class="item">
+												<section class="content bg-danger-gradient">“It was incredibly refreshing to work with an
+													agency that focused on our needs as business.”
+												</section>
+												<div class="customer-thumb">
+													<img src="/theme_twelve_bizople/static/src/img/2.jpg" alt=""
+														class="circle" />
+													<h6 class="text-white m-b-0">Erin Wilson</h6>
+													<p>Marketing manager</p>
+												</div>
+											</div>
+										</div>
+						            </div>
+						            <div class="carousel-item" data-name="Slide">
+						                <div class="container">
+											<div class="item">
+												<section class="content bg-danger-gradient">“It was incredibly refreshing to work with an
+													agency that focused on our needs as business.”
+												</section>
+												<div class="customer-thumb">
+													<img src="/theme_twelve_bizople/static/src/img/3.jpg" alt=""
+														class="circle" />
+													<h6 class="text-white m-b-0">Erin Wilson</h6>
+													<p>Marketing manager</p>
+												</div>
+											</div>
+										</div>
+						            </div>
+						            <div class="carousel-item" data-name="Slide">
+						                <div class="container">
+											<div class="item">
+												<section class="content bg-danger-gradient">“It was incredibly refreshing to work with an
+													agency that focused on our needs as business.”
+												</section>
+												<div class="customer-thumb">
+													<img src="/theme_twelve_bizople/static/src/img/test1.png" alt=""
+														class="circle" />
+													<h6 class="text-white m-b-0">Erin Wilson</h6>
+													<p>Marketing manager</p>
+												</div>
+											</div>
+										</div>
+						            </div>
+						            <div class="carousel-item" data-name="Slide">
+						                <div class="container">
+											<div class="item">
+												<section class="content bg-danger-gradient">“It was incredibly refreshing to work with an
+													agency that focused on our needs as business.”
+												</section>
+												<div class="customer-thumb">
+													<img src="/theme_twelve_bizople/static/src/img/3.jpg" alt=""
+														class="circle" />
+													<h6 class="text-white m-b-0">Erin Wilson</h6>
+													<p>Marketing manager</p>
+												</div>
+											</div>
+										</div>
+						            </div>
+						            <div class="carousel-item" data-name="Slide">
+						                <div class="container">
+											<div class="item">
+												<section class="content bg-danger-gradient">“It was incredibly refreshing to work with an
+													agency that focused on our needs as business.”
+												</section>
+												<div class="customer-thumb">
+													<img src="/theme_twelve_bizople/static/src/img/1.jpg" alt=""
+														class="circle" />
+													<h6 class="text-white m-b-0">Erin Wilson</h6>
+													<p>Marketing manager</p>
+												</div>
+											</div>
+										</div>
+						            </div>
+						        </div>
+						        <ol class="carousel-indicators">
+						            <li data-target="#myCarousel1580451466791" data-slide-to="0" class="carodot active"></li>
+						            <li data-target="#myCarousel1580451466791" data-slide-to="1" class="carodot"></li>
+						            <li data-target="#myCarousel1580451466791" data-slide-to="2" class="carodot"></li>
+						            <li data-target="#myCarousel1580451466791" data-slide-to="3" class="carodot"></li>
+						            <li data-target="#myCarousel1580451466791" data-slide-to="4" class="carodot"></li>
+						        </ol>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_one_page_pricing_plan bg-light-1">
+				<div class="pricing1 spacer " id="pricing">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-8 text-center">
+								<h2 class="title">Simple Pricing to make your Work Effective</h2>
+								<h6 class="subtitle">We offer 100% satisafaction and Money back
+									Guarantee
+								</h6>
+							</div>
+						</div>
+						<div class="row m-t-40">
+							<div class="col-lg-3 col-md-6 o_animate_preview o_animate o_anim_fade_in_left">
+								<section class="card text-center card-shadow">
+									<div class="card-body font-14">
+										<h5 class="title">BASIC</h5>
+										<h6 class="subtitle">For Team of 3-5 Members</h6>
+										<div class="pricing">
+											<sup>$</sup>
+											<span class="monthly display-5">28</span>
+											<span class="yearly display-5">240</span>
+											<small class="monthly">/mo</small>
+											<small class="yearly">/yr</small>
+											<span class="db">
+												Save
+												<span class="font-medium">$20</span>
+												a Year
+											</span>
+										</div>
+										<ul class="list-inline">
+											<li>Perfect of Small Team</li>
+											<li>Unlimited Invoices</li>
+											<li>Project Management</li>
+											<li>
+												<hr />
+											</li>
+											<li>
+												<hr />
+											</li>
+										</ul>
+										<div class="bottom-btn">
+											<a href="#"
+												class="btn btn-outline-danger btn-md arrow-btn btn-block">
+													Choose Plan
+													<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+											</a>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-lg-3 col-md-6 o_animate_preview o_animate o_anim_fade_in_up">
+								<section class="card text-center card-shadow">
+									<div class="card-body font-14">
+										<span class="badge bg-success-gradient p-10">Popular</span>
+										<h5 class="title">INTERMEDIATE</h5>
+										<h6 class="subtitle">For Team of 5-10 Members</h6>
+										<div class="pricing">
+											<sup>$</sup>
+											<span class="monthly display-5">39</span>
+											<span class="yearly display-5">400</span>
+											<small class="monthly">/mo</small>
+											<small class="yearly">/yr</small>
+											<span class="db">
+												Save
+												<span class="font-medium">$30</span>
+												a Year
+											</span>
+										</div>
+										<ul class="list-inline">
+											<li>Perfect of Small Team</li>
+											<li>Unlimited Invoices</li>
+											<li>Project Management</li>
+											<li>Team Management</li>
+											<li>
+												<hr />
+											</li>
+										</ul>
+										<div class="bottom-btn">
+											<a href="#"
+												class="btn btn-danger-gradient btn-md arrow-btn btn-block">
+													Choose Plan
+													<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+											</a>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-lg-3 col-md-6 o_animate_preview o_animate o_anim_fade_in_up">
+								<section class="card text-center card-shadow">
+									<div class="card-body font-14">
+										<h5 class="title">HIGH CLASS</h5>
+										<h6 class="subtitle">For Team of 10-25 Members</h6>
+										<div class="pricing">
+											<sup>$</sup>
+											<span class="monthly display-5">58</span>
+											<span class="yearly display-5">600</span>
+											<small class="monthly">/mo</small>
+											<small class="yearly">/yr</small>
+											<span class="db">
+												Save
+												<span class="font-medium">$50</span>
+												a Year
+											</span>
+										</div>
+										<ul class="list-inline">
+											<li>Perfect of Small Team</li>
+											<li>Unlimited Invoices</li>
+											<li>Project Management</li>
+											<li>Team Management</li>
+											<li>Time Tracking</li>
+										</ul>
+										<div class="bottom-btn">
+											<a href="#"
+												class="btn btn-outline-danger btn-md arrow-btn btn-block">
+													Choose Plan
+													<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+											</a>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-lg-3 col-md-6 o_animate_preview o_animate o_anim_fade_in_right">
+								<section class="card text-center card-shadow">
+									<div class="card-body font-14">
+										<h5 class="title">SUPREME</h5>
+										<h6 class="subtitle">For Team of 25-100 Members</h6>
+										<div class="pricing">
+											<sup>$</sup>
+											<span class="monthly display-5">99</span>
+											<span class="yearly display-5">1000</span>
+											<small class="monthly">/mo</small>
+											<small class="yearly">/yr</small>
+											<span class="db">
+												Save
+												<span class="font-medium">$80</span>
+												a Year
+											</span>
+										</div>
+										<ul class="list-inline">
+											<li>Perfect of Small Team</li>
+											<li>Unlimited Invoices</li>
+											<li>Project Management</li>
+											<li>Team Management</li>
+											<li>Time Tracking</li>
+										</ul>
+										<div class="bottom-btn">
+											<a href="#"
+												class="btn btn-outline-danger btn-md arrow-btn btn-block">
+													Choose Plan
+													<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+											</a>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_blog_posts_big_picture" data-name="Latest Posts - Big Images">
+		        <div class="container">
+		          <div class="row justify-content-center">
+		            <div class="col-md-7 text-center">
+		              <h2 class="title o_default_snippet_text">Latest Posts</h2>
+		              <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+										also
+										our customer services will be great experience for you
+										without
+										doubt and in no-time
+									</h6>
+		            </div>
+		          </div>
+		          <div class="row js_get_posts" data-loading="true" data-template="website_blog.dynamic_filter_template_blog_post_list"/>
+		        </div>
+		      </section>
+			<div class="oe_structure oe_empty"/>
+			<section id="contact"
+				class="s_contact_us_one_page_bg_map mb128 footer1"
+				style="background-image:url(/theme_twelve_bizople/static/src/img/map.jpg)">
+				<div class="container">
+					<div class="row contact-container">
+						<div class="col-lg-12">
+							<div class="card card-shadow o_animate_preview o_animate o_anim_fade_in_up" style="animation-duration: 5s !important;">
+								<div class="row">
+									<div class="col-lg-8">
+										<div class="contact-box p-40">
+											<h3 class="title font-bold">Contact Us</h3>
+											<section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+											<div class="container">
+											
+												<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required contact-form o_animate_preview o_animate o_anim_fade_in_right" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="crm.lead">
+													<div class="s_website_form_rows row s_col_no_bgcolor">
+														<div class="form-group  s_website_form_field col-lg-6  s_website_form_required" data-type="char" data-name="Field">
+															<label class="s_website_form_label  " style="width: 200px" for="s_one_page_contactus4_form_name">
+																<span class="s_website_form_label_content">Your Name</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="text" placeholder="Enter Your Name*" class="form-control s_website_form_input" name="contact_name" required="1" id="s_one_page_contactus4_form_name"/>
+															
+														</div>
+
+														<div class="form-group  s_website_form_field  col-lg-6  s_website_form_required  " data-type="email" data-name="Field">
+															<label class="s_website_form_label  " style="width: 200px" for="s_one_page_contactus4_form_email">
+																<span class="s_website_form_label_content">Your Email</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="email" placeholder="Enter Your E-mail*" class="form-control s_website_form_input" name="email_from" required="1" id="s_one_page_contactus4_form_email"/>
+															
+														</div>
+
+														<div class="form-group  s_website_form_field  col-lg-6" data-type="tel" data-name="Field">
+															<label class="s_website_form_label  " style="width: 200px" for="s_one_page_contactus4_form_phone">
+																<span class="s_website_form_label_content">Phone Number</span>
+															</label>
+															
+																<input type="tel" placeholder="Enter Your Phone Number" class="form-control s_website_form_input" name="phone" id="s_one_page_contactus4_form_phone"/>
+															
+														</div>
+														
+														
+														<div class="form-group  s_website_form_field col-lg-6  s_website_form_model_required  " data-type="char" data-name="Field">
+															
+															<label class="s_website_form_label  " style="width: 200px" for="s_one_page_contactus4_form_subject">
+																<span class="s_website_form_label_content">Subject</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="text" placeholder="Enter Your Subject*" class="form-control s_website_form_input" name="name" required="true" id="s_one_page_contactus4_form_subject"/>
+														</div>
+														<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="text" data-name="Field">
+															<label class="s_website_form_label  " style="width: 200px" for="s_one_page_contactus4_form_message">
+																<span class="s_website_form_label_content">Message</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<textarea class="form-control s_website_form_input" name="description" placeholder="Enter Your Question*" required="1" id="s_one_page_contactus4_form_message" rows="5"/>
+														</div>
+														<div class="form-group  col-6 s_website_form_submit" data-name="Submit Button">
+															<a href="#" role="button" class="btn btn-danger-gradient  s_website_form_send o_default_snippet_text"><span class="icofont icofont-paper-plane mr-2" style="font-size: 17px; vertical-align: middle;"/>SUBMIT MESSAGE</a>
+															<span id="s_website_form_result"/>
+															
+														</div>
+														
+													</div>
+												</form>
+											</div>
+										</section>
+										</div>
+									</div>
+									<section class="col-lg-4 bg-image"
+										style="background-image:url(/theme_twelve_bizople/static/src/img/footer-bg.jpg)">
+										<div class="detail-box">
+											<h5 class="text-white font-light m-b-30">ADDRESS</h5>
+											<p class="text-white op-7">
+												A-405 Pushp Business Campus
+												<br />
+												Ahmedabad
+											</p>
+											<h5 class="text-white font-light m-b-30 m-t-40">CALL US</h5>
+											<p class="text-white op-7">
+												451 876 3642
+												<br />
+												549 457 8541
+											</p>
+											<div class="s_share" data-name="Share">
+						                        <a href="https://www.facebook.com/sharer/sharer.php?u={url}" target="_blank" class="s_share_facebook ">
+						                          	<span class="fa fa-1x fa-facebook rounded shadow-sm"/>
+						                        </a>
+						                        <a href="https://twitter.com/intent/tweet?text={title}&amp;url={url}" target="_blank" class="s_share_twitter ">
+						                          	<span class="fa fa-1x fa-twitter rounded shadow-sm"/>
+						                        </a>
+						                        <a href="mailto:?body={url}&amp;subject={title}" class="s_share_email ">
+						                          	<span class="fa fa-1x fa-envelope rounded shadow-sm"/>
+						                        </a>
+					                      	</div>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+		</section>
+	</template>
+</odoo>

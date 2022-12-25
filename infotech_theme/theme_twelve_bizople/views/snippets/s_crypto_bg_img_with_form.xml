@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_crypto_bg_img_with_form" name="Form with background image">
+		<section class="s_crypto_bg_img_with_form form5"
+			style="background-image:url(/theme_twelve_bizople/static/src/img/form-banner.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-7 text-center both-space ml-auto">
+						<section class="card o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+							<div class="card-body">
+								<div class="text-box">
+									<h2 class="title font-bold">
+										<span class="font-stylish text-purple">Best &amp; New</span>
+										<br />
+										Bitcoin Calculator
+									</h2>
+									<section class="s_website_form pt16 pb16 o_colored_level bg-white p-4" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+										<div class="container">
+										
+											<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required contact-form " data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="crm.lead">
+												<div class="s_website_form_rows row s_col_no_bgcolor">
+													<div class="form-group s_website_form_field col-12  s_website_form_required" data-type="char" data-name="Field">
+														
+														
+															<input type="text" placeholder="Enter Bitcoin" class="form-control s_website_form_input" name="contact_name" required="1" id="crypto_contactus5_form2_name"/>
+														
+													</div>
+
+													<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="email" data-name="Field">
+													
+														
+															<input type="email" placeholder="USD Amount" class="form-control s_website_form_input" name="email_from" required="1" id="crypto_contactus5_form2_email"/>
+														
+													</div>
+
+													<div class="form-group  s_website_form_field col-12" data-type="tel" data-name="Field">
+														
+														
+															<input type="tel" placeholder="Fees" class="form-control s_website_form_input" name="phone" id="crypto_contactus5_form2_phone"/>
+														
+													</div>
+													
+													
+													<div class="form-group  s_website_form_field col-12  s_website_form_model_required  " data-type="char" data-name="Field">
+														
+														
+														
+															<input type="text" placeholder="totle*" class="form-control s_website_form_input" name="name" required="true" id="crypto_contactus5_form2_subject"/>
+													</div>
+													<div class="form-group s_website_form_field col-12  s_website_form_required  " data-type="char" data-name="Field">
+														
+
+														<input type="text" placeholder="tax" class="form-control s_website_form_input" name="partner_name" required="1" id="y63wxuoo9u"/>
+													</div>
+													<div class="form-group  col-12 s_website_form_submit" data-name="Submit Button">
+														<button type="submit"
+															class="btn btn-md btn-block  s_website_form_send btn-danger-gradient arrow-btn">
+																Buy Bitcoins
+																<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+														</button>
+														<span id="s_website_form_result"/>
+													</div>											
+												</div>
+											</form>
+										</div>
+									</section>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</template>
+
+</odoo>

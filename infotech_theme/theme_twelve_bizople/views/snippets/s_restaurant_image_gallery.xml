@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_restaurant_image_gallery"
+		name="Image gallery block">
+		<section class="s_restaurant_image_gallery">
+			<div class="portfolio1 spacer up">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-6 text-center">
+							<h2 class="title font-stylish-1">Amazing Gallery of Delicious Food just made for
+								you
+							</h2>
+						</div>
+					</div>
+					<div class="row gallery-box"
+						style="position: relative; height: 904.718px;">
+						<div class="col-lg-4 col-md-6 g-item"
+							style="position: absolute; left: 0%; top: 0px;">
+							<div class="overlay-box">
+								<img src="/theme_twelve_bizople/static/src/img/res_img1.jpg"
+									alt="bizople" class="img-fluid" />
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>New Food Dish</h5>
+										<span>New Dish</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 g-item"
+							style="position: absolute; left: 33.3333%; top: 0px;">
+							<div class="overlay-box">
+								<img src="/theme_twelve_bizople/static/src/img/res_img2.jpg"
+									alt="bizople" class="img-fluid" />
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>New Food Dish</h5>
+										<span>New Dish</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 g-item"
+							style="position: absolute; left: 66.6667%; top: 0px;">
+							<div class="overlay-box">
+								<img src="/theme_twelve_bizople/static/src/img/res_img3.jpg"
+									alt="bizople" class="img-fluid" />
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>New Food Dish</h5>
+										<span>New Dish</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 g-item"
+							style="position: absolute; left: 0%; top: 288px;">
+							<div class="overlay-box">
+								<img src="/theme_twelve_bizople/static/src/img/res_img4.jpg"
+									alt="bizople" class="img-fluid" />
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>New Food Dish</h5>
+										<span>New Dish</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 g-item"
+							style="position: absolute; left: 66.6667%; top: 376px;">
+							<div class="overlay-box">
+								<img src="/theme_twelve_bizople/static/src/img/res_img5.jpg"
+									alt="bizople" class="img-fluid" />
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>New Food Dish</h5>
+										<span>New Dish</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 g-item"
+							style="position: absolute; left: 33.3333%; top: 434px;">
+							<div class="overlay-box">
+								<img src="/theme_twelve_bizople/static/src/img/res_img6.jpg"
+									alt="bizople" class="img-fluid" />
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>New Food Dish</h5>
+										<span>New Dish</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 g-item"
+							style="position: absolute; left: 0%; top: 577px;">
+							<div class="overlay-box">
+								<img src="/theme_twelve_bizople/static/src/img/res_img7.jpg"
+									alt="bizople" class="img-fluid" />
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>New Food Dish</h5>
+										<span>New Dish</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 g-item"
+							style="position: absolute; left: 66.6667%; top: 616px;">
+							<div class="overlay-box">
+								<img src="/theme_twelve_bizople/static/src/img/res_img8.jpg"
+									alt="bizople" class="img-fluid" />
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>Golden Fish Dish</h5>
+										<span>New Dish</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</template>
+
+</odoo>

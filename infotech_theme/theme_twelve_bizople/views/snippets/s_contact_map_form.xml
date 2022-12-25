@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_contact_map_form" name="Contact Us Three">
+		<section class="s_contact_map_form">
+			<div class="contact1">
+				<div class="row">
+					<section class="col-lg-12 col-md-12 bg-map bg-cover"
+						style="background-image:url(/theme_twelve_bizople/static/src/img/map-icon-1.jpg); height:600px;"></section>
+					<div class="container">
+						<div class="spacer">
+							<div class="row m-0">
+								<div class="col-lg-8">
+									<div class="contact-box p-r-40">
+										<h4 class="title">Quick Contact</h4>
+										<section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+											<div class="container">
+											
+												<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required contact-form o_animate_preview o_animate o_anim_fade_in_right" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="crm.lead">
+													<div class="s_website_form_rows row s_col_no_bgcolor">
+														<div class="form-group  s_website_form_field col-lg-6  s_website_form_required" data-type="char" data-name="Field">
+															<label class="s_website_form_label" style="width: 200px" for="snippet_contactus1_form_name">
+																<span class="s_website_form_label_content">Your Name</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="text" placeholder="Enter Your Name*" class="form-control s_website_form_input" name="contact_name" required="1" id="snippet_contactus1_form_name"/>
+															
+														</div>
+
+														<div class="form-group  s_website_form_field col-lg-6  s_website_form_required  " data-type="email" data-name="Field">
+															<label class="s_website_form_label " style="width: 200px" for="snippet_contactus1_form_email">
+																<span class="s_website_form_label_content">Your Email</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="email" placeholder="Enter Your E-mail*" class="form-control s_website_form_input" name="email_from" required="1" id="snippet_contactus1_form_email"/>
+															
+														</div>
+
+														<div class="form-group  s_website_form_field col-lg-6" data-type="tel" data-name="Field">
+															<label class="s_website_form_label " style="width: 200px" for="snippet_contactus1_form_phone">
+																<span class="s_website_form_label_content">Phone Number</span>
+															</label>
+															
+																<input type="tel" placeholder="Enter Your Phone Number" class="form-control s_website_form_input" name="phone" id="snippet_contactus1_form_phone"/>
+															
+														</div>
+														
+														
+														<div class="form-group  s_website_form_field col-lg-6  s_website_form_model_required  " data-type="char" data-name="Field">
+															
+															<label class="s_website_form_label " style="width: 200px" for="snippet_contactus1_form_subject">
+																<span class="s_website_form_label_content">Subject</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="text" placeholder="Enter Your Subject*" class="form-control s_website_form_input" name="name" required="true" id="snippet_contactus1_form_subject"/>
+														</div>
+														<div class="form-group m-t-15 s_website_form_field col-12  s_website_form_required  " data-type="text" data-name="Field">
+															<label class="s_website_form_label " style="width: 200px" for="snippet_contactus1_form_message">
+																<span class="s_website_form_label_content">Message</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<textarea class="form-control s_website_form_input" name="description" placeholder="Enter Your Question*" required="1" id="snippet_contactus1_form_message" rows="3"/>
+														</div>
+														<div class="form-group m-t-15 col-12 s_website_form_submit" data-name="Submit Button">
+															<a href="#" role="button" class="btn btn-danger-gradient  s_website_form_send o_default_snippet_text"><span class="icofont icofont-paper-plane mr-2" style="font-size: 17px; vertical-align: middle;"/>SUBMIT MESSAGE</a>
+															<span id="s_website_form_result"/>
+														</div>
+													</div>
+												</form>
+											</div>
+										</section>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="detail-box p-40 bg-info-1 o_animate_preview o_animate o_anim_fade_in_left">
+										<h2 class="text-white">Bizople Headquarters</h2>
+										<p class="text-white m-t-30 op-8 custom_p">
+											364 586 9542
+											<br />
+											info@bizople.com
+										</p>
+										<p class="text-white op-8 custom_p">
+											A-405 Pushp Business Campus,
+											<br />
+											Ring Road,
+											Ahmedabad
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

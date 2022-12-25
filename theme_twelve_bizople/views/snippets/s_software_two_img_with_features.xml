@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_software_two_img_with_features" name="Paragraph with two blocks with image">
+		<section class="s_software_two_img_with_features">
+			<div class="spacer feature14">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<h2 class="m-t-20 m-b-30">Awesome with Extra Ordinary Flexibility</h2>
+							<p class="custom_p">You can relay on our amazing features list and also
+								our
+								customer services will be great experience for our users
+							</p>
+							<p class="custom_p">You will surely fall in love with ready touse
+								bootstrap ui
+								kit framework.
+							</p>
+							<a
+								class="btn btn-danger-gradient btn-md arrow-btn m-t-20 m-b-30"
+								 href="#">
+									View Features
+									<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+							</a>
+						</div>
+						<div class="col-lg-4 wrap-feature14-box">
+							<div class="o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+								<img class="rounded img-responsive"
+									src="/theme_twelve_bizople/static/src/img/i1.jpg" alt="bizople kit" />
+								<div class="m-t-30">
+									<h5 class="font-medium">Retargeting Market</h5>
+									<p class="custom_p m-t-20">You can relay on our amazing features list and
+										also our customer services will be great experience.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 wrap-feature14-box">
+							<div class="o_animate_preview o_animate o_we_selected_image o_anim_flip_in_x" style="animation-duration: 3s !important;">
+								<img class="rounded img-responsive"
+									src="/theme_twelve_bizople/static/src/img/i2.jpg" alt="bizople kit" />
+								<div class="m-t-30">
+									<h5 class="font-medium">Fruitful Results</h5>
+									<p class="custom_p m-t-20">You can relay on our amazing features list and
+										also our customer services will be great experience.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</template>
+
+</odoo>

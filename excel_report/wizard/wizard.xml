@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+
+        <record id="hr_employee_wizard_id" model="ir.ui.view">
+            <field name="name">Wizard</field>
+            <field name="model">employee.attandce.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Wizard">
+                    <group>
+                        <group>
+                            <field name="location_id"/>
+                            <field name="date"/>
+
+                        </group>
+
+                    </group>
+
+                    <footer>
+                        <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="z"/>
+                        <button name="hr_attendance_report" class="btn-primary" type="object" string="Confirm"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_hr_attandce_wizard" model="ir.actions.act_window">
+            <field name="name">Hr Employee Attendance</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">employee.attandce.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="hr_employee_wizard_id"/>
+            <field name="target">new</field>
+        </record>
+
+
+        <menuitem id="hr_attandce_report_id"
+                  name=" Attendance Report"
+                  action="action_hr_attandce_wizard"
+                    parent="hr_zk_attendance.zk_machine_menu"/>
+
+
+   <record id="hr_attendacne_xlsx_report" model="ir.actions.report">
+        <field name="name">employee.attandce.wizard</field>
+        <field name="model">employee.attandce.wizard</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">excel_report.employee_attandce_wizard_xlsx</field>
+        <field name="report_file">excel_report.employee_attandce_wizard_xlsx</field>
+        <field name="binding_type">report</field>
+   </record>
+    </data>
+</odoo>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="theme_twelve_bizople_mega_menus"
+		inherit_id="website.snippets">
+		<!-- <xpath expr="//div[@id='snippet_mega_menu']" position="inside">
+			<div id="snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Mega Menu
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_one_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_two_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_three_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_four_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_five_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_six_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_seven_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_eight_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_nine_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mega_menu_ten_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+			</div>
+		</xpath> -->
+	</template>
+
+
+	<template id="theme_twelve_bizople_snippets_homebanner"
+		inherit_id="website.snippets">
+		<xpath expr="//div[@id='snippet_structure']" position="before">
+			<div id="snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-object-group" />
+					Full Home Page Snippets
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_homepage_software"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_fashion"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_business"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_medical_helth"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_charity"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_real_estate"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_restaurant"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_web_agency"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_accounting"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_one_page"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_marketing_seo"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_cryptocurrency"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_industrial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_furniture"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_fitness"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_homepage_creative"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Main Menu
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_hero_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mini_appoinment"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_blog_detail_snippet"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-window-maximize" />
+					Home Banner
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_creative_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_medical_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_charity_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_real_estate_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_restaturant_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.web_agency_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_accounting_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_one_page_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_marketting_seo_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_crypto_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_industrial_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_fitness_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_new_homepage_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_coming_soon_banner"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-address-book" />
+					Contact Us
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_contact_us_one_page_bg_map"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_contact_with_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_contact_map_form"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_contact_with_bg_color_map"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_contact_us_five"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-american-sign-language-interpreting" />
+					Creative Demo
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_creative_center_para_three_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_creative_left_para_right_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_creative_left_img_right_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_creative_bg_imag_with_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_creative_para_with_two_imgs"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t
+						t-snippet="theme_twelve_bizople.s_creative_center_para_with_two_buttons"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t
+						t-snippet="theme_twelve_bizople.s_creative_para_three_block_round_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_creative_left_img_right_popup"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_creative_left_para_two_imgs"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_creative_bg_img_with_para_btns"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_creative_mixing_img_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-briefcase" />
+					Business
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_business_digital_marketing"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_img_with_paragraph"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_text_with_img_left_right"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_img_with_quote"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_carousel_images"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_logo_partners"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_three_blocks_icons"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_nav_tabs_with_imgs"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_features_with_image"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_pricing_plan"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_business_app_store"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-medkit" />
+					Medical &amp; Health
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_medical_three_feature_box"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_medical_four_block_with_features"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_medical_fourblock_img_with_icons"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_medical_doctor_team"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_medical_img_with_features"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_medical_icons_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-sign-language" />
+					Charity
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_charity_help_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_charity_carousel_images"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_big_img_with_center_text_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_charity_img_with_center_text"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-television"></i>
+					Software
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_software_two_img_with_features"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_with_three_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_feature_with_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_half_img_text"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_counter"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_pricing_plan"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_logo_partners"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-home" />
+					Real Estate
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_estate_img_block_1"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_estate_carousel_images"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_estate_latest_news"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_estate_feature_with_imogies"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_estate_team"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_estate_logo_partners"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_estate_img_with_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-cutlery" />
+					Restaurant
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_restaurant_video_image"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_restaurant_img_para_btn"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_restaurant_left_right_img_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_restaturant_app_store"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_restaurant_image_gallery"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t
+						t-snippet="theme_twelve_bizople.s_restaturant_bg_img_with_center_box"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-globe" />
+					Web Agency
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_web_agency_three_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_web_agency_img_text"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_web_agency_center_img_text"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t
+						t-snippet="theme_twelve_bizople.s_web_agency_images_with_center_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t
+						t-snippet="theme_twelve_bizople.s_web_agency_video_with_three_block_image"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-money" />
+					Accounting
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_accounting_three_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_accounting_four_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_accounting_two_blocks_with_icons"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_accounting_parallex"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_accounting_offer"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-file-text"></i>
+					One Page
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_one_page_six_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_one_page_half_img_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_one_page_para_with_bg_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_one_page_para_with_four_imgs"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_one_page_pricing_plan"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-list-alt"></i>
+					Marketing &amp; SEO
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_marketing_para_with_two_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_marketing_three_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_marketing_parallex_with_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_marketing_counter"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-bitcoin" />
+					Crypto Currency
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_crypto_half_para_four_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_crypto_three_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_crypto_half_img_half_text"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_crypto_bg_img_with_form"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_crypto_team_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_crypto_offer_section"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-industry " />
+					Industrial
+				</div>
+				<div class="o_panel_body">
+					<t
+						t-snippet="theme_twelve_bizople.s_industrial_half_test_four_imgs_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_industrial_services_three_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_ind_half_img_half_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_ind_projects_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_industrial_offer_section"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-star"></i>
+					Fitness
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_fitness_three_blocks"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_fitness_team_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_fitness_list_with_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_fitness_pricing_with_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_fitness_activities"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_fitness_form_with_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-bell "></i>
+					Furniture
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_furniture_about"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_with_bg_imag_para"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_two_blocks_bg_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_two_imgs"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_gallery"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_fun-fact-section"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_services-section"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_who-we-are"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_about_with_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_services-section-two"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_team_section"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-picture-o"></i>
+					New HomePage
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_new_homepage_img_gallery"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_new_three_imgs_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_new_home_images_block"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-align-left"></i>
+					Testimonials
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_creative_tesimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_medical_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_charity_carousel_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_carousel_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_estate_carousel_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_reataurant_carousel_images"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_accounting_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_one_page_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_marketing_carousel_images"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_crypto_carousel_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_industrial_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_fitness_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_furniture_testimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_web_agency_tesimonial"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_new_homepage_features"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-newspaper-o "></i>
+					Newsletters
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_charity_news_letter"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_software_contact_with_img"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_news_letter"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-calendar " />
+					MINI Appointment
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_twelve_bizople.s_mini_appoinment_four"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mini_appoinment_five"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mini_appoinment_three"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mini_appoinment_six"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+					<t t-snippet="theme_twelve_bizople.s_mini_appoinment_seven"
+						t-thumbnail="/theme_twelve_bizople/static/src/img/snippet-icon.png" />
+				</div>
+			</div>
+		</xpath>
+	</template>
+</odoo>

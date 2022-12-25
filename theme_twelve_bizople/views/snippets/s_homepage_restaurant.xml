@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_homepage_restaurant" name="Home Page Restaurant">
+		<section class="s_homepage_restaurant">
+			<div class="oe_structure oe_empty"/>
+			<section id="slider-sec"
+				class="s_restaturant_banner slider5 bg-light-1">
+				<div id="slider_restaurant"
+					class="carousel bs-slider control-round indicators-line"
+					data-ride="carousel" data-pause="hover" data-interval="7000">
+					<ol class="carousel-indicators">
+						<li data-target="#slider_restaurant" data-slide-to="0" class=""></li>
+						<li data-target="#slider_restaurant" data-slide-to="1"
+							class="active"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item " style="background-image: url('/theme_twelve_bizople/static/src/img/restaurant_slide1.jpg');">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-9 col-lg-5 ml-auto">
+										<h2 data-animation="animated zoomInRight"
+											class="title font-stylish font-bold m-0 p-b-20 p-t-30">Delicious Food</h2>
+										<p data-animation="animated lightSpeedIn"
+											class="custom_p m-b-40 d-none d-md-block">Not like the brazen giant of Greek fame With
+											conquering limbs astride from land to land Here
+										</p>
+										<div class="s_btn" data-name="Button">
+											<a
+												class="btn btn-outline-danger btn-md btn-rounded rounded-circle arrow-btn bizople_button"
+												data-animation="animated fadeInRight" 
+												href="#">
+													Today's Special
+													<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+											</a>
+										</div>
+										<div class="promo-code" data-animation="animated fadeInUp">
+											<img src="/theme_twelve_bizople/static/src/img/slide-offer-bg.jpg" class="no-repeat center top promo-code-image"/>
+											<div class="code-content">
+												<h3 class=" font-semibold text-uppercase m-b-0">Hot Summer - 35 % OFF</h3>
+												<p>Apply promocode '154FEB'
+											</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-1 hidden-md-down"></div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item active "  style="background-image: url('/theme_twelve_bizople/static/src/img/restaurant_slide2.jpg');">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-9 col-lg-5 ml-auto">
+										<h2 data-animation="animated flipInX"
+											class="title font-stylish font-bold m-0 p-b-20 p-t-30">Delicious Food</h2>
+										<p data-animation="animated lightSpeedIn"
+											class="m-b-40 d-none d-md-block custom_p">Not like the brazen giant of Greek fame With
+											conquering limbs astride from land to land Here
+										</p>
+										<div class="s_btn" data-name="Button">
+											<a class="btn btn-danger btn-md btn-rounded rounded-circle arrow-btn bizople_button"
+												data-animation="animated fadeInRight" 
+												href="#">
+													Today's Special
+													<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+											</a>
+										</div>
+										<div class="promo-code" data-animation="animated fadeInUp">
+											<img src="/theme_twelve_bizople/static/src/img/slide-offer-bg.jpg" class="no-repeat center top promo-code-image"/>
+											<div class="code-content">
+												<h3 class=" font-semibold text-uppercase m-b-0">Hot Summer - 35 % OFF</h3>
+												<p>Apply promocode '154FEB'
+											</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-1 hidden-md-down"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_restaurant_video_image">
+				<div class="spacer feature14">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4">
+								<h2 class="m-t-20 m-b-30 font-stylish-1">Awesome with Extra Ordinary Flexibility</h2>
+								<p class="custom_p">You can relay on our amazing features list and also
+									our
+									customer services will be great experience for our users
+								</p>
+								<p class="custom_p">You will surely fall in love with ready touse
+									bootstrap ui
+									kit framework.
+								</p>
+								<a
+									class="btn btn-rounded rounded-circle   btn-md arrow-btn m-t-20 m-b-30"
+									href="#">
+										View Other Features
+										<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+								</a>
+							</div>
+							<div class="col-lg-4 wrap-feature14-box">
+								<div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<img class="rounded img-responsive video-img"
+										src="/theme_twelve_bizople/static/src/img/res1.jpg" alt="bizople kit" />
+									<div class="embed-responsive hide embed-responsive-16by9"
+										data-animation="animated fadeIn">
+									</div>
+									<div class="m-t-30">
+										<h5 class="font-medium">
+											Retargeting Market
+											<span class="fa fa-arrow-right m-l-10 font-14"></span>
+										</h5>
+										<p class="custom_p m-t-20">You can relay on our amazing features list and
+											also our customer services will be great experience.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 wrap-feature14-box">
+								<div class="o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+									<img class="rounded img-responsive"
+										src="/theme_twelve_bizople/static/src/img/res2.jpg" alt="bizople kit" />
+									<div class="m-t-30">
+										<h5 class="font-medium">
+											Instant Solution
+											<span class="fa fa-arrow-right m-l-10 font-14"></span>
+										</h5>
+										<p class="custom_p m-t-20">You can relay on our amazing features list and
+											also our customer services will be great experience.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_restaurant_img_para_btn bg-light-1">
+				<div class="spacer feature44 ">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 text-center align-self-center">
+								<div class="max-500 m-auto">
+									<h2 class="title font-stylish-1">Make Unlimited Websites in No-Time with Bizople
+									</h2>
+									<h6 class="subtitle">You can relay on our amazing features list and
+										also our customer services will be great experience for you
+										without doubt and in no-time
+									</h6>
+									<h6 class="subtitle m-t-30">You can relay on our amazing features list and
+										also our customer services will be great experience.
+									</h6>
+									<a
+										class="btn btn-danger-gradient btn-md btn-rounded rounded-circle arrow-btn m-t-20 m-b-20"
+										href="#">
+											View Other Features
+											<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 wrap-feature2-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+									<img class="card-img-top"
+										src="/theme_twelve_bizople/static/src/img/fruit.jpg"
+										alt="bizople kit" />
+									<div class="card-body text-center p-40">
+										<h6 class="text-muted">Great Products</h6>
+										<h4 class="font-bold">The New way of Making Your Website in mins </h4>
+										<a href="#"
+											class="btn btn-link text-success m-t-30 text-underline">View Other Features</a>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_restaurant_left_right_img_para">
+				<div class="feature28 container-fluid">
+					<div class="wrap-feature-28 row">
+						<section class="col-lg-6 bg-cover"
+							style="background-image:url(/theme_twelve_bizople/static/src/img/resbg1.jpg)"></section>
+						<div class="col-lg-6">
+							<div class="side-content both-space">
+								<small class="text-danger">Great Feature</small>
+								<h2 class="title font-stylish-1 m-t-0">Fully Responsive</h2>
+								<p class="custom_p">You can relay on our amazing features list and also
+									our
+									customer services will be great experience for you without
+									doubt and in no-time and with great quality.
+								</p>
+								<a
+									class="btn btn-outline-danger btn-rounded rounded-circle rounded-circle btn-md arrow-btn m-t-20"
+									href="#">
+										View More
+										<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="wrap-feature-28 row">
+						<div class="col-lg-6">
+							<div class="side-content both-space text-right pull-right">
+								<small class="text-danger">Great Feature</small>
+								<h2 class="title font-stylish-1 m-t-0">Build Amazing Sites</h2>
+								<p class="custom_p">You can relay on our amazing features list and also
+									our
+									customer services will be great experience for you without
+									doubt and in no-time and with great quality.
+								</p>
+								<a
+									class="btn btn-outline-danger btn-rounded rounded-circle btn-md arrow-btn m-t-20"
+									href="#">
+										View More
+										<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></i>
+								</a>
+							</div>
+						</div>
+						<section class="col-lg-6 bg-cover"
+							style="background-image:url(/theme_twelve_bizople/static/src/img/resbg2.jpg)"></section>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_restaturant_app_store bg-danger-gradient">
+				<div class="spacer feature42 ">
+					<div class="container">
+						<div class="row justify-content-center wrap-feature49-box">
+							<div class="col-md-10 col-lg-7 text-center o_animate_preview o_animate o_anim_fade_in_up">
+								<h2 class="title text-white font-stylish-1">Grab our Theme Twelve from App Stores</h2>
+								<h6 class="subtitle text-white op-7 m-b-20">You can relay on our amazing features list. </h6>
+								<a href="#" class="m-b-20">
+									<img src="/theme_twelve_bizople/static/src/img/5.png"
+										alt="bizople" class="img img-fluid"/>
+								</a>
+								<a href="#" class="m-b-20">
+									<img src="/theme_twelve_bizople/static/src/img/6.png"
+										alt="bizople" class="img img-fluid"/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_restaurant_image_gallery">
+				<div class="portfolio1 spacer up">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-6 text-center">
+								<h2 class="title font-stylish-1">Amazing Gallery of Delicious Food just made for
+									you
+								</h2>
+							</div>
+						</div>
+						<div class="row gallery-box"
+							style="position: relative; height: 904.718px;">
+							<div class="col-lg-4 col-md-6 g-item"
+								style="position: absolute; left: 0%; top: 0px;">
+								<div class="overlay-box">
+									<img src="/theme_twelve_bizople/static/src/img/res_img1.jpg"
+										alt="bizople" class="img-fluid" />
+									<a href="#" class="overlay">
+										<div class="port-text">
+											<h5>New Food Dish</h5>
+											<span>New Dish</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 g-item"
+								style="position: absolute; left: 33.3333%; top: 0px;">
+								<div class="overlay-box">
+									<img src="/theme_twelve_bizople/static/src/img/res_img2.jpg"
+										alt="bizople" class="img-fluid" />
+									<a href="#" class="overlay">
+										<div class="port-text">
+											<h5>New Food Dish</h5>
+											<span>New Dish</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 g-item"
+								style="position: absolute; left: 66.6667%; top: 0px;">
+								<div class="overlay-box">
+									<img src="/theme_twelve_bizople/static/src/img/res_img3.jpg"
+										alt="bizople" class="img-fluid" />
+									<a href="#" class="overlay">
+										<div class="port-text">
+											<h5>New Food Dish</h5>
+											<span>New Dish</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 g-item"
+								style="position: absolute; left: 0%; top: 288px;">
+								<div class="overlay-box">
+									<img src="/theme_twelve_bizople/static/src/img/res_img4.jpg"
+										alt="bizople" class="img-fluid" />
+									<a href="#" class="overlay">
+										<div class="port-text">
+											<h5>New Food Dish</h5>
+											<span>New Dish</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 g-item"
+								style="position: absolute; left: 66.6667%; top: 376px;">
+								<div class="overlay-box">
+									<img src="/theme_twelve_bizople/static/src/img/res_img5.jpg"
+										alt="bizople" class="img-fluid" />
+									<a href="#" class="overlay">
+										<div class="port-text">
+											<h5>New Food Dish</h5>
+											<span>New Dish</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 g-item"
+								style="position: absolute; left: 33.3333%; top: 434px;">
+								<div class="overlay-box">
+									<img src="/theme_twelve_bizople/static/src/img/res_img6.jpg"
+										alt="bizople" class="img-fluid" />
+									<a href="#" class="overlay">
+										<div class="port-text">
+											<h5>New Food Dish</h5>
+											<span>New Dish</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 g-item"
+								style="position: absolute; left: 0%; top: 577px;">
+								<div class="overlay-box">
+									<img src="/theme_twelve_bizople/static/src/img/res_img7.jpg"
+										alt="bizople" class="img-fluid" />
+									<a href="#" class="overlay">
+										<div class="port-text">
+											<h5>New Food Dish</h5>
+											<span>New Dish</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 g-item"
+								style="position: absolute; left: 66.6667%; top: 616px;">
+								<div class="overlay-box">
+									<img src="/theme_twelve_bizople/static/src/img/res_img8.jpg"
+										alt="bizople" class="img-fluid" />
+									<a href="#" class="overlay">
+										<div class="port-text">
+											<h5>Golden Fish Dish</h5>
+											<span>New Dish</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_estate_logo_partners bg-light-1 ">
+				<div class="spacer feature14">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-7 text-center">
+								<h2 class="title">Our Valuable Partners</h2>
+								<h6 class="subtitle">You can relay on our amazing features list and
+									also our customer services will be great experience for you
+									without doubt and in no-time
+								</h6>
+							</div>
+						</div>
+						<div class="client2">
+							<div class="container">
+								<div class="row client-box text-center">
+									<div class="col-lg-2 col-md-4">
+										<img src="/theme_twelve_bizople/static/src/img/c1.png"
+											alt="bizople" class="img img-fluid"/>
+									</div>
+									<div class="col-lg-2 col-md-4">
+										<img src="/theme_twelve_bizople/static/src/img/c2.png"
+											alt="bizople" class="img img-fluid"/>
+									</div>
+									<div class="col-lg-2 col-md-4">
+										<img src="/theme_twelve_bizople/static/src/img/c3.png"
+											alt="bizople" class="img img-fluid"/>
+									</div>
+									<div class="col-lg-2 col-md-4">
+										<img src="/theme_twelve_bizople/static/src/img/c4.png"
+											alt="bizople" class="img img-fluid"/>
+									</div>
+									<div class="col-lg-2 col-md-4">
+										<img src="/theme_twelve_bizople/static/src/img/c5.png"
+											alt="bizople" class="img img-fluid"/>
+									</div>
+									<div class="col-lg-2 col-md-4">
+										<img src="/theme_twelve_bizople/static/src/img/c6.png"
+											alt="bizople" class="img img-fluid"/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_reataurant_carousel_images bg-light-1">
+				<div class="testimonial9 spacer ">
+					<div id="restaurant_carousel123"
+						class="owl-carousel owl-theme testi3 m-t-40 s_carousel_default carousel slide"
+						data-interval="10000">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-5 col-md-6">
+									<h2 class="m-t-40 font-stylish-1">What Our Customers Say</h2>
+									<span class="devider bg-danger-1"></span>
+									<p class="custom_p">We care what our customers think of us and so
+										should you.
+										We
+										are partners in your business and your success
+										is ours in
+										your
+										business.
+									</p>
+									<ol class="carousel-indicators">
+										<li data-target="#restaurant_carousel123" data-slide-to="0"
+											class="active">
+										</li>
+										<li data-target="#restaurant_carousel123" data-slide-to="1"
+											class=""></li>
+										<li data-target="#restaurant_carousel123" data-slide-to="2"
+											class=""></li>
+										<li data-target="#restaurant_carousel123" data-slide-to="3"
+											class=""></li>
+										<li data-target="#restaurant_carousel123" data-slide-to="4"
+											class=""></li>
+									</ol>
+								</div>
+								<div class="col-lg-6 col-md-6 ml-auto">
+									<div class="carousel-inner">
+										<div class="carousel-item active" data-name="Slide">
+											<div class="item">
+												<section class="card card-shadow">
+													<div class="p-40">
+														<h5 class="text">Bizople has given our websites huge
+															national
+															presence. We are #1 on page one in Google
+															search results
+															for every website we’ve built, and rank
+															for more keywords
+															than I ever expected in a very
+															competitive, high-value
+															customer industry. In addition,
+														</h5>
+													</div>
+												</section>
+												<div class="d-flex no-block align-items-center">
+													<div class="customer-thumb">
+														<img src="/theme_twelve_bizople/static/src/img/2.jpg"
+															alt="bizople" class="circle" />
+													</div>
+													<div class="">
+														<h6 class="font-bold m-b-0">Michael Anderson</h6>
+														<span class="font-13">Project client</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item oe_img_bg" data-name="Slide">
+											<div class="item">
+												<section class="card card-shadow">
+													<div class="p-40">
+														<h5 class="text">Bizople has given our websites huge
+															national
+															presence. We are #1 on page one in Google
+															search results
+															for every website we’ve built, and rank
+															for more keywords
+															than I ever expected in a very
+															competitive, high-value
+															customer industry. In addition,
+														</h5>
+													</div>
+												</section>
+												<div class="d-flex no-block align-items-center">
+													<div class="customer-thumb">
+														<img src="/theme_twelve_bizople/static/src/img/1.jpg"
+															alt="bizople" class="circle" />
+													</div>
+													<div class="">
+														<h6 class="font-bold m-b-0">Michael Anderson</h6>
+														<span class="font-13">Project client</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item oe_img_bg" data-name="Slide">
+											<div class="item">
+												<section class="card card-shadow">
+													<div class="p-40">
+														<h5 class="text">Bizople has given our websites huge
+															national
+															presence. We are #1 on page one in Google
+															search results
+															for every website we’ve built, and rank
+															for more keywords
+															than I ever expected in a very
+															competitive, high-value
+															customer industry. In addition,
+														</h5>
+													</div>
+												</section>
+												<div class="d-flex no-block align-items-center">
+													<div class="customer-thumb">
+														<img src="/theme_twelve_bizople/static/src/img/3.jpg"
+															alt="bizople" class="circle" />
+													</div>
+													<div class="">
+														<h6 class="font-bold m-b-0">Michael Anderson</h6>
+														<span class="font-13">Project client</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item oe_img_bg" data-name="Slide">
+											<div class="item">
+												<section class="card card-shadow">
+													<div class="p-40">
+														<h5 class="text">Bizople has given our websites huge
+															national
+															presence. We are #1 on page one in Google
+															search results
+															for every website we’ve built, and rank
+															for more keywords
+															than I ever expected in a very
+															competitive, high-value
+															customer industry. In addition,
+														</h5>
+													</div>
+												</section>
+												<div class="d-flex no-block align-items-center">
+													<div class="customer-thumb">
+														<img src="/theme_twelve_bizople/static/src/img/1.jpg"
+															alt="bizople" class="circle" />
+													</div>
+													<div class="">
+														<h6 class="font-bold m-b-0">Michael Anderson</h6>
+														<span class="font-13">Project client</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item oe_img_bg" data-name="Slide">
+											<div class="item">
+												<section class="card card-shadow">
+													<div class="p-40">
+														<h5 class="text">Bizople has given our websites huge
+															national
+															presence. We are #1 on page one in Google
+															search results
+															for every website we’ve built, and rank
+															for more keywords
+															than I ever expected in a very
+															competitive, high-value
+															customer industry. In addition,
+														</h5>
+													</div>
+												</section>
+												<div class="d-flex no-block align-items-center">
+													<div class="customer-thumb">
+														<img src="/theme_twelve_bizople/static/src/img/2.jpg"
+															alt="bizople" class="circle" />
+													</div>
+													<div class="">
+														<h6 class="font-bold m-b-0">Michael Anderson</h6>
+														<span class="font-13">Project client</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section
+				class="s_restaturant_bg_img_with_center_box feature23 wrap-feature23-box"
+				style="background-image:url(/theme_twelve_bizople/static/src/img/7.jpg)">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-5 col-md-7 text-center both-space">
+							<div class="card bg-danger-gradient o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+								<section class="">
+									<div class="text-box">
+										<h3 class="title text-white font-stylish-1">Make your Reservation for Delicious Food</h3>
+										<h6 class="subtitle text-white op-5">You can relay on our amazing features list and
+											also our customer services will be great experience for
+											you
+											without doubt
+										</h6>
+										<a
+											class="btn bg-white text-danger btn-rounded rounded-circle btn-md arrow-btn m-t-20"
+											href="#">
+												Reserve Your Table
+												<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+										</a>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+		</section>
+	</template>
+</odoo>

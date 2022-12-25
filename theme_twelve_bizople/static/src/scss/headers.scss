@@ -1,0 +1,1334 @@
+.header_cart , .header_wishlist {
+	list-style: none;
+	position: relative;
+	sup {
+       	margin-left: 0;
+		font-size: 66%;
+		position: absolute;
+		right: 12px;
+		top: 7px;
+	}
+}
+.o_main_navbar .dropdown-menu.show {
+    max-height: 90vh;
+    min-width: 100%;
+    overflow: auto;
+}
+.navbar{
+	.dropdown-menu{
+		.dropdown-item{
+			color: theme-color('primary');
+			transition: 0.2s;
+			&:hover{
+				color: #fff !important;
+				background-color: theme-color('primary');
+			}
+		}
+		.dropdown-item.active,.dropdown-item:active{
+			color: #fff !important;
+			background-color: theme-color('primary');
+		}
+	}
+}
+#header_one{
+	.header_cart , .header_wishlist {
+		sup {
+			right: 0px;
+			top: 12px;
+		}
+	}
+}
+#header_eight{
+	.header_cart , .header_wishlist {
+		sup {
+			right: 0px;
+			top: 7px;
+		}
+	}
+}
+#header_nine{
+	.header_cart , .header_wishlist {
+		sup {
+			right: 12px;
+			top: 10px;
+		}
+	}
+}
+#header_ten{
+	.header_cart , .header_wishlist {
+		sup {
+			right: 5px;
+			top: 30px;
+		}
+	}
+}
+
+
+#header_one {
+	.header1_navbar {
+		padding : 0px;
+		
+		.navbar-collapse {
+			line-height: 50px;
+		}
+		.divider {
+			display : none;
+		}
+		.nav-link {
+			color: #fff;
+		    font-weight: 500;
+		    text-transform: uppercase;
+		}
+		.nav-link:focus, .nav-link:hover {
+			color : #000;
+			background-color : #fff;
+		} 
+	}
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: linear-gradient(to right, #2cdd9b 0%, #1dc8cd 100%) !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cd 100%) !important;
+	}
+	.h4-nav-bar {
+	    padding: 15px 0px;
+	    
+	    .nav-item .nav-link {
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    padding: 8px 25px;
+		}
+		.navbar-brand.logo img {
+			height : $o-theme-navbar-logo-height;
+		}
+	}
+	.navbar .hidden-lg-up {
+	    padding: 15px;
+	    color: #ffffff;
+	    font-weight: 500;
+	    font-size: 14px;
+	    text-transform: uppercase;
+	}
+	.divider {
+		display : none;
+	}
+	.s_mega_menu_one_snippet {
+		.sf-menu ul.mega_submenu_one li {
+		    padding: 0px;
+		}
+		.mega_submenu_one .fa {
+		    position: absolute;
+		    right: 0;
+		    margin-top: 20px;
+		}
+	}
+	.s_mega_menu_three_snippet .content .row-list li a {
+	     margin: 0;
+	     padding-top: 0; 
+	}
+	.s_mega_menu_four_snippet .jen_tabs_conent_list ul li {
+	    margin: 0;
+	}
+	.s_mega_menu_five_snippet .content .list li {
+	    margin-bottom: 0;
+	}
+	.s_mega_menu_six_snippet{
+		 .list li {
+	    	margin-bottom: 0;
+		}
+		.justify-content-center h5 {
+    		padding: 0px;
+		}
+	}
+	.s_mega_menu_eight_snippet .main_menu ul li {
+	    margin-top: 0px;
+	    padding: 0px; 
+	}
+	.s_mega_menu_nine_snippet {
+		.widget-realesta-property-section .media-body p {
+	    	line-height: 0px;
+	    	font-size: 14px;
+		}
+		.widget-realesta-property-section .media-body {
+   		padding: 8px 7px;
+    	margin-top: -20px;
+		}
+	}
+	.dropdown-menu{
+		.dropdown-item{
+			color: theme-color('primary');
+			transition: 0.2s;
+			&:hover{
+				color: red;
+			}
+		}
+		.dropdown-item.active,.dropdown-item:active{
+			color: red;
+			background-color: theme-color('primary');
+		}
+	}
+}
+
+
+#header_two {
+	.topbar-1 {
+	    padding: 0px;
+	    -webkit-transition: 0.2s ease-in;
+	    -o-transition: 0.2s ease-in;
+	    transition: 0.2s ease-in;
+	    width: 100%;
+	    z-index: 20;
+	    background: #ffffff;
+	}
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: #fff !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	    background: #fff !important;
+	}
+	.h15-navbar {
+		.navbar .navbar-nav .nav-item:hover .nav-link,  .navbar .navbar-nav .nav-item.active .nav-link {
+		    color: #06a7fd;
+		    border-bottom: 1px solid #06a7fd;
+		}
+		 .navbar .navbar-nav .nav-link {
+		    padding: 15px;
+		    color: #263238;
+		    font-weight: 400;
+		    font-size: 14px;
+		    border-bottom: 1px solid transparent;
+		}
+		.divider {
+			display : none;
+		}
+	}
+	
+	.h15-infobar {
+		.navbar-brand img {
+			height: 3.3125rem;
+		}
+		.h15-info-bar {
+		    padding: 15px 0px;
+		}
+		.nav-item .nav-link {
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    padding: 0 25px;
+		}
+		.navbar-nav {
+			color: #b0b7c6;
+		}
+		
+	}
+	.h15-topbar {
+		border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+		
+		.navbar {
+		    padding: 0;
+		}
+		.navbar-nav {
+			color: #b0b7c6;
+			font-size: 1rem;
+		}
+		.navbar-brand {
+		    font-size: 14px;
+		    color: #263238;
+		    font-weight: 500;
+		    padding: 15px 0;
+		}
+		@media (min-width: 992px) {
+			.hidden-lg-up {
+			    display: none !important;
+			}
+		}
+		.navbar-nav {
+		    font-weight: 400;
+		}
+		.text-dark-1 {
+		    color: #343a40;
+		}
+		.navbar .nav-item .nav-link:first-child {
+		    padding-left: 8px;
+		}
+		.navbar .nav-item .nav-link {
+		    color: #8d97ad;
+		    padding: 15px 20px;
+		}
+		
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.h15-info-bar{
+			flex-flow: row nowrap !important;
+		    -webkit-box-pack: start !important;
+		    justify-content: flex-start !important;
+		}
+		.navbar-nav.ml-auto{
+			flex-flow: row nowrap !important;
+		    -webkit-box-pack: start !important;
+		    justify-content: flex-start !important;
+		}
+		#h15-info{
+			display: contents !important;
+		}
+	}
+}
+
+
+
+#header_three {
+	.topbar-1 {
+	    padding: 0px;
+	    -webkit-transition: 0.2s ease-in;
+	    -o-transition: 0.2s ease-in;
+	    transition: 0.2s ease-in;
+	    width: 100%;
+	    z-index: 20;
+	}
+	.header3_navbar {
+		.divider {
+			display : none;
+		}
+		.navbar-brand img {
+			height : auto;
+		}
+		.nav-link {
+			color: #8d97ad;
+		}
+		.nav-link:hover , .nav-link:focus {
+			color : #fff;
+		}
+	}
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: #263238 !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+
+	    background: #263238 !important;
+	    
+	}
+	.header12 {
+	    
+	    .h12-nav {
+		    padding: 0px 0;
+		}
+		.h12-topbar {
+		    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+		}
+		.navbar-nav{
+			flex-wrap: wrap;
+		}
+	}
+	.h12-topbar {
+		.navbar {
+		    padding: 0;
+		}
+		.navbar-brand {
+		    font-size: 14px;
+		    color: #ffffff;
+		    padding: 15px 0;
+		}
+		@media (min-width: 992px) {
+			.hidden-lg-up {
+			    display: none !important;
+			}
+		}
+		.navbar .nav-item .nav-link:first-child {
+		    border-left: 1px solid rgba(120, 130, 140, 0.13);
+		}
+		.navbar .nav-item .nav-link {
+		    color: #8d97ad;
+		    padding: 15px 20px;
+		    border-right: 1px solid rgba(120, 130, 140, 0.13);
+		}
+		
+	}
+	.divider {
+			display : none;
+		}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.navbar-collapse.d-none.d-sm-block{
+			display: -webkit-box !important;
+		    display: -webkit-flex !important;
+		    display: flex !important;
+		    padding: 10px 0;
+		}
+	}
+}
+
+#header_four {
+	
+	.navbar { 
+		padding-bottom:0px;
+	}
+	.topbar-1 {
+	    padding: 0px;
+	    -webkit-transition: 0.2s ease-in;
+	    -o-transition: 0.2s ease-in;
+	    transition: 0.2s ease-in;
+	    width: 100%;
+	    z-index: 20;
+	    background: #ffffff;
+	}
+	.h16-topbar {
+		.navbar-nav {
+			color: #8d97ad;
+			font-size : 1rem;
+		}
+	}
+	.divider {
+			display : none;
+		}
+	.h16-infobar {
+		.navbar-brand img {
+			height : $o-theme-navbar-logo-height;
+		}
+		.navbar-nav {
+			color: #8d97ad;
+			font-size : 1rem;
+		}
+	}
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%) !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%) !important;
+	}
+	.h16-navbar {
+		.divider {
+			display : none;
+		}
+		.navbar-brand img {
+			display:none;
+		}
+		.navbar {
+		    
+    		padding: 0px;
+		}
+		
+	}
+}
+
+.h-top-33 {
+		margin-bottom: -50px;
+	}
+
+
+
+#header_five {
+		/*******************
+Header 13
+*******************/
+
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: #fff !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	    background: #fff !important;
+	}
+
+.h-top-33 {
+		margin-bottom: -55px;
+	}
+
+.header13 .h13-nav {
+  padding: 15px 15px; }
+  .header13 .h13-nav .call-info {
+    padding-left: 20px;
+    border-left: 1px solid rgba(120, 130, 140, 0.13); }
+  .header13 .h13-nav .navbar-nav .nav-item .nav-link {
+    color: #8d97ad;
+    padding: 10px 15px;
+    display: block; }
+  .header13 .h13-nav .navbar-nav .nav-item:hover .nav-link, .header13 .h13-nav .navbar-nav .nav-item.active .nav-link {
+    border-top: 1px solid #ff4d7e;
+		    color: #ff4d7e; }
+  .header13 .h13-nav .navbar-nav .nav-item:last-child {
+    margin-left: 10px; }
+.divider {
+			display : none;
+		}
+.header13 .h13-topbar {
+  border-bottom: 1px solid rgba(120, 130, 140, 0.13); }
+  .header13 .h13-topbar .navbar-brand {
+    font-size: 14px;
+    color: #188ef4;
+    padding: 15px 0; }
+  .header13 .h13-topbar .navbar {
+    padding: 0; }
+    .header13 .h13-topbar .navbar .search-box {
+      padding: 15px;
+      width: 240px; }
+    .header13 .h13-topbar .navbar .nav-item .nav-link {
+      color: #8d97ad;
+      padding: 15px 20px; }
+      .header13 .h13-topbar .navbar .nav-item .nav-link:first-child {
+        padding-left: 0px; }
+    .header13 .h13-topbar .navbar .nav-item:hover .nav-link {
+      color: #ff4d7e; }
+
+      @media (min-width: 768px) and (max-width: 991.98px) {
+      	#header13a{
+      		display: -webkit-box !important;
+		    display: -webkit-flex !important;
+		    display: flex !important;
+      	}
+      }
+}
+
+
+#header_six {
+	.h11-topbar{
+		.navbar-nav{
+			.nav-item{
+				.nav-link{
+					padding: 15px !important;
+				}
+			}
+		}
+	}
+	
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: #fff !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	   .navbar-nav .nav-link {
+	   		padding: 15px;
+		}
+		
+	}
+	.topbar {
+	    padding: 0px;
+	    -webkit-transition: 0.2s ease-in;
+	    -o-transition: 0.2s ease-in;
+	    transition: 0.2s ease-in;
+	    width: 100%;
+	    z-index: 20;
+	    background: #ffffff;
+	}
+	
+	.divider {
+			display : none;
+		}
+	.header6_navbar {
+	    padding: 0;
+	    
+		.h11-topbar{
+			ul{
+				li{
+					.nav-link{
+						padding: 15px !important;
+					}
+				}
+			}
+		}
+	    .navbar-brand {
+		    padding: 10px 0;
+		}
+		.h11-topbar ul {
+		    margin-bottom: 0px;
+		    padding: 15px 0;
+		    font-size:1rem;
+		}
+		.h11-topbar ul li {
+		    display: inline-block;
+		    vertical-align: middle;
+		}
+		ul.list-inline li:first-child {
+		    padding-left: 0px;
+		}
+		.h11-topbar ul li a {
+		    padding: 0px 7px;
+		    color: #8d97ad;
+		    display: block;
+		}
+		.h11-topbar ul li:last-child a {
+		    font-size: 21px;
+		    font-weight: 600;
+		    color: #263238;
+		}
+		.navbar-nav .nav-item {
+		    margin: 0 20px;
+		}
+		.navbar-nav .nav-item:hover .nav-link, .navbar-nav .nav-item.active .nav-link {
+		    color: #188ef4;
+		    border-bottom: 1px solid #188ef4;
+		}
+		.navbar-nav .nav-item .nav-link {
+		    padding: 12px 0px;
+		    color: #8d97ad;
+		    border-bottom: 1px solid transparent;
+		    font-weight: 500;
+		    text-transform: uppercase;
+		}
+	}
+	
+}
+
+#header_seven {
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: #fff !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	    background: #3d4555 !important;
+	}
+	.topbar-1{
+	    padding: 0px;
+	    -webkit-transition: 0.2s ease-in;
+	    -o-transition: 0.2s ease-in;
+	    transition: 0.2s ease-in;
+	    width: 100%;
+	    z-index: 20;
+	    background: #3d4555;
+	}
+	.divider {
+			display : none;
+		}
+	.h13-topbar {
+	    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+	    
+	    .navbar {
+		    padding: 0;
+		}
+		.navbar-brand {
+		    font-size: 14px;
+		    color: #188ef4;
+		    padding: 15px 0;
+		}
+		@media (min-width: 992px) {
+			.hidden-lg-up {
+			    display: none !important;
+			}
+		}
+		.navbar-nav {
+			font-weight: 400;
+		}
+		.navbar .nav-item .nav-link:first-child {
+		    padding-left: 0px;
+		}
+		.navbar .nav-item .nav-link {
+		    color: #8d97ad;
+		    padding: 15px 20px;
+		}
+		
+	}
+	.header7_navbar {
+	    padding: 15px 0;
+	    
+	    .navbar-brand.logo img {
+			height : auto;
+		}
+		.navbar-nav .nav-item .nav-link {
+		    color: #8d97ad;
+		    padding: 10px 15px;
+		    display: block;
+		}
+		.navbar-nav .nav-item:hover .nav-link,.navbar-nav .nav-item.active .nav-link {
+		    color: #ff4d7e;
+		}
+	}
+}
+
+
+#header_eight {
+	
+	#wrap {
+		margin-top:20px;
+	}
+	
+	z-index : 99;
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: #3e4555 !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	    background: #3e4555 !important;
+	}
+	.topbar-1 {
+	    padding: 0px;
+	    -webkit-transition: 0.2s ease-in;
+	    -o-transition: 0.2s ease-in;
+	    transition: 0.2s ease-in;
+	    width: 100%;
+	    background: #ffffff;
+	    z-index: 20;
+	}
+	.divider {
+		display : none;
+	}
+	.header8 {
+        max-height: 160px;
+	}
+	
+	.h7-topbar {
+	    padding: 15px 0;
+	    color: #ffffff;
+	    
+	    .con-btn a {
+		    padding: 5px 20px;
+		    text-transform: uppercase;
+		}
+		
+	}
+	.h7-nav-bar {
+	    background: #ffffff;
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+	    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+	    
+	    .logo-box {
+		    padding: 20px;
+		    -webkit-flex-shrink: 0;
+		    -ms-flex-negative: 0;
+		    flex-shrink: 0;
+		    width: 230px;
+		    border-right: 1px solid rgba(120, 130, 140, 0.13);
+		    justify-content: center;
+		    align-items: center;
+		    text-align: center;
+		    display: flex;
+		}
+		.main-nav ul li a.active , .main-nav ul li a:hover {
+			color : #316ce8;
+			background-color: transparent;
+			
+		}
+		@media (min-width: 768px) {
+			.hidden-md-up {
+			    display: none !important;
+			}
+		}
+		.h7-nav-box {
+		    display: block;
+		    width: calc(100% - 230px);
+		}
+		.h7-mini-bar {
+		    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+		}
+		.h7-mini-bar .gen-info span {
+		    display: inline-block;
+		    padding: 15px 20px;
+		    font-weight: 400;
+		}
+		
+		.main-nav ul {
+		    margin: 0px;
+		    padding: 0px;
+		    font-size: 13px;
+		    font-weight: 500;
+		    text-transform: uppercase;
+		}
+		.main-nav  ul  li:first-child {
+		    border-left: 0px;
+		}
+		.main-nav  ul  li {
+		    text-align: center;
+		    padding: 9px 14px;
+		}
+		.main-nav ul li a {
+		    padding: 20px 0px 21px;
+		    color: #8d97ad;
+		}
+		.navbar-brand.logo img {
+			height : auto;
+		}
+		.h7-mini-bar .social-info {
+		    padding-right: 10px;
+		}
+		.h7-mini-bar .social-info a {
+		    display: inline-block;
+		    padding: 15px 8px;
+		    font-weight: 400;
+	        font-size: 1rem;
+		    color: #8d97ad;
+		}
+		.h7-mini-bar .gen-info span {
+		    display: inline-block;
+		    padding: 15px 20px;
+		    font-weight: 400;
+		}
+		.gen-info {
+			color: #8d97ad;
+		}
+	}
+	@media (max-width: 1023px) {
+		.h7-nav-bar .logo-box {
+		    width: 170px;
+		}
+		.header8 {
+	        max-height: 134px;
+		}
+	}
+	@media (max-width: 767px) {
+		.h7-nav-bar {
+		    display: block;
+		}
+		
+		.h7-nav-bar .logo-box {
+		    display: inline-block;
+		    width: 160px;
+		    padding: 10px;
+		}
+		.h7-nav-bar .h7-nav-box {
+		    display: block;
+		    width: 100%;
+		}
+		.h7-nav-bar .h7-nav-box .h7-mini-bar {
+		    border-top: 1px solid rgba(120, 130, 140, 0.13);
+		}
+		.h7-nav-bar .h7-nav-box .h7-mini-bar {
+		    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+		}
+		.h7-nav-bar .h7-nav-box .main-nav {
+		    max-height: 200px;
+		    overflow: auto;
+		}
+		.h7-nav-bar .h7-nav-box .main-nav > ul {
+		    display: block;
+		}
+		.h7-nav-bar .h7-nav-box .main-nav > ul > li {
+		    display: block;
+		    text-align: left;
+		}
+		.h7-nav-bar .op-clo {
+		   	padding: 7px 6px;
+		    float: right;
+		    margin: 10px 20px 0 0;
+		    color: #FFFFFF;
+		}
+		
+	}
+	.s_mega_menu_two_snippet .widget-custom-menu .widgettitle {
+	    text-align: center;
+	}
+	.s_mega_menu_four_snippet .jen_tabs_conent_list h1 {
+	    margin-left: 0px;
+	    text-align: center;
+	}
+	.s_mega_menu_five_snippet .content h5 {
+	    text-align: center;
+	}
+	.s_mega_menu_six_snippet {
+		 .justify-content-center h5 {
+		    padding:0px;
+		}
+		.justify-content-center .list li {
+		    margin-bottom: 0;
+		    text-align: left;
+		}
+	}
+	.s_mega_menu_seven_snippet {
+		.one-column {
+		    margin-left: 17px;
+		}
+		.one-column a {
+    		 line-height: 0px;
+    		 display: contents;
+    		 text-transform: none;
+		}
+		.one-fourth-column {
+		    margin-right: 1px;
+		}
+		.one-column ul li p {
+		    text-transform: none;
+		}
+	}
+	.s_mega_menu_eight_snippet .main_menu h3 {
+	    font-size: 21px;
+	}
+	.s_mega_menu_nine_snippet{
+    	.widget-realesta-property-section .realesta-widgets.media {
+			margin-bottom: 0px;    	
+    	}
+		.widget-realesta-property-section a {
+		    line-height: 34px;
+		}
+		 .widget-realesta-property-section .media-body p {
+		    line-height: 16px;
+		    font-size: 13px;
+		    text-transform: none;
+		}
+		.widget-realesta-property-section  .property-btn{
+			padding: 7px;
+			color: black;
+		}
+	}
+	.s_mega_menu_ten_snippet{
+		 .widgettitle {
+			font-size: 16px;
+		}
+		inner ul li a {
+		    line-height: 0px; 
+		}
+	}
+}
+
+#header_nine {
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: #fed700 !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	    background: #fed700 !important;
+	}
+	.topbar-1 {
+	    padding: 0px;
+	    -webkit-transition: 0.2s ease-in;
+	    -o-transition: 0.2s ease-in;
+	    transition: 0.2s ease-in;
+	    width: 100%;
+	    z-index: 20;
+	    background: #ffffff;
+	}
+	.h14-topbar {
+	    background: #f5f7fa;
+	    
+	    .navbar {
+		    padding: 0;
+		}
+	    .navbar-brand {
+		    font-size: 14px;
+		    color: #263238;
+		    font-weight: 500;
+		    padding: 15px 0;
+		}
+		@media (min-width: 992px) {
+			.hidden-lg-up {
+			    display: none !important;
+			}
+		}
+		.navbar .nav-item .nav-link:first-child {
+		    padding-left: 0px;
+		}
+		.navbar .nav-item .nav-link {
+		    color: #8d97ad;
+		    padding: 15px 20px;
+		}
+	}
+	.h14-navbar {
+	    
+	    .navbar .navbar-nav .nav-item:hover .nav-link, .navbar .navbar-nav .nav-item.active .nav-link {
+		    background: rgba(120, 130, 140, 0.13);
+		    color: #263238;
+		}
+		.navbar .navbar-nav .nav-link {
+		    padding: 18px 15px;
+		    color: #263238;
+		    font-weight: 400;
+		    text-transform: uppercase;
+		}
+		.divider {
+			display : none;
+		}
+	}
+	.navbar-brand.logo img {
+	    	height: 4.3125rem;
+	    }
+	.h14-info-bar {
+	    padding: 15px 0px;
+	    
+	    .navbar-nav {
+	    	 color: #8d97ad;
+		}
+	    .nav-item .nav-link {
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    padding: 0 25px;
+		}
+		.donate-btn a {
+		    font-size: 13px;
+		    font-weight: 500;
+		    padding: 13px 25px;
+		    margin-left: 15px;
+		}
+		.btn-outline-info {
+		    color: #188ef4;
+		    background-color: transparent;
+		    border-color: #188ef4;
+		    -webkit-transition: 0.2s ease-in;
+		    -o-transition: 0.2s ease-in;
+		    transition: 0.2s ease-in;
+		}
+		.btn-outline-info:hover {
+			color: #fff;
+		    background-color: #188ef4;
+		}
+	}
+	@media (max-width: 709px){
+		
+	}
+}
+
+#header_ten {
+	.navbar-light {
+	    // Style only navbar-light which Odoo is only supposed to use in standard
+	    // anyway. Automatically mimic navbar-dark if the user's menu color is dark.
+	    // Note: this only works because navbar-light is defined before navbar-dark,
+	    // we may want to use a safest way when possible.
+	    /*@if color('menu') == #F9F9F9 {
+	    	background: #fff !important;
+	        
+	        @if (color-yiq(color('menu')) != $yiq-text-dark) {
+	            @extend .navbar-dark;
+	        }
+	    } @else {
+	    	background: color('menu') !important;
+	    }*/
+	    background: #fff !important;
+	}
+	.topbar-1 {
+	    padding: 0px;
+	    -webkit-transition: 0.2s ease-in;
+	    -o-transition: 0.2s ease-in;
+	    transition: 0.2s ease-in;
+	    width: 100%;
+	    z-index: 99;
+	    background: #ffffff;
+	}
+	.divider {
+			display : none;
+		}
+	.h6-topbar {
+	    background: #edb610;
+	    
+	    .authentication-box {
+		    margin-bottom: 0px;
+		    padding: 10px 0;
+		    color: #263238;
+		}
+		.authentication-box a {
+		    color: #263238;
+		}
+	}
+	.header10_navbar {
+		padding: 0px;
+		
+		.navbar-nav .nav-link {
+		    padding: 35px 15px;
+		    color: #8d97ad;
+		}
+		.navbar-brand.logo img {
+			height: 4.3125rem;
+		}
+		.navbar-nav .nav-item:hover .nav-link,.navbar-nav .nav-item.active .nav-link {
+		    color: #263238;
+		}
+	}
+}
+
+
+
+#content-44 {
+	.col-6 {
+		min-width: 100%;
+    	max-width: 100%;
+	}
+	.o_theme_customize_option {
+		margin-top: 20px  !important;
+		margin-bottom: 20px  !important;
+	    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+	}
+}
+#content-57 {
+	.col-6 {
+		min-width: 100%;
+    	max-width: 100%;
+	}
+	.o_theme_customize_option {
+		margin-top: 20px  !important;
+		margin-bottom: 20px  !important;
+	    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+	}
+}
+
+
+@media (max-width : 768px) {
+	#header_one {
+		.navbar-light .navbar-toggler {
+			color:#FFFFFF;
+			margin-right: 10px;
+			padding: 0.25rem 0.75rem !important;}
+		.h4-nav-bar .nav-item .nav-link {
+				padding: 0px 0px;
+				line-height: 26px;}
+		.btn {
+    		padding: 10px 30px;}
+    	.navbar .nav-item {
+    		margin-right: auto;
+    		margin-top: auto;
+    		margin-bottom: auto;
+    		align-items: center!important;
+    		margin-left: 15px;}
+    	.m-r-10 {
+   			 margin-right: 7px;
+    		 margin-top: 7px;
+    		 font-size: 35px;}
+    	.lnr-phone-handset{
+    		font-size: 32px;}
+   		.d-flex {
+   			margin-top: 15px;
+    		margin-bottom: -10px;}
+    	
+	}	
+	#header_two{
+		.navbar-light{
+			color:#000000;
+			border-color: rgba(0, 0, 0, 0.1);}
+		.h15-topbar .navbar-nav {
+    		font-size: 15px;
+    		flex-direction: row;
+    		margin-top: 10px;
+    		text-align: center;
+    		justify-content: center !important;}
+    	.h15-topbar .ml-auto{ 
+    		align-items: center!important;
+    		margin: auto;
+    		}
+    	.h15-infobar .h15-info-bar {
+   			 padding: 15px 5px 0px;}
+   		.s_mega_menu_seven_snippet .one-fourth-column {
+		    margin-right: 0px;
+		}
+	}
+	#header_three {
+		.navbar-light.navbar-toggler {
+	    	color:#FFFFFF;
+	   		border-color: #FFFFFF;
+	   		padding: 0.25rem 0.75rem !important;}
+	   	.h12-topbar .navbar-nav{
+			flex-direction: row;
+			font-size: 13px;
+			align-items: center!important;
+    		margin: auto;}
+		.h12-topbar .navbar .nav-item .nav-link {
+			padding:6px;
+			border-right: none;}
+		.h12-topbar .navbar .nav-item .nav-link:first-child {
+			border-left:none;}
+		.h12-topbar .ml-auto{ 
+			justify-content: center;
+			 align-items: center!important;}
+		.s_mega_menu_seven_snippet .one-fourth-column {
+		    margin-right: 0px;
+		}
+	
+	}
+	#header_four{
+		.h16-topbar .navbar-nav{
+			flex-direction: row;
+			justify-content: center;
+			align-items: center!important;}
+		.h16-topbar .ml-auto{ 
+			font-size: 13px;}
+		.h16-topbar .navbar .nav-item .nav-link {
+			padding:
+			7px;}
+		.s_mega_menu_seven_snippet .one-fourth-column {
+		    margin-right: 0px;
+		}
+		
+	}
+	#header_five{
+	 .navbar-light.navbar-toggler {
+		color:#000000;
+		border-color:#000000;
+		padding: 0.25rem 0.75rem !important;}
+	.h13-topbar .navbar-nav{
+			flex-direction: row;
+			margin-left: auto;
+    		margin-right: auto;
+    		align-items: center!important;}
+	.h13-topbar .ml-auto{ 
+			font-size: 20px;
+    		}
+	}
+	#header_six {
+		.h11-topbar .navbar-nav{
+			flex-direction: row;
+    		 align-items: center!important;
+    		margin:auto;}
+		.h11-topbar .navbar .nav-item .nav-link {
+			padding:10px;	}
+		.navbar-light.navbar-toggler {
+			color:#000000;
+			padding: 0.25rem 0.75rem !important;}
+	}
+	#header_seven {
+		.h13-topbar .navbar-nav{
+			flex-direction: row;
+			justify-content: center;}
+		.navbar-light  {
+    		color:#000000;
+   			border-color: rgba(0, 0, 0, 0.1);}
+   		.navbar-toggler{
+   			padding: 0.25rem 0.75rem !important;
+   		}
+   		.h13-topbar .navbar .nav-item .nav-link {
+   			padding: 10px 20px;}
+   		
+   	}
+   	#header_nine{
+   		.h14-topbar .navbar-nav{
+			flex-direction: row;
+			align-items: center!important;
+			justify-content: center;}
+		.h14-topbar .ml-auto {
+   			text-align: center;}
+   		.h14-topbar .navbar .nav-item .nav-link {
+   			padding: 7px 25px;}
+   		.s_mega_menu_seven_snippet .one-fourth-column {
+		    margin-right: 0px;
+		}
+	}
+   #header_ten {
+   		.navbar-light  {
+   			color:#000000;}
+   		}
+   		.navbar-toggler{
+   			padding: 0.25rem 0.75rem !important;
+   		}
+   		.s_mega_menu_seven_snippet .one-fourth-column {
+		    margin-right: 0px;
+		}
+}
+
+@media (width : 320px) {
+	#header_one {
+		.navbar .nav-item {
+		margin-left: -10px;
+		margin-right: auto;
+    	margin-top: auto;
+    	margin-bottom: auto;
+    	align-items: center !important;}
+	}
+	#header_three {
+		.h12-topbar .navbar-nav {
+			flex-direction: row;
+    		font-size: 11px;
+    		align-items: center !important;
+    		margin: auto;}
+    	.h12-topbar .ml-auto {
+    		padding-left: 90px;
+    		align-items: center !important;}
+	}
+	#header_four{
+		 .h16-topbar .navbar .nav-item .nav-link {
+    		padding: 6px;}
+    }
+    #header_six .h11-topbar .navbar .nav-item .nav-link {
+    	padding: 7px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

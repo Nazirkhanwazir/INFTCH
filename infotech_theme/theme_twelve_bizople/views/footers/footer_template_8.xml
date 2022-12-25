@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="website_multi_footer_eight"
+		inherit_id="website.layout" name="Footer Eight" active="False">
+		<xpath expr="//div[@id='footer']" position="replace">
+			<div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+				<section id="footer_eight" class="footer_eight footer6 spacer ">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="d-flex no-block m-b-10 text-white">
+									<div class="display-7 m-r-20 ">
+										<i class="lnr lnr-phone-handset"></i>
+									</div>
+									<div class="info">
+										<span class="db m-t-5" t-if="res_company.phone"
+											t-field="res_company.phone"></span>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="d-flex no-block m-b-10">
+									<div class="display-7 m-r-20 text-white">
+										<i class="lnr lnr-map-marker"></i>
+									</div>
+									<div class="info">
+										<a href="#" class="db white-link m-t-5"
+											t-if="res_company.email" t-field="res_company.email"></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 ml-auto">
+								<div class="ml-auto round-social dark">
+									<a class=" " t-att-href="website.social_facebook"
+										t-if="website.social_facebook" target="_blank">
+										<i class="fa fa-facebook" />
+									</a>
+									<a class=" " t-att-href="website.social_twitter"
+										t-if="website.social_twitter" target="_blank">
+										<i class="fa fa-twitter" />
+									</a>
+									<a class=" " t-att-href="website.social_linkedin"
+										t-if="website.social_linkedin" target="_blank">
+										<i class="fa fa-linkedin" />
+									</a>
+									<a class=" " t-att-href="website.social_youtube"
+										t-if="website.social_youtube" target="_blank">
+										<i class="fa fa-youtube-play" />
+									</a>
+									<a class=" " t-att-href="website.social_instagram"
+										t-if="website.social_instagram" target="_blank">
+										<i class="fa fa-instagram"></i>
+									</a>
+									<a class="link" t-att-href="website.social_github"
+										t-if="website.social_github" target="_blank">
+										<i class="fa fa-github"></i>
+									</a>
+
+								</div>
+							</div>
+							<div class="col-md-12 b-t m-t-40 d-flex align-items-center">
+								<div class="p-t-20 custom_p">
+									<span> © 2020 All rights reserved. </span>
+									<span t-field="res_company.name" />
+									.
+								</div>
+								<div class="language-selector ml-auto mt16">
+		                       		<ul class="js_language_selector mb0 list-inline" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
+								        <li class="d-inline-block">
+								            <div class="dropdown">
+								                <button class="btn btn-sm btn-light dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							                     	<span class="lang_local_code text-uppercase" t-out="list(filter(lambda lg : lg[0] == lang, languages))[0][1]"/>
+								                    <span class="caret ml4"/>
+								                </button>
+								                <div class="dropdown-menu" role="menu">
+								                    <t t-foreach="languages" t-as="lg">
+								                        <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+								                           class="dropdown-item js_change_lang"
+								                           t-att-data-url_code="lg[1]">
+								                            <t t-out="lg[2].split('/').pop()"/>
+								                        </a>
+								                    </t>
+								                </div>
+								            </div>
+								        </li>
+								    </ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</xpath>
+	</template>
+</odoo>

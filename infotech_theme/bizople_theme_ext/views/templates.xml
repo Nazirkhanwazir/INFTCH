@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="portal.user_sign_in" name="User Sign In" inherit_id="portal.placeholder_user_sign_in">
+        <xpath expr="." position="inside">
+            <li groups="base.group_public" t-attf-class="#{_item_class} o_no_autohide_item">
+                <a t-attf-href="/web/login" t-attf-class="#{_link_class}">Sign in
+                    <span t-if="request.session.profile_session" class="text-danger fa fa-circle"/>
+                </a>
+            </li>
+        </xpath>
+    </template>
+    <template id="website_sale.header_cart_link">
+        <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+        <t t-set="show_cart" t-value="false"/>
+        <li t-attf-class="#{_item_class} divider d-none"/> <!-- Make sure the cart and related menus are not folded (see autohideMenu) -->
+        <li t-attf-class="o_wsale_my_cart align-self-md-start #{not show_cart and 'd-none'} #{_item_class}">
+            <a href="/shop/cart" t-attf-class="#{_link_class}">
+                <i t-if="_icon" class="fa fa-shopping-cart"/>
+                <span t-if="_text">My Cart</span>
+                <sup class="my_cart_quantity badge badge-primary"
+                     t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"
+                     t-att-data-order-id="website_sale_order and website_sale_order.id or ''"/>
+            </a>
+        </li>
+    </template>
+<!--    <template id="theme_twelve_bizople.s_business_carousel_images" name="Images slider">-->
+<!--        <section class="s_business_carousel_images spacer">-->
+<!--            <div class="testimonial3">-->
+<!--                <div class="container-fluid">-->
+<!--                    <div class="container">-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <div class="col-md-7 text-center">-->
+<!--                                <h2 class="title">An Unforgettable Experience!</h2>-->
+<!--                                <h6 class="subtitle">We offer a wide range of activities and excursions-->
+<!--                                </h6>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div id="s_business_carousel123"-->
+<!--                         class="owl-carousel owl-theme testi3 m-t-40 s_carousel_default carousel slide"-->
+<!--                         data-interval="10000">-->
+<!--                        <ol class="carousel-indicators">-->
+<!--                            <li data-target="#s_business_carousel123" data-slide-to="0"-->
+<!--                                class="active"></li>-->
+<!--                        </ol>-->
+<!--                        <div class="carousel-inner">-->
+<!--                            <div class="carousel-item active" data-name="Slide">-->
+<!--                                <div class="col-md-4 block">-->
+<!--                                    <div class="item">-->
+<!--                                        <section-->
+<!--                                                class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y"-->
+<!--                                                style="animation-duration: 3s !important;">-->
+<!--                                            <a href="#" class="img-ho">-->
+<!--                                                <img class="card-img-top"-->
+<!--                                                     src="/theme_twelve_bizople/static/src/img/c1.jpg"-->
+<!--                                                     alt="bizople kit"/>-->
+<!--                                            </a>-->
+<!--                                            <div class="card-body">-->
+<!--                                                <h5 class="font-medium m-b-0">Campfire</h5>-->
+<!--                                                <p class="m-b-0 font-14">Souly Lodge</p>-->
+<!--                                            </div>-->
+<!--                                        </section>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-4 block">-->
+<!--                                    <div class="item">-->
+<!--                                        <section-->
+<!--                                                class="card card-shadow o_animate_preview o_animate o_anim_flip_in_x"-->
+<!--                                                style="animation-duration: 3s !important;">-->
+<!--                                            <a href="#" class="img-ho">-->
+<!--                                                <img class="card-img-top"-->
+<!--                                                     src="/theme_twelve_bizople/static/src/img/c2.jpg"-->
+<!--                                                     alt="bizople kit"/>-->
+<!--                                            </a>-->
+<!--                                            <div class="card-body">-->
+<!--                                                <h5 class="font-medium m-b-0">Desert Safari</h5>-->
+<!--                                                <p class="m-b-0 font-14">Empty Quarter</p>-->
+<!--                                            </div>-->
+<!--                                        </section>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-4 block">-->
+<!--                                    <div class="item">-->
+<!--                                        <section-->
+<!--                                                class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y"-->
+<!--                                                style="animation-duration: 3s !important;">-->
+<!--                                            <a href="#" class="img-ho">-->
+<!--                                                <img class="card-img-top"-->
+<!--                                                     src="/theme_twelve_bizople/static/src/img/c3.jpg"-->
+<!--                                                     alt="bizople kit"/>-->
+<!--                                            </a>-->
+<!--                                            <div class="card-body">-->
+<!--                                                <h5 class="font-medium m-b-0">Discover Salalah</h5>-->
+<!--                                                <p class="m-b-0 font-14">Jabel Samhan</p>-->
+<!--                                            </div>-->
+<!--                                        </section>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+<!--    </template>-->
+
+<!--    <template id="theme_twelve_bizople.s_medical_icons_block" name="Icons Block with paragraph">-->
+<!--        <section class="s_medical_icons_block spacer feature24">-->
+<!--            <div class="container">-->
+<!--                <div class="row justify-content-center">-->
+<!--                    <div class="col-md-7 text-center">-->
+<!--                        <h2 class="title">-->
+<!--                            <b>Amenities</b>-->
+<!--                        </h2>-->
+<!--                        <h6 class="subtitle">You can rely on our amazing services which will be a great experience for-->
+<!--                            you without a doubt.-->
+<!--                        </h6>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row wrap-feature-24">-->
+<!--                    <div class="col-lg-3 col-md-6">-->
+<!--                        <section class="card card-shadow">-->
+<!--                            <div class="service-24">-->
+<!--                                <div class="display-5 t-icon">-->
+<!--                                    <i class="fa-plane fa"/>-->
+<!--                                </div>-->
+<!--                                <h6 style="font-size: 30px !important;" class="ser-title">Airport Pick &amp; Drop</h6>-->
+<!--                            </div>-->
+<!--                        </section>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-6">-->
+<!--                        <section class="card card-shadow">-->
+<!--                            <div class="service-24">-->
+<!--                                <div class="display-5 t-icon">-->
+<!--                                    <i class="fa-automobile fa"/>-->
+<!--                                </div>-->
+<!--                                <h6 style="font-size: 30px !important;" class="ser-title">Car Rentals</h6>-->
+<!--                            </div>-->
+<!--                        </section>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-6">-->
+<!--                        <section class="card card-shadow">-->
+<!--                            <div class="service-24">-->
+<!--                                <div class="display-5 t-icon">-->
+<!--                                    <i class="fa-modx fa"/>-->
+<!--                                </div>-->
+<!--                                <h6 style="font-size: 30px !important;" class="ser-title">Travel Itinerary</h6>-->
+<!--                            </div>-->
+<!--                        </section>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-6">-->
+<!--                        <section class="card card-shadow">-->
+<!--                            <div class="service-24">-->
+<!--                                <div class="display-5 t-icon">-->
+<!--                                    <i class="fa-comments fa"/>-->
+<!--                                </div>-->
+<!--                                <h6 style="font-size: 30px !important;" class="ser-title">Languages-->
+<!--                                    (English/German/Arabic)-->
+<!--                                </h6>-->
+<!--                            </div>-->
+<!--                        </section>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-6">-->
+<!--                        <section class="card card-shadow">-->
+<!--                            <div class="service-24">-->
+<!--                                <div class="display-5 t-icon">-->
+<!--                                    <i class="fa-wifi fa"/>-->
+<!--                                </div>-->
+<!--                                <h6 style="font-size: 30px !important;" class="ser-title">Free WiFi in public area</h6>-->
+<!--                            </div>-->
+<!--                        </section>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-6">-->
+<!--                        <section class="card card-shadow">-->
+<!--                            <div class="service-24">-->
+<!--                                <div class="display-5 t-icon">-->
+<!--                                    <i class="fa-gift fa"/>-->
+<!--                                </div>-->
+<!--                                <h6 style="font-size: 30px !important;" class="ser-title">'Le Souk' Souvenir Shop</h6>-->
+<!--                            </div>-->
+<!--                        </section>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-6">-->
+<!--                        <section class="card card-shadow">-->
+<!--                            <div class="service-24">-->
+<!--                                <div class="display-5 t-icon">-->
+<!--                                    <i class="fa fa-briefcase"/>-->
+<!--                                </div>-->
+<!--                                <h6 style="font-size: 30px !important;" class="ser-title">Laundry</h6>-->
+<!--                            </div>-->
+<!--                        </section>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-6">-->
+<!--                        <section class="card card-shadow">-->
+<!--                            <div class="service-24">-->
+<!--                                <div class="display-5 t-icon">-->
+<!--                                    <i class="fa-cutlery fa"/>-->
+<!--                                </div>-->
+<!--                                <h6 style="font-size: 30px !important;" class="ser-title">Restaurant</h6>-->
+<!--                            </div>-->
+<!--                        </section>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--    </template>-->
+
+
+<!--    <template name="Partners with logos and paragraph" t-name="theme_twelve_bizople.s_estate_logo_partners">-->
+<!--        <section class="s_estate_logo_partners bg-light-1 ">-->
+<!--            <div class="spacer feature14">-->
+<!--                <div class="container">-->
+<!--                    <div class="row justify-content-center">-->
+<!--                        <div class="col-md-7 text-center">-->
+<!--                            <h2 class="title">Our Valuable Partners</h2>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="client2">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row client-box text-center"-->
+<!--                                 style="width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;">-->
+<!--                                <div class="col-lg-2 col-md-4">-->
+<!--                                    <img src="/theme_twelve_bizople/static/src/img/c1.png" alt="bizople"-->
+<!--                                         class="img img-fluid"/>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-2 col-md-4">-->
+<!--                                    <img src="/theme_twelve_bizople/static/src/img/c2.png" alt="bizople"-->
+<!--                                         class="img img-fluid"/>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-2 col-md-4">-->
+<!--                                    <img src="/theme_twelve_bizople/static/src/img/c3.png" alt="bizople"-->
+<!--                                         class="img img-fluid"/>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-2 col-md-4">-->
+<!--                                    <img src="/theme_twelve_bizople/static/src/img/c4.png" alt="bizople"-->
+<!--                                         class="img img-fluid"/>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-2 col-md-4">-->
+<!--                                    <img src="/theme_twelve_bizople/static/src/img/c5.png" alt="bizople"-->
+<!--                                         class="img img-fluid"/>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-2 col-md-4">-->
+<!--                                    <img src="/theme_twelve_bizople/static/src/img/c6.png" alt="bizople"-->
+<!--                                         class="img img-fluid"/>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--    </template>-->
+
+</odoo>

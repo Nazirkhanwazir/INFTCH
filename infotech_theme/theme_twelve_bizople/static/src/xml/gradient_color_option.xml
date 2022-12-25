@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+
+	<t t-extend="wysiwyg.widgets.link">
+        <t t-jquery="select:last" t-operation="append">
+            <option 
+                value="btn btn-danger-gradient ">Danger Gradient</option>
+            <option 
+                value="btn btn-danger-gradient ,rounded-circle">Danger Gradient Defualt + Rounded</option>
+            <option 
+                value="btn btn-danger-gradient ,fill">Danger Gradient Fill</option>
+            <option 
+                value="btn btn-danger-gradient ,fill,rounded-circle">Danger Gradient Fill + Rounded</option>
+            <option 
+                value="btn btn-danger-gradient ,flat">Danger Gradient Flat</option>
+
+
+            <option 
+                value="btn-success-gradient">Success Gradient</option>
+            <option 
+                value="btn-success-gradient,rounded-circle">Sucess Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-success-gradient,fill">Sucess Gradient Fill</option>
+            <option 
+                value="btn-success-gradient,fill,rounded-circle">Sucess Gradient Fill + Rounded</option>
+            <option 
+                value="btn-success-gradient,flat">Sucess Gradient Flat</option>
+
+
+            <option 
+                value="btn-info-gradient">Info Gradient</option>
+            <option 
+                value="btn-info-gradient,rounded-circle">Info Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-info-gradient,fill">Info Gradient Fill</option>
+            <option 
+                value="btn-info-gradient,fill,rounded-circle">Info Gradient Fill + Rounded</option>
+            <option 
+                value="btn-info-gradient,flat">Info Gradient Flat</option>
+
+
+            <option 
+                value="btn-warm-flame-gradient">Warm Flame Gradient</option>
+            <option 
+                value="btn-warm-flame-gradient,rounded-circle">Warm Flame Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-warm-flame-gradient,fill">Warm Flame Gradient Fill</option>
+            <option 
+                value="btn-warm-flame-gradient,fill,rounded-circle">Warm Flame Gradient Fill + Rounded</option>
+            <option 
+                value="btn-warm-flame-gradient,flat">Warm Flame Gradient Flat</option>
+
+
+            <option 
+                value="btn-night-fade-gradient">Night Fade Gradient</option>
+            <option 
+                value="btn-night-fade-gradient,rounded-circle">Night Fade Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-night-fade-gradient,fill">Night Fade Gradient Fill</option>
+            <option 
+                value="btn-night-fade-gradient,fill,rounded-circle">Night Fade Gradient Fill + Rounded</option>
+            <option 
+                value="btn-night-fade-gradient,flat">Night Fade Gradient Flat</option>
+
+
+            <option 
+                value="btn-spring-warmth-gradient">Spring Warmth Gradient</option>
+            <option 
+                value="btn-spring-warmth-gradient,rounded-circle">Spring Warmth Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-spring-warmth-gradient,fill">Spring Warmth Gradient Fill</option>
+            <option 
+                value="btn-spring-warmth-gradient,fill,rounded-circle">Spring Warmth Gradient Fill + Rounded</option>
+            <option 
+                value="btn-spring-warmth-gradient,flat">Spring Warmth Gradient Flat</option>
+
+
+
+            <option 
+                value="btn-juicy-peach-gradient">Juicy Peach Gradient</option>
+            <option 
+                value="btn-juicy-peach-gradient,rounded-circle">Juicy Peach Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-juicy-peach-gradient,fill">Juicy Peach Gradient Fill</option>
+            <option 
+                value="btn-juicy-peach-gradient,fill,rounded-circle">Juicy Peach Gradient Fill + Rounded</option>
+            <option 
+                value="btn-juicy-peach-gradient,flat">Juicy Peach Gradient Flat</option>
+
+
+
+            <option 
+                value="btn-amy-crisp-gradient">Amy Crisp Gradient</option>
+            <option 
+                value="btn-amy-crisp-gradient,rounded-circle">Amy Crisp Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-amy-crisp-gradient,fill">Amy Crisp Gradient Fill</option>
+            <option 
+                value="btn-amy-crisp-gradient,fill,rounded-circle">Amy Crisp Gradient Fill + Rounded</option>
+            <option 
+                value="btn-amy-crisp-gradient,flat">Amy Crisp Gradient Flat</option>
+
+
+            <option 
+                value="btn-mean-fruit-gradient">Mean Fruit Gradient</option>
+            <option 
+                value="btn-mean-fruit-gradient,rounded-circle">Mean Fruit Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-mean-fruit-gradient,fill">Mean Fruit Gradient Fill</option>
+            <option 
+                value="btn-mean-fruit-gradient,fill,rounded-circle">Mean Fruit Gradient Fill + Rounded</option>
+            <option 
+                value="btn-mean-fruit-gradient,flat">Mean Fruit Gradient Flat</option>
+
+
+
+            <option 
+                value="btn-waves-gradient">Waves Gradient</option>
+            <option 
+                value="btn-waves-gradient,rounded-circle">Waves Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-waves-gradient,fill">Waves Gradient Fill</option>
+            <option 
+                value="btn-waves-gradient,fill,rounded-circle">Waves Gradient Fill + Rounded</option>
+            <option 
+                value="btn-waves-gradient,flat">Waves Gradient Flat</option>
+
+
+
+            <option 
+                value="btn-orange-gradient">Orange Gradient</option>
+            <option 
+                value="btn-orange-gradient,rounded-circle">Orange Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-orange-gradient,fill">Orange Gradient Fill</option>
+            <option 
+                value="btn-orange-gradient,fill,rounded-circle">Orange Gradient Fill + Rounded</option>
+            <option 
+                value="btn-orange-gradient,flat">Orange Gradient Flat</option>
+
+
+
+            <option 
+                value="btn-grey-gradient">Grey Gradient</option>
+            <option 
+                value="btn-grey-gradient,rounded-circle">Grey Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-grey-gradient,fill">Grey Gradient Fill</option>
+            <option 
+                value="btn-grey-gradient,fill,rounded-circle">Grey Gradient Fill + Rounded</option>
+            <option 
+                value="btn-grey-gradient,flat">Grey Gradient Flat</option>
+
+
+
+            <option 
+                value="btn-green-gradient">Green Gradient</option>
+            <option 
+                value="btn-green-gradient,rounded-circle">Green Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-green-gradient,fill">Green Gradient Fill</option>
+            <option 
+                value="btn-green-gradient,fill,rounded-circle">Green Gradient Fill + Rounded</option>
+            <option 
+                value="btn-green-gradient,flat">Green Gradient Flat</option>
+
+
+            <option 
+                value="btn-yellow-blue-gradient">Yellow Blue Gradient</option>
+            <option 
+                value="btn-yellow-blue-gradient,rounded-circle">Yellow Blue Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-yellow-blue-gradient,fill">Yellow Blue Gradient Fill</option>
+            <option 
+                value="btn-yellow-blue-gradient,fill,rounded-circle">Yellow Blue Gradient Fill + Rounded</option>
+            <option 
+                value="btn-yellow-blue-gradient,flat">Yellow Blue Gradient Flat</option>
+
+
+            <option 
+                value="btn-green-blue-gradient">Green Blue Gradient</option>
+            <option 
+                value="btn-green-blue-gradient,rounded-circle">Green Blue Gradient Defualt + Rounded</option>
+            <option 
+                value="btn-green-blue-gradient,fill">Green Blue Gradient Fill</option>
+            <option 
+                value="btn-green-blue-gradient,fill,rounded-circle">Green Blue Gradient Fill + Rounded</option>
+            <option 
+                value="btn-green-blue-gradient,flat">Green Blue Gradient Flat</option>
+        </t>
+    </t>
+
+</templates>

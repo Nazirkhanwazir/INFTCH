@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="contact_us_three_template" model="ir.ui.view">
+		<field name="name">Contact Us Three</field>
+		<field name="type">qweb</field>
+		<field name="key">website.contact_us_three_template</field>
+		<field name="arch" type="xml">
+			<t name="Contact Us Three" t-name="contact_us_three_template">
+				<t t-call="website.layout">
+					<div class="oe_structure"></div>
+					<section class="s_contact_with_bg_color_map bg-info-1">
+						<div class="contact4">
+							<div class="container">
+									<div class="row">
+										<div class="col-md-6 contact-box">
+											<div class="aos-init" data-aos="fade-right"
+												data-aos-duration="1200">
+												<h1 class="title font-light text-white m-t-10">Contact
+													Us
+												</h1>
+												<!-- <form action="/website/form/" method="post"
+													data-aos="fade-left" data-aos-duration="1200"
+													data-model_name="crm.lead"
+													data-success_page="/contactus-thank-you"
+													class="s_website_form contact-form  m-t-30 o_animate_preview o_animate o_anim_fade_in_right"
+													enctype="multipart/form-data"  data-pre-fill="true" data-editable-form="false">
+													<div class="row">
+														<div class="col-lg-12">
+															<div class="form-group m-t-15">
+																<input  placeholder="Name"
+																	name="contact_name" required="True" type="text"
+																	class="o_website_form_input form-control"
+																	t-att-value="request.params.get('contact_name', '')" />
+															</div>
+														</div>
+														<div class="col-lg-12">
+															<div class="form-group m-t-15">
+																<input  name="email_from"
+																	placeholder="Email Address" required="" value=""
+																	type="email" class="o_website_form_input form-control"
+																	t-att-value="request.params.get('email_from', '')" />
+															</div>
+														</div>
+														<div class="col-lg-12">
+															<div class="form-group m-t-15">
+																<input  name="phone" placeholder="Phone"
+																	type="text"
+																	t-att-value="request.params.get('phone', '')"
+																	class="o_website_form_input form-control" />
+															</div>
+														</div>
+														<div class="col-lg-12">
+															<div class="form-group m-t-15">
+																<input  name="name"
+																	placeholder="Subject" type="text"
+																	t-att-value="request.params.get('name', '')"
+																	class="o_website_form_input form-control" />
+															</div>
+														</div>
+														<div class="col-lg-12">
+															<div class="form-group m-t-15">
+																<textarea  name="description"
+																	rows="3" placeholder="Messagge"
+																	t-att-value="request.params.get('description', '')"
+																	class=" o_website_form_input form-control"></textarea>
+																<div class="reserve-submit mt-40">
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-12 d-flex no-block m-t-20">
+															<button
+																class="o_website_form_send btn bg-white text-inverse arrow-btn"
+																type="submit">
+																	SUBMIT NOW
+																	<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></i>
+															</button>
+
+															<span class="ml-auto text-white align-self-center">
+																<i class="fa fa-phone m-r-10"></i>
+																251 546 9442
+															</span>
+
+														</div>
+														<span id="o_website_form_result" style=""
+															class="text-danger ml8 mt16  mb16 col-md-12"></span>
+													</div>
+												</form> -->
+
+												<section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+													<div class="container">
+													
+														<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required contact-form o_animate_preview o_animate o_anim_fade_in_right" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="crm.lead">
+															<div class="s_website_form_rows row s_col_no_bgcolor">
+																<div class="form-group  s_website_form_field col-12  s_website_form_required" data-type="char" data-name="Field">
+																	<label class="s_website_form_label  d-none" style="width: 200px" for="contactus3_form_name">
+																		<span class="s_website_form_label_content">Your Name</span>
+																		<span class="s_website_form_mark"> *</span>
+																	</label>
+																	
+																		<input type="text" placeholder="Enter Your Name*" class="form-control s_website_form_input" name="contact_name" required="1" id="contactus3_form_name"/>
+																	
+																</div>
+
+																<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="email" data-name="Field">
+																	<label class="s_website_form_label  d-none" style="width: 200px" for="contactus3_form_email">
+																		<span class="s_website_form_label_content">Your Email</span>
+																		<span class="s_website_form_mark"> *</span>
+																	</label>
+																	
+																		<input type="email" placeholder="Enter Your E-mail*" class="form-control s_website_form_input" name="email_from" required="1" id="contactus3_form_email"/>
+																	
+																</div>
+
+																<div class="form-group  s_website_form_field col-12" data-type="tel" data-name="Field">
+																	<label class="s_website_form_label  d-none" style="width: 200px" for="contactus3_form_phone">
+																		<span class="s_website_form_label_content">Phone Number</span>
+																	</label>
+																	
+																		<input type="tel" placeholder="Enter Your Phone Number" class="form-control s_website_form_input" name="phone" id="contactus3_form_phone"/>
+																	
+																</div>
+																
+																
+																<div class="form-group  s_website_form_field col-12  s_website_form_model_required  " data-type="char" data-name="Field">
+																	
+																	<label class="s_website_form_label  d-none" style="width: 200px" for="contactus3_form_subject">
+																		<span class="s_website_form_label_content">Subject</span>
+																		<span class="s_website_form_mark"> *</span>
+																	</label>
+																	
+																		<input type="text" placeholder="Enter Your Subject*" class="form-control s_website_form_input" name="name" required="true" id="contactus3_form_subject"/>
+																</div>
+																<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="text" data-name="Field">
+																	<label class="s_website_form_label  d-none" style="width: 200px" for="contactus3_form_message">
+																		<span class="s_website_form_label_content">Message</span>
+																		<span class="s_website_form_mark"> *</span>
+																	</label>
+																	
+																		<textarea class="form-control s_website_form_input" name="description" placeholder="Enter Your Question*" required="1" id="contactus3_form_message" rows="5"/>
+																</div>
+																<div class="form-group  col-6 s_website_form_submit" data-name="Submit Button">
+																	<a href="#" role="button" class="btn btn-danger-gradient  s_website_form_send o_default_snippet_text"><span class="icofont icofont-paper-plane mr-2" style="font-size: 17px; vertical-align: middle;"/>SUBMIT MESSAGE</a>
+																	<span id="s_website_form_result"/>
+																	
+																</div>
+																<div class="text-right text-white align-self-center col-6">
+																	<i class="fa fa-phone m-r-10"></i>
+																	251 546 9442
+																</div>
+															</div>
+														</form>
+													</div>
+												</section>
+											</div>
+										</div>
+
+										<div class=" col-md-6 right-image p-r-0 ">
+											<img class="img-img-responsive"
+												src="/theme_twelve_bizople/static/src/img/map-icon-6.jpg" />
+
+										</div>
+									</div>
+
+
+							</div>
+						</div>
+					</section>
+
+					<div class="oe_structure"></div>
+				</t>
+			</t>
+		</field>
+	</record>
+
+	<record id="contact_us_three_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/contact-three</field>
+		<field name="view_id" ref="contact_us_three_template" />
+	</record>
+
+
+</odoo>
+

@@ -1,0 +1,67 @@
+$primarycolor: #ff5a6e !default;
+$secondarycolor: #ff6a5c !default;
+$primarygamma: #361e2a !default;
+$ptextcolor: #6a6c72 !default;
+
+
+
+
+
+/* -------------------------- Main Colors ------------------------*/
+
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'base-1': map-merge(map-get($o-color-palettes, 'base-1'), (
+            'o-color-1': $primarycolor,
+            'o-color-2': $secondarycolor,
+            'o-color-3': #ff4272,
+            'o-color-4': #FFFFFF,
+            'o-color-5': #FFFFFF,
+
+            'bg': 'white',
+        )),
+    )
+);
+
+/* -------------------------- Text Colors ------------------------*/
+
+$o-base-gray-color-palette: (
+    'white': #FFFFFF,
+    '100': #F8F9FA,
+    '200': #E9ECEF,
+    '300': #DEE2E6,
+    '400': #CED4DA,
+    '500': #ADB5BD,
+    '600': #6C757D,
+    '700': #999999,
+    '800': #181818,
+    '900': #616161,
+    'black': #000000,
+) !default;
+
+
+$o-base-color-combination: (
+    'bg': 'white',
+    'text': null, // Default to better contrast with the 'bg'
+    'headings': null, // Default to 'text'
+    'h2': null, // Default to 'h(x-1)'
+    'h3': null,
+    'h4': null,
+    'h5': null,
+    'h6': null,
+    'link': null, // Default to BS 'primary' (= first odoo color)
+    'btn-primary': null, // Default to BS 'primary' (= first odoo color)
+    'btn-primary-border': null, // Default to 'btn-primary'
+    'btn-secondary': null, // Default to BS 'secondary' (= second odoo color)
+    'btn-secondary-border': null, // Default to 'btn-secondary'
+)!default;
+
+
+
+
+
+
+
+
+
+

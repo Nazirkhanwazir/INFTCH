@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_homepage_fitness" name="Home Page fitness">
+		<section class="s_homepage_fitness">
+			<div class="oe_structure oe_empty"/>
+			<section id="slider-sec" class="s_fitness_banner slider6">
+				<div id="slider6"
+					class="carousel bs-slider slide  control-round indicators-line"
+					data-ride="carousel" data-pause="hover" data-interval="7000">
+					<ol class="carousel-indicators hide">
+						<li data-target="#slider6" data-slide-to="0" class="active"></li>
+						<li data-target="#slider6" data-slide-to="1" class=""></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active  pt152" style="background-image: url('/theme_twelve_bizople/static/src/img/fitness_banner1.jpg');">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-lg-5"
+										data-animation="animated slideInUp">
+										<div
+											class="bg-danger-gradient-1 slide-content po-relative">
+											<h2 data-animation="animated fadeInLeft"
+												class="title text-white font-bold">Yoga makes it easy for body to be Fit</h2>
+											<p data-animation="animated fadeInLeft" class="m-b-40">Join Our
+												Programm and Be Fit and Live nice &amp; Joyful Life to
+												everyday.
+											</p>
+											<div class="s_btn" data-name="Button">
+												<a class="btn btn-md arrow-btn text-white bizople_button"
+													href="#">
+														Join The Force Now!
+														<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+												</a>
+											</div>
+											<div class="bg-white price-tag text-center">
+												<label class="text-inverse font-14 font-semibold">Yoga Classes</label>
+												<span class="text-danger-1">
+													$49
+													<b class="font-normal font-14">/M</b>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item pt152" style="background-image: url('/theme_twelve_bizople/static/src/img/fitness_banner2.jpg');">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-lg-5 ml-auto">
+										<div class="bg-danger-gradient-1 slide-content"
+											data-animation="animated slideInUp">
+											<h2 data-animation="animated fadeInRight"
+												class="title text-white font-bold">Body Building with Fitness Program</h2>
+											<p data-animation="animated fadeInRight" class="m-b-40">Join Our
+												Programm and Be Fit and Live nice &amp; Joyful Life to
+												everyday.
+											</p>
+											<div class="s_btn" data-name="Button">
+												<a class="btn btn-md arrow-btn text-white bizople_button"
+													href="#">
+														Join The Force Now!
+														<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+												</a>
+											</div>
+											<div class="bg-white price-tag text-center">
+												<label class="text-inverse font-semibold font-14">Yoga Classes</label>
+												<span class="text-danger-1">
+													$49
+													<b class="font-normal font-14">/M</b>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-control">
+							<a class="left carousel-control-prev text-danger-1 font-14"
+								data-target="#slider6" role="button" data-slide="prev">
+								<span class="bg-white text-center fa fa-arrow-left "></span>
+								<b class="sr-only font-normal">Previous</b>
+							</a>
+							<a class="right carousel-control-next text-danger-1 font-14"
+								data-target="#slider6" role="button" data-slide="next">
+								<span class="bg-white text-center fa fa-arrow-right "></span>
+								<b class="sr-only font-normal">Next</b>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_fitness_three_blocks">
+				<div class="spacer feature2">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-7 text-center">
+								<h2 class="title">Popular Fitness Classes</h2>
+								<h6 class="subtitle">You can relay on our amazing features list and
+									also our customer services will be great experience for you
+									without doubt and in no-time
+								</h6>
+							</div>
+						</div>
+						<div class="row m-t-40">
+							<div class="col-md-4 wrap-feature2-box">
+								<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<a href="#">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/fitness1.jpg"
+											alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<div class="d-flex no-block font-14 m-b-20">
+											<span class="text-info">John Doe</span>
+											<span class="ml-auto">6:00 am - 8:00 am</span>
+										</div>
+										<h5 class="font-medium">Kick Boxing Classes</h5>
+										<p class="m-t-20">You can relay on our amazing features list and
+											enjoy it.
+										</p>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4 wrap-feature2-box">
+								<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_x" style="animation-duration: 3s !important;">
+									<a href="#">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/fitness2.jpg"
+											alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<div class="d-flex no-block font-14 m-b-20">
+											<span class="text-info">John Doe</span>
+											<span class="ml-auto">6:00 am - 8:00 am</span>
+										</div>
+										<h5 class="font-medium">Sports Events to Loosen</h5>
+										<p class="m-t-20">You can relay on our amazing features list and
+											enjoy it.
+										</p>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4 wrap-feature2-box">
+								<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<a href="#">
+										<img class="card-img-top"
+											src="/theme_twelve_bizople/static/src/img/fitness3.jpg"
+											alt="bizople kit" />
+									</a>
+									<div class="card-body">
+										<div class="d-flex no-block font-14 m-b-20">
+											<span class="text-info">John Doe</span>
+											<span class="ml-auto">6:00 am - 8:00 am</span>
+										</div>
+										<h5 class="font-medium">Body Building Classes</h5>
+										<p class="m-t-20">You can relay on our amazing features list and
+											enjoy it.
+										</p>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-12 m-t-20 text-center">
+								<a class="btn btn-info-gradient btn-md arrow-btn" href="#">
+										View Other Classes
+										<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_fitness_team_block bg-light-1">
+				<div class=" spacer feature13">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-7 text-center">
+								<h2 class="title">Experienced &amp; Professional Trainers</h2>
+								<h6 class="subtitle">You can relay on our amazing features list and
+									also our customer services will be great experience for you
+									without doubt and in no-time
+								</h6>
+							</div>
+						</div>
+						<div class="row m-t-40">
+							<div class="col-lg-6 wrap-feature13-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_left">
+									<ul class="img-inline">
+										<li class="half-width">
+											<img src="/theme_twelve_bizople/static/src/img/img1_f1.jpg"
+												alt="" class="img-responsive rounded" />
+										</li>
+										<li class="p-20 half-width">
+											<h5 class="font-medium m-t-10">
+												<a href="#" class="linking">Michale Doe </a>
+											</h5>
+											<p class="m-t-20 custom_p">You can relay on our amazing features list and
+												also our customer.
+											</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-lg-6 wrap-feature13-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_right">
+									<ul class="img-inline">
+										<li class="half-width">
+											<img src="/theme_twelve_bizople/static/src/img/img2_f2.jpg"
+												alt="" class="img-responsive rounded" />
+										</li>
+										<li class="p-20 half-width">
+											<h5 class="font-medium m-t-10">
+												<a href="#" class="linking">James Anderson </a>
+											</h5>
+											<p class="m-t-20 custom_p">You can relay on our amazing features list and
+												also our customer.
+											</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-lg-6 wrap-feature13-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_left">
+									<ul class="img-inline">
+										<li class="half-width">
+											<img src="/theme_twelve_bizople/static/src/img/img3_f3.jpg"
+												alt="" class="img-responsive rounded" />
+										</li>
+										<li class="p-20 half-width">
+											<h5 class="font-medium m-t-10">
+												<a href="#" class="linking">Pamela Johnson</a>
+											</h5>
+											<p class="m-t-20 custom_p">You can relay on our amazing features list and
+												also our customer.
+											</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-lg-6 wrap-feature13-box">
+								<section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_right">
+									<ul class="img-inline">
+										<li class="half-width">
+											<img src="/theme_twelve_bizople/static/src/img/img4_f4.jpg"
+												alt="" class="img-responsive rounded" />
+										</li>
+										<li class="p-20 half-width">
+											<h5 class="font-medium m-t-10">
+												<a href="#" class="linking">Angela Cureson </a>
+											</h5>
+											<p class="m-t-20 custom_p">You can relay on our amazing features list and
+												also our customer.
+											</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_fitness_list_with_img">
+				<div class="spacer feature47">
+					<div class="container">
+						<div class="row wrap-feature47-box">
+							<div class="col-md-6 align-self-center">
+								<div class="max-500 m-auto">
+									<h2 class="title font-medium">Our Experience</h2>
+									<h6 class="subtitle">You can relay on our amazing features list and
+										also
+										our customer services will be great experience for you
+										without
+										doubt and in no-time
+									</h6>
+									<ul
+										class="list-block with-underline font-medium m-t-30 m-b-20 text-dark">
+										<li>
+											<span class="fa fa-check-circle-o mr-2 text-danger"></span>
+											<span>Lorem Ipsum is simply dummy text of the </span>
+										</li>
+										<li>
+											<span class="fa fa-check-circle-o mr-2 text-danger"></span>
+											<span>1-Click Staging Environment the printing </span>
+										</li>
+										<li>
+											<span class="fa fa-check-circle-o mr-2 text-danger"></span>
+											<span>Simply dummy text of the printing and industry.
+											</span>
+										</li>
+										<li>
+											<span class="fa fa-check-circle-o mr-2 text-danger"></span>
+											<span>Dummy text of the printing and typesetting industry..
+											</span>
+										</li>
+									</ul>
+									<a
+										class="btn btn-info-gradient btn-md arrow-btn m-t-20 m-b-20"
+										href="#">
+											View more features
+											<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-5 ml-auto">
+								<section class="card card-shadow ao_animate_preview o_animate o_we_selected_image o_anim_flip_in_x" style="animation-duration: 3s !important;">
+									<img class="card-img-top video-img"
+										src="/theme_twelve_bizople/static/src/img/4.jpg" alt="" />
+									<div class="embed-responsive hide embed-responsive-16by9"
+										data-animation="animated fadeIn">
+										<img src="/theme_twelve_bizople/static/src/img/4.jpg" alt=" "
+											class="img img-responsive" />
+									</div>
+									<div class="card-body">
+										<div class="p-20">
+											<h3 class="font-light f-47-line">Lorem Ipsum is simply dumm of the printing
+												and
+												type setting industry. Lorem Ipsum has been
+											</h3>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_fitness_pricing_with_img bg-light-1">
+				<div class="pricing4 spacer ">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-7 text-center">
+								<h2 class="title">Extraordinary Pricing for your Fitness</h2>
+								<h6 class="subtitle">You can relay on our amazing features list and
+									also our customer services will be great experience for you
+									without doubt and in no-time
+								</h6>
+							</div>
+						</div>
+						<div class="row m-t-40">
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<img class="card-img-top"
+										src="/theme_twelve_bizople/static/src/img/img1_f1.jpg" alt="" />
+									<div class="p-30">
+										<h5 class="font-medium m-b-0">Bodu Building Program</h5>
+										<h6 class="subtitle font-13">WITH JOHNATHAN DOE</h6>
+										<ul class="general-listing only-li font-14 m-t-20">
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												6 Days a Week
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Dedicated Trainer Allocated
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Diet Plan Included
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Morning and Evening Batches
+											</li>
+										</ul>
+										<div class="d-flex m-t-30 align-items-center">
+											<h2 class="price">
+												$99
+												<sup>*</sup>
+												<small>/m</small>
+											</h2>
+											<div class="ml-auto">
+												<a class="btn btn-info-gradient" href="#">Choose Plan</a>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_x" style="animation-duration: 3s !important;">
+									<img class="card-img-top"
+										src="/theme_twelve_bizople/static/src/img/img2_f2.jpg" alt="" />
+									<div class="p-30">
+										<h5 class="font-medium m-b-0">Yoga &amp; Pilates Class</h5>
+										<h6 class="subtitle font-13">WITH MICHELLE ANDERSON</h6>
+										<ul class="general-listing only-li font-14 m-t-20">
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												6 Days a Week
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Dedicated Trainer Allocated
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Diet Plan Included
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Morning and Evening Batches
+											</li>
+										</ul>
+										<div class="d-flex m-t-30 align-items-center">
+											<h2 class="price">
+												$69
+												<sup>*</sup>
+												<small>/m</small>
+											</h2>
+											<div class="ml-auto">
+												<a class="btn btn-info-gradient" href="#">Choose Plan</a>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+									<img class="card-img-top"
+										src="/theme_twelve_bizople/static/src/img/img3_f3.jpg" alt="" />
+									<div class="p-30">
+										<h5 class="font-medium m-b-0">Kick Boxing &amp; Karate</h5>
+										<h6 class="subtitle font-13">WITH MATHEW DOE</h6>
+										<ul class="general-listing only-li font-14 m-t-20">
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												6 Days a Week
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Dedicated Trainer Allocated
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Diet Plan Included
+											</li>
+											<li>
+												<span class="fa fa-check-circle text-danger"></span>
+												Morning and Evening Batches
+											</li>
+										</ul>
+										<div class="d-flex m-t-30 align-items-center">
+											<h2 class="price">
+												$79
+												<sup>*</sup>
+												<small>/m</small>
+											</h2>
+											<div class="ml-auto">
+												<a class="btn btn-info-gradient" href="#">Choose Plan</a>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_fitness_testimonial" style="background-image:url(/theme_twelve_bizople/static/src/img/test.jpg)">
+				<div class="testimonial10 spacer">
+					<div class="container">
+
+						<div id="fitness_testimonial123"
+							class="owl-carousel owl-theme testi10 m-t-40 s_carousel_default carousel slide"
+							data-interval="10000">
+							<ol class="carousel-indicators">
+								<li data-target="#fitness_testimonial123" data-slide-to="0"
+									class=""></li>
+								<li data-target="#fitness_testimonial123" data-slide-to="1"
+									class="active"></li>
+								<li data-target="#fitness_testimonial123" data-slide-to="2"
+									class=""></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item" data-name="Slide">
+									<div class="container">
+										<div class="item">
+											<div class="quote-bg">
+												<h3 class="font-light text-white">Bizople has given our websites huge national
+													presence.We are #1 on page one in Google search results
+													for
+													every website we’ve built, and rank for more keywords
+													than I
+													ever expected in a very competitive, high-value
+													customer
+													industry. In addition
+												</h3>
+											</div>
+											<div class="customer-thumb">
+												<img src="/theme_twelve_bizople/static/src/img/2.jpg" alt=""
+													class="circle" />
+											</div>
+											<h6 class="text-white m-b-0 font-medium">Michael Anderson</h6>
+											<span class="text-white">Project client</span>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item oe_img_bg active" data-name="Slide">
+									<div class="container">
+										<div class="item">
+											<div class="quote-bg">
+												<h3 class="font-light text-white">Bizople has given our websites huge national
+													presence.We are #1 on page one in Google search results
+													for
+													every website we’ve built, and rank for more keywords
+													than I
+													ever expected in a very competitive, high-value
+													customer
+													industry. In addition
+												</h3>
+											</div>
+											<div class="customer-thumb">
+												<img src="/theme_twelve_bizople/static/src/img/3.jpg" alt=""
+													class="circle" />
+											</div>
+											<h6 class="text-white m-b-0 font-medium">Michael Anderson</h6>
+											<span class="text-white">Project client</span>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item oe_img_bg " data-name="Slide">
+									<div class="container">
+										<div class="item">
+											<div class="quote-bg">
+												<h3 class="font-light text-white">Bizople has given our websites huge national
+													presence.We are #1 on page one in Google search results
+													for
+													every website we’ve built, and rank for more keywords
+													than I
+													ever expected in a very competitive, high-value
+													customer
+													industry. In addition
+												</h3>
+											</div>
+											<div class="customer-thumb">
+												<img src="/theme_twelve_bizople/static/src/img/1.jpg" alt=""
+													class="circle" />
+											</div>
+											<h6 class="text-white m-b-0 font-medium">Michael Anderson</h6>
+											<span class="text-white">Project client</span>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item oe_img_bg " data-name="Slide">
+									<div class="container">
+										<div class="item">
+											<div class="quote-bg">
+												<h3 class="font-light text-white">Bizople has given our websites huge national
+													presence.We are #1 on page one in Google search results
+													for
+													every website we’ve built, and rank for more keywords
+													than I
+													ever expected in a very competitive, high-value
+													customer
+													industry. In addition
+												</h3>
+											</div>
+											<div class="customer-thumb">
+												<img src="/theme_twelve_bizople/static/src/img/2.jpg" alt=""
+													class="circle" />
+											</div>
+											<h6 class="text-white m-b-0 font-medium">Michael Anderson</h6>
+											<span class="text-white">Project client</span>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item oe_img_bg " data-name="Slide">
+									<div class="container">
+										<div class="item">
+											<div class="quote-bg">
+												<h3 class="font-light text-white">Bizople has given our websites huge national
+													presence.We are #1 on page one in Google search results
+													for
+													every website we’ve built, and rank for more keywords
+													than I
+													ever expected in a very competitive, high-value
+													customer
+													industry. In addition
+												</h3>
+											</div>
+											<div class="customer-thumb">
+												<img src="/theme_twelve_bizople/static/src/img/3.jpg" alt=""
+													class="circle" />
+											</div>
+											<h6 class="text-white m-b-0 font-medium">Michael Anderson</h6>
+											<span class="text-white">Project client</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section
+				class="s_fitness_activities blog-home4 spacer bg-light">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-8 text-center">
+							<h2 class="title">Latest Activities on Fitness</h2>
+							<h6 class="subtitle">You can relay on our amazing features list and
+								also our customer services will be great experience for you
+								without doubt and in no-time
+							</h6>
+						</div>
+					</div>
+					<div class="card-columns m-t-40">
+						<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+							<a href="#">
+									<img class="card-img-top"
+										src="/theme_twelve_bizople/static/src/img/fitness1.jpg" alt="" />
+								</a>
+								<div class="p-30">
+									<div class="d-flex no-block font-13">
+										<span class="">OCT 17, 2017</span>
+										<a href="#" class="link ml-auto">MARK SANDERS</a>
+									</div>
+									<h5 class="font-medium m-t-20">
+										<a href="#" class="link">Digital Marketing becomes very Essential
+											for any site
+										</a>
+									</h5>
+									<p class="m-t-20 m-b-20 custom_p">In the broadest sense, is the natural, physical,
+										or
+										material world or...
+									</p>
+									<div class="d-flex no-block font-13">
+										<a href="#" class="text-info-1 font-medium text-uppercase">image, entertainment</a>
+										<a href="#" class="ml-auto link">
+											<span class="fa fa-comments-o font-20 vm"></span>
+											5
+										</a>
+									</div>
+								</div>
+						</section>
+						<section
+							class="card card-shadow text-white bg-danger-gradient o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+							<div class="p-30">
+								<div class="d-flex no-block font-13">
+									<span class="">
+										<span class="fa fa-twitter"></span>
+										Twitter feed
+									</span>
+									<a href="#" class="white-link ml-auto text-white">@bizoples</a>
+								</div>
+								<div class="tweet">
+									<h3 class="font-light m-t-40 m-b-40 card-title text-white">
+										Check out new post on my blog #natureshot
+										<a href="#" class="">http://bit.ly/blog</a>
+									</h3>
+									<p class="text-center font-14 op-8">1 DAY AGO</p>
+								</div>
+							</div>
+						</section>
+						<section
+							class="card card-shadow text-white bg-info-gradient o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+							<div class="p-30">
+									<div class="d-flex no-block font-13">
+										<span class="">OCT 17, 2017</span>
+										<a href="#" class="ml-auto white-link text-white">MARK SANDERS</a>
+									</div>
+									<p class="m-t-30 m-b-20 text-center" style="font-size:1rem;">If everybody
+										learns this simple art of loving his
+										work, whatever it is,
+										enjoying it without asking for any
+										recognition.
+									</p>
+									<p class="text-center font-14 op-8">MIKE HANS</p>
+									<div class="d-flex no-block font-13">
+										<a href="#" class="text-white text-uppercase op-7">music, entertainment</a>
+										<a href="#" class="ml-auto link text-white op-7">
+											<span class="fa fa-comments-o vm"></span>
+											5
+										</a>
+									</div>
+								</div>
+						</section>
+						<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_x" style="animation-duration: 3s !important;">
+							<a href="#">
+									<img class="card-img-top"
+										src="/theme_twelve_bizople/static/src/img/2_f1.jpg" alt="" />
+								</a>
+								<div class="p-30">
+									<div class="d-flex no-block font-13">
+										<span class="">OCT 17, 2017</span>
+										<a href="#" class="link ml-auto">MARK SANDERS</a>
+									</div>
+									<h5 class="font-medium m-t-20">
+										<a href="#" class="link">Digital Marketing becomes very Essential
+											for any site
+										</a>
+									</h5>
+									<p class="m-t-20 m-b-20 custom_p">In the broadest sense, is the natural, physical,
+										or
+										material world or...
+									</p>
+									<div class="d-flex no-block font-13">
+										<a href="#" class="text-info-1 font-medium text-uppercase">image, entertainment</a>
+										<a href="#" class="ml-auto link">
+											<span class="fa fa fa-comments-o font-20 vm"></span>
+											5
+										</a>
+									</div>
+								</div>
+						</section>
+						<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+
+							<img class="card-img-top"
+									src="/theme_twelve_bizople/static/src/img/4.jpg" alt="" />
+								<div class="p-30">
+									<div class="d-flex no-block font-13">
+										<span class="">OCT 17, 2017</span>
+										<a href="#" class="link ml-auto">MARK SANDERS</a>
+									</div>
+									<h5 class="font-medium m-t-20">
+										<a href="#" class="link">Digital Marketing becomes very Essential
+											for any site
+										</a>
+									</h5>
+									<p class="m-t-20 m-b-20 custom_p">In the broadest sense, is the natural, physical,
+										or
+										material world or...
+									</p>
+									<div class="d-flex no-block font-13">
+										<a href="#" class="text-info-1 font-medium text-uppercase">image, entertainment</a>
+										<a href="#" class="ml-auto link">
+											<span class="fa fa fa-comments-o font-20 vm"></span>
+											5
+										</a>
+									</div>
+								</div>
+						</section>
+						<section class="card card-shadow o_animate_preview o_animate o_we_selected_image o_anim_flip_in_y" style="animation-duration: 3s !important;">
+							<div class="p-30">
+									<div class="d-flex no-block font-13">
+										<span class="">OCT 17, 2017</span>
+										<a href="#" class="link ml-auto">MARK SANDERS</a>
+									</div>
+									<h5 class="font-medium m-t-20">
+										<a href="#" class="link">Nature, in the broadest sense, is the
+											natural, physical, or material world or universe.
+										</a>
+									</h5>
+									<p class="m-t-20 m-b-20 custom_p">In the broadest sense, is the natural, physical,
+										or
+										material world or...
+									</p>
+									<div class="d-flex no-block font-13">
+										<a href="#" class="text-info-1 font-medium text-uppercase">image, entertainment</a>
+										<a href="#" class="ml-auto link">
+											<span class="fa fa fa-comments-o font-20 vm"></span>
+											5
+										</a>
+									</div>
+								</div>
+						</section>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+			<section class="s_fitness_form_with_img">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="modal-bg p-40">
+								<h2 class="font-light m-b-0">The goodness of</h2>
+								<h1 class="font-light">Yoga &amp; Meditation</h1>
+								<h6 class="subtitle m-t-20">
+									Lorem ipsum dolor sit amet, constetr
+									adipiscing
+									elit.
+								</h6>
+									<section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+										<div class="container">
+										
+											<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required contact-form o_animate_preview o_animate o_anim_fade_in_right" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="crm.lead">
+												<div class="s_website_form_rows row s_col_no_bgcolor">
+													<div class="form-group  s_website_form_field col-12  s_website_form_required" data-type="char" data-name="Field">
+														<label class="s_website_form_label  d-none" style="width: 200px" for="s_fitness_home_contactus6_form_name">
+															<span class="s_website_form_label_content">Your Name</span>
+															<span class="s_website_form_mark"> *</span>
+														</label>
+														
+															<input type="text" placeholder="Enter Your Name*" class="form-control s_website_form_input" name="contact_name" required="1" id="s_fitness_home_contactus6_form_name"/>
+														
+													</div>
+
+													<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="email" data-name="Field">
+														<label class="s_website_form_label  d-none" style="width: 200px" for="s_fitness_home_contactus6_form_email">
+															<span class="s_website_form_label_content">Your Email</span>
+															<span class="s_website_form_mark"> *</span>
+														</label>
+														
+															<input type="email" placeholder="Enter Your E-mail*" class="form-control s_website_form_input" name="email_from" required="1" id="s_fitness_home_contactus6_form_email"/>
+														
+													</div>
+
+													<div class="form-group  s_website_form_field col-12" data-type="tel" data-name="Field">
+														<label class="s_website_form_label  d-none" style="width: 200px" for="s_fitness_home_contactus6_form_phone">
+															<span class="s_website_form_label_content">Phone Number</span>
+														</label>
+														
+															<input type="tel" placeholder="Enter Your Phone Number" class="form-control s_website_form_input" name="phone" id="s_fitness_home_contactus6_form_phone"/>
+														
+													</div>
+													
+													
+													<div class="form-group  s_website_form_field col-12  s_website_form_model_required  " data-type="char" data-name="Field">
+														
+														<label class="s_website_form_label  d-none" style="width: 200px" for="s_fitness_home_contactus6_form_subject">
+															<span class="s_website_form_label_content">Subject</span>
+															<span class="s_website_form_mark"> *</span>
+														</label>
+														
+															<input type="text" placeholder="Enter Your Subject*" class="form-control s_website_form_input" name="name" required="true" id="s_fitness_home_contactus6_form_subject"/>
+													</div>
+													<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="text" data-name="Field">
+														<label class="s_website_form_label  d-none" style="width: 200px" for="s_fitness_home_contactus6_form_message">
+															<span class="s_website_form_label_content">Message</span>
+															<span class="s_website_form_mark"> *</span>
+														</label>
+														
+															<textarea class="form-control s_website_form_input" name="description" placeholder="Enter Your Question*" required="1" id="s_fitness_home_contactus6_form_message" rows="5"/>
+													</div>
+													<div class="form-group  col-6 s_website_form_submit" data-name="Submit Button">														
+														<a type="submit" href="#"
+															class="s_website_form_send btn btn-danger-gradient text-white btn-md rounded-circle o_default_snippet_text  arrow-btn">
+																Register
+																<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></i>
+														</a>
+														<span id="s_website_form_result"/>
+													</div>
+													
+												</div>
+											</form>
+										</div>
+									</section>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<section class="modal-bg-img h-100" style="background-image: url('/theme_twelve_bizople/static/src/img/fitness_img1.jpg');">
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+		</section>
+	</template>
+</odoo>

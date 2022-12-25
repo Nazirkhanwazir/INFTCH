@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_contact_us_one_page_bg_map"
+		name="Contact us One">
+		<section id="contact"
+			class="s_contact_us_one_page_bg_map mb128 footer1"
+			style="background-image:url(/theme_twelve_bizople/static/src/img/map.jpg)">
+			<div class="container">
+				<div class="row contact-container">
+					<div class="col-lg-12">
+						<div class="card card-shadow o_animate_preview o_animate o_anim_fade_in_up" style="animation-duration: 3s !important;">
+							<div class="row">
+								<div class="col-lg-8">
+									<div class="contact-box p-40">
+										<h3 class="title font-bold">Contact Us</h3>
+										<section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+											<div class="container">
+											
+												<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required contact-form o_animate_preview o_animate o_anim_fade_in_right" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="crm.lead">
+													<div class="s_website_form_rows row s_col_no_bgcolor">
+														<div class="form-group  s_website_form_field col-lg-6  s_website_form_required" data-type="char" data-name="Field">
+															<label class="s_website_form_label  " style="width: 200px" for="snippet_one_page_contactus4_form_name">
+																<span class="s_website_form_label_content">Your Name</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="text" placeholder="Enter Your Name*" class="form-control s_website_form_input" name="contact_name" required="1" id="snippet_one_page_contactus4_form_name"/>
+															
+														</div>
+
+														<div class="form-group  s_website_form_field  col-lg-6  s_website_form_required  " data-type="email" data-name="Field">
+															<label class="s_website_form_label  " style="width: 200px" for="snippet_one_page_contactus4_form_email">
+																<span class="s_website_form_label_content">Your Email</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="email" placeholder="Enter Your E-mail*" class="form-control s_website_form_input" name="email_from" required="1" id="snippet_one_page_contactus4_form_email"/>
+															
+														</div>
+
+														<div class="form-group  s_website_form_field  col-lg-6" data-type="tel" data-name="Field">
+															<label class="s_website_form_label  " style="width: 200px" for="snippet_one_page_contactus4_form_phone">
+																<span class="s_website_form_label_content">Phone Number</span>
+															</label>
+															
+																<input type="tel" placeholder="Enter Your Phone Number" class="form-control s_website_form_input" name="phone" id="snippet_one_page_contactus4_form_phone"/>
+															
+														</div>
+														
+														
+														<div class="form-group  s_website_form_field col-lg-6  s_website_form_model_required  " data-type="char" data-name="Field">
+															
+															<label class="s_website_form_label  " style="width: 200px" for="snippet_one_page_contactus4_form_subject">
+																<span class="s_website_form_label_content">Subject</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<input type="text" placeholder="Enter Your Subject*" class="form-control s_website_form_input" name="name" required="true" id="snippet_one_page_contactus4_form_subject"/>
+														</div>
+														<div class="form-group  s_website_form_field col-12  s_website_form_required  " data-type="text" data-name="Field">
+															<label class="s_website_form_label  " style="width: 200px" for="snippet_one_page_contactus4_form_message">
+																<span class="s_website_form_label_content">Message</span>
+																<span class="s_website_form_mark"> *</span>
+															</label>
+															
+																<textarea class="form-control s_website_form_input" name="description" placeholder="Enter Your Question*" required="1" id="snippet_one_page_contactus4_form_message" rows="5"/>
+														</div>
+														<div class="form-group  col-6 s_website_form_submit" data-name="Submit Button">
+															<a href="#" role="button" class="btn btn-danger-gradient  s_website_form_send o_default_snippet_text"><span class="icofont icofont-paper-plane mr-2" style="font-size: 17px; vertical-align: middle;"/>SUBMIT MESSAGE</a>
+															<span id="s_website_form_result"/>
+															
+														</div>
+														
+													</div>
+												</form>
+											</div>
+										</section>
+									</div>
+								</div>
+								<section class="col-lg-4 bg-image"
+									style="background-image:url(/theme_twelve_bizople/static/src/img/footer-bg.jpg)">
+									<div class="detail-box">
+										<h5 class="text-white font-light m-b-30">ADDRESS</h5>
+										<p class="text-white op-7">
+											A-405 Pushp Business Campus
+											<br />
+											Ahmedabad
+										</p>
+										<h5 class="text-white font-light m-b-30 m-t-40">CALL US</h5>
+										<p class="text-white op-7">
+											451 876 3642
+											<br />
+											549 457 8541
+										</p>
+										<div class="s_share" data-name="Share">
+					                        <a href="https://www.facebook.com/sharer/sharer.php?u={url}" target="_blank" class="s_share_facebook ">
+					                          	<span class="fa fa-1x fa-facebook rounded shadow-sm"/>
+					                        </a>
+					                        <a href="https://twitter.com/intent/tweet?text={title}&amp;url={url}" target="_blank" class="s_share_twitter ">
+					                          	<span class="fa fa-1x fa-twitter rounded shadow-sm"/>
+					                        </a>
+					                        <a href="mailto:?body={url}&amp;subject={title}" class="s_share_email ">
+					                          	<span class="fa fa-1x fa-envelope rounded shadow-sm"/>
+					                        </a>
+				                      	</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

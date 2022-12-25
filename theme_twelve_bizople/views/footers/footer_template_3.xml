@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="website_multi_footer_three"
+		inherit_id="website.layout" name="Footer Three" active="False">
+		<xpath expr="//div[@id='footer']" position="replace">
+			<div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+				<section id="footer_three" class="footer_three ">
+					<div class="footer1 font-14">
+						<div class="f1-middle">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-3 col-md-6">
+										<a href="#" >
+											<img
+												src="/theme_twelve_bizople/static/src/img/png/twelve_logo_with_name_green_text.png"
+												alt="" class="mt16"/>
+										</a>
+										<p class="m-t-20 custom_p">You can relay on our amazing features list
+											and also
+											our customer services will be great experience.
+										</p>
+										<p class="custom_p">our amazing features list and also our
+											customer
+											services is
+											great.
+										</p>
+										<div class="language-selector mt32">
+				                       		<ul class="js_language_selector mb0 list-inline" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
+										        <li class="d-inline-block">
+										            <div class="dropdown">
+										                <button class="btn btn-sm btn-primary gradient-btn btn btn-danger-gradient  dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									                     	<span class="lang_local_code text-uppercase" t-out="list(filter(lambda lg : lg[0] == lang, languages))[0][1]"/>
+										                    <span class="caret ml4"/>
+										                </button>
+										                <div class="dropdown-menu" role="menu">
+										                    <t t-foreach="languages" t-as="lg">
+										                        <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+										                           class="dropdown-item js_change_lang"
+										                           t-att-data-url_code="lg[1]">
+										                            <t t-out="lg[2].split('/').pop()"/>
+										                        </a>
+										                    </t>
+										                </div>
+										            </div>
+										        </li>
+										    </ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="d-flex no-block m-b-10 m-t-20">
+											<div class="display-7 m-r-20 align-self-top">
+												<i class="lnr lnr-map-marker"></i>
+											</div>
+											<div class="info">
+												<span class="font-medium text-dark-1 db m-t-5">
+													<span t-field="res_company.name" />
+													Head Office
+												</span>
+												<br />
+												<p>
+													<span t-field="res_company.street"></span>
+													,
+													<br />
+													<span t-field="res_company.city"></span>
+													,
+													<span t-field="res_company.zip"></span>
+													,
+													<br />
+													<span t-field="res_company.country_id.name"></span>
+												</p>
+											</div>
+										</div>
+										<div class="d-flex no-block m-b-10">
+											<div class="display-7 m-r-20 align-self-top">
+												<i class="lnr lnr-phone-handset"></i>
+											</div>
+											<div class="info">
+												<span class="font-medium text-dark-1 db  m-t-5"
+													t-if="res_company.phone" t-field="res_company.phone"></span>
+											</div>
+										</div>
+										<div class="d-flex no-block m-b-30">
+											<div class="display-7 m-r-20 align-self-top">
+												<i class="lnr lnr-envelope"></i>
+											</div>
+											<div class="info">
+												<a href="#" class="font-medium text-dark-1 db  m-t-5">
+													<span t-field="res_company.email"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12 m-t-5">
+										<h6 class="font-medium m-t-20">Services we Offer</h6>
+										<ul class="general-listing two-part with-arrow m-t-10">
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													Website Design
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													Application Development
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													Mobile Development
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													Search Engine Optimzation
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													Digital Marketing
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													Website Development
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													eBook Writing
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													SaaS base Applications
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													Odoo Development
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i class="fa fa-angle-right"></i>
+													Python Development
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="f1-bottom-bar">
+							<div class="container">
+								<div class="d-flex">
+									<div class="m-t-10 m-b-10 text-inverse font-medium">
+										© All Rights Reserved by
+										<span t-field="res_company.name" />
+										.
+									</div>
+									<div class="links ml-auto m-t-10 m-b-10">
+										<a class="link p-10" t-att-href="website.social_facebook"
+											t-if="website.social_facebook" target="_blank">
+											<i class="fa fa-facebook" />
+										</a>
+										<a class="link p-10" t-att-href="website.social_twitter"
+											t-if="website.social_twitter" target="_blank">
+											<i class="fa fa-twitter" />
+										</a>
+										<a class="link p-10" t-att-href="website.social_youtube"
+											t-if="website.social_youtube" target="_blank">
+											<i class="fa fa-youtube-play" />
+										</a>
+										<a class="link p-10" t-att-href="website.social_instagram"
+											t-if="website.social_instagram" target="_blank">
+											<i class="fa fa-instagram"></i>
+										</a>
+										<a class="link" t-att-href="website.social_linkedin"
+											t-if="website.social_linkedin" target="_blank">
+											<i class="fa fa-linkedin" />
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</xpath>
+	</template>
+</odoo>

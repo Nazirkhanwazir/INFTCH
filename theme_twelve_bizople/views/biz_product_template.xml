@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+	<template id="product_buy_now_inherit" inherit_id="website_sale.product_buy_now">
+        <xpath expr="//a[hasclass('o_we_buy_now')]" position="replace">
+            <a role="button" class="mt-2 btn btn-lg btn-outline-primary px-5 font-weight-bold o_we_buy_now" href="#"><i class="fa fa-bolt mr-2"/>BUY NOW</a>
+        </xpath>
+    </template>
+</odoo>

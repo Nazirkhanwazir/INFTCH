@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="web_agency_template" model="ir.ui.view">
+		<field name="name">Web Agency Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.web_agency</field>
+		<field name="arch" type="xml">
+			<t name="Web Agency Template" t-name="web_agency_template">
+				<t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section id="slider-sec" class="web_agency_banner slider4" data-name="Home Banner Eight">
+        <div id="myCarousel1580990209580" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel1580990209580" data-slide-to="0" class="active"/>
+            <li data-target="#myCarousel1580990209580" data-slide-to="1"/>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="">
+              <img src="/theme_twelve_bizople/static/src/img/web_banner2.jpg" alt="We are Digital Agency" class="slide-image"/>
+              <div class="slide-text slide_style_left">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-9 col-lg-6">
+                      <h1 data-animation="animated fadeInLeft" class="title font-bold m-0 p-b-40 o_default_snippet_text">Build Your Stunning Website in Record
+											Time with Ease
+										</h1>
+                      <p class="custom_p o_default_snippet_text">You can make great websites for your Clients
+											&amp;amp;
+											Personal use in no-time with creative.
+										</p>
+                      <div>
+                        <a class="btn btn-danger-gradient btn-rounded rounded-circle btn-md arrow-btn o_default_snippet_text" data-animation="animated fadeInLeft" href="#">
+													DOWNLOAD NOW
+													<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"/>
+											</a>
+                        <a class="btn btn-outline-inverse btn-rounded rounded-circle btn-md arrow-btn m-l-20 o_default_snippet_text" data-animation="animated fadeInLeft" href="#">
+													CHECK FEATURES
+													<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"/>
+											</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" style="">
+              <img src="/theme_twelve_bizople/static/src/img/web_banner1.jpg" alt="Building Magical Apps" class="slide-image"/>
+              <div class="slide-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-9 col-lg-6">
+                      <h1 data-animation="animated fadeInLeft" class="title font-bold m-0 p-b-40 o_default_snippet_text">Build Your Stunning Website in Record
+											Time with Ease
+										</h1>
+                      <p class="custom_p o_default_snippet_text">You can make great websites for your Clients
+											&amp;amp;
+											Personal use in no-time with creative.
+										</p>
+                      <div>
+                        <a class="btn btn-danger-gradient btn-rounded rounded-circle btn-md arrow-btn o_default_snippet_text" data-animation="animated fadeInLeft" href="#">
+													DOWNLOAD NOW
+													<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"/>
+											</a>
+                        <a class="btn btn-outline-inverse btn-rounded rounded-circle btn-md arrow-btn m-l-20 o_default_snippet_text" data-animation="animated fadeInLeft" href="#">
+													CHECK FEATURES
+													<i class="fa fa-1x fa-fw fa-long-arrow-right ml-1"/>
+											</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-control">
+              <a class="left carousel-control-prev text-white font-14" href="#slider_web_agency" role="button" data-slide="prev">
+                <span class="lnr lnr-arrow-left"/>
+                <b class="sr-only font-normal o_default_snippet_text">Previous</b>
+              </a>
+              <a class="right carousel-control-next text-white font-14" href="#slider_web_agency" role="button" data-slide="next">
+                <span class="lnr lnr-arrow-right"/>
+                <b class="sr-only font-normal o_default_snippet_text">Next</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_web_agency_three_blocks">
+        <div class="spacer feature1">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 wrap-feature1-box">
+                <section class="card o_animate_preview o_animate o_anim_fade_in_left">
+                  <div class="card-body text-center">
+                    <div class="icon-space">
+                      <span class="display-5 fa fa-id-card"></span>
+                    </div>
+                    <h5 class="font-medium">Retargeting Marketttt</h5>
+                    <p class="m-t-20 custom_p">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-4 wrap-feature1-box">
+                <section class="card o_animate_preview o_animate o_anim_fade_in_up">
+                  <div class="card-body text-center">
+                    <div class="icon-space">
+                      <span class="display-5 fa fa-bar-chart"></span>
+                    </div>
+                    <h5 class="font-medium">Fruitful Results</h5>
+                    <p class="m-t-20 custom_p">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-4 wrap-feature1-box">
+                <section class="card o_animate_preview o_animate o_anim_fade_in_right">
+                  <div class="card-body text-center">
+                    <div class="icon-space">
+                      <span class="display-5 fa fa-desktop"></span>
+                    </div>
+                    <h5 class="font-medium">Instant Solutions</h5>
+                    <p class="m-t-20 custom_p">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_web_agency_img_text bg-light-1">
+        <div class="spacer  feature26">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 align-self-center">
+                <h2 class="title m-t-0">We have covered everything for you get desire
+                  results with us
+                </h2>
+                <p class="m-t-30 custom_p">You can relay on our amazing features list and also
+                  our customer services will be great experience for you
+                  without doubt and in no-time and with great quality.
+                </p>
+                <div class="row">
+                  <div class="col-md-6 m-t-40">
+                    <span class="fa fa-laptop display-5"></span>
+                    <h5 class="font-medium m-t-20 m-b-20">Your complete website in just few minutes</h5>
+                    <p class="custom_p">You can relay on our amazing features list and also
+                      our
+                      customer services will be great experience have.
+                    </p>
+                    <a class="linking font-medium" 
+                      href="#">
+                      Lets Talk!
+                      <span class="fa fa-long-arrow-right  text-success"></span>
+                    </a>
+                  </div>
+                  <div class="col-md-6  m-t-40">
+                    <span class="fa fa-rocket display-5"></span>
+                    <h5 class="font-medium m-t-20 m-b-20">Get Powerful Results with Bizople</h5>
+                    <p class="custom_p">You can relay on our amazing features list and also
+                      our
+                      customer services will be great experience have.
+                    </p>
+                    <a class="linking font-medium" 
+                      href="#">
+                      Lets Talk!
+                      <span class="fa fa-long-arrow-right  text-success"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 text-center o_animate_preview o_animate o_anim_fade_in_up" tyle="animation-duration: 5s !important;">
+                <img src="/theme_twelve_bizople/static/src/img/fe27.png"
+                  class="img-fluid" alt="bizople" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_web_agency_center_img_text" data-name="Center image with counter">
+        <div class="spacer feature24 ">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-12 text-center m-b-40">
+                <img src="/theme_twelve_bizople/static/src/img/services_1.jpg" alt="bizople" class="img-fluid"/>
+              </div>
+              <div class="col-md-7 text-center">
+                <h2 class="title o_default_snippet_text">Services you can Relay Upon</h2>
+                <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+								also our customer services will be great experience for you
+								without doubt and in no-time
+							</h6>
+              </div>
+            </div>
+            <div class="row m-t-30 p-t-30 client-box">
+              <div class="col-lg-3 col-md-6">
+                <div class="d-flex no-block">
+                  <div class="display-5">
+                    <i class="icon-emo-sunglasses"/>
+                  </div>
+                  <div class="m-l-20 counter-box">
+                    <h1 class="font-light counter m-b-0 o_default_snippet_text">5000</h1>
+                    <h6 class="text-muted font-13 text-uppercase o_default_snippet_text">Happy Clients</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="d-flex no-block">
+                  <div class="display-5">
+                    <i class="fa fa-cutlery"/>
+                  </div>
+                  <div class="m-l-20 counter-box">
+                    <h1 class="font-light counter m-b-0 o_default_snippet_text">2300</h1>
+                    <h6 class="text-muted font-13 text-uppercase o_default_snippet_text">Cups of Coffe</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="d-flex no-block">
+                  <div class="display-5">
+                    <i class="fa fa-users"/>
+                  </div>
+                  <div class="m-l-20 counter-box">
+                    <h1 class="font-light counter m-b-0 o_default_snippet_text">200</h1>
+                    <h6 class="text-muted font-13 text-uppercase o_default_snippet_text">Dedicated staff</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="d-flex no-block">
+                  <div class="display-5">
+                    <i class="fa fa-gift"/>
+                  </div>
+                  <div class="m-l-20 counter-box">
+                    <h1 class="font-light counter m-b-0 o_default_snippet_text">20</h1>
+                    <h6 class="text-muted font-13 text-uppercase o_default_snippet_text">Awards won</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     <section
+        class="s_web_agency_images_with_center_para bg-light-1">
+        <div class="spacer ">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <h2 class="title">Our Recent Web Project</h2>
+                <h6 class="subtitle">You can relay on our amazing features list and
+                  also our customer services will be great experience for you
+                  without doubt and in no-time
+                </h6>
+              </div>
+            </div>
+            <div class="row m-t-40">
+              <div class="col-md-4">
+                <section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                  <a href="#" class="img-ho">
+                    <img class="card-img-top"
+                      src="/theme_twelve_bizople/static/src/img/c1.jpg" alt="bizople kit" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="font-medium m-b-0">Branding for Theme Designer</h5>
+                    <p class="m-b-0 font-14">Digital Marketing</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-4">
+                <section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+                  <a href="#" class="img-ho">
+                    <img class="card-img-top"
+                      src="/theme_twelve_bizople/static/src/img/c2.jpg" alt="bizople kit" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="font-medium m-b-0">Button Designs Free</h5>
+                    <p class="m-b-0 font-14">Search Engine</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-4">
+                <section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                  <a href="#" class="img-ho">
+                    <img class="card-img-top"
+                      src="/theme_twelve_bizople/static/src/img/c3.jpg" alt="bizople kit" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="font-medium m-b-0">Branding &amp; Co Agency</h5>
+                    <p class="m-b-0 font-14">Admin templates</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-4">
+                <section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                  <a href="#" class="img-ho">
+                    <img class="card-img-top"
+                      src="/theme_twelve_bizople/static/src/img/c4.jpg" alt="bizople kit" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="font-medium m-b-0">Zukandre Phoniex</h5>
+                    <p class="m-b-0 font-14">Branding</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-4">
+                <section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+                  <a href="#" class="img-ho">
+                    <img class="card-img-top"
+                      src="/theme_twelve_bizople/static/src/img/c5.jpg" alt="bizople kit" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="font-medium m-b-0">Sionage Mokcup</h5>
+                    <p class="m-b-0 font-14">Wll Mockup</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-4">
+                <section class="card card-shadow o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                  <a href="#" class="img-ho">
+                    <img class="card-img-top"
+                      src="/theme_twelve_bizople/static/src/img/c6.jpg" alt="bizople kit" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="font-medium m-b-0">Hard Cover Book Mock</h5>
+                    <p class="m-b-0 font-14">Book Covers</p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_web_agency_video_with_three_block_image  bg-success-gradient">
+        <div class="spacer feature29 p-b-0">
+          <div class="container wrap-feature-29">
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <h2 class="title">Seo Techniques Off / On Page</h2>
+                <h6 class="subtitle">Effective search engine optimisation requires
+                  experience and expertise.
+                </h6>
+                <a href="https://www.youtube.com/embed/Ug6D1K_yr4s" data-toggle="modal" target="_blank"
+                  class="btn btn-outline-light btn-rounded rounded-circle m-t-20">
+                  Watch video
+                  <span class="btn-devider">
+                    <span class="fa fa-play"></span>
+                  </span>
+                </a>
+                
+              </div>
+            </div>
+            <div class="row wrap-feature-29 text-white">
+              <div class="col-lg-4 text-center">
+                <span class="fa fa-laptop display-5"></span>
+                <h5 class="title">Off Page Seo</h5>
+                <p>Off-Page SEO includes not only link building but also
+                  social media promotion, bookmarking, etc.
+                </p>
+              </div>
+              <div class="col-lg-4 text-center o_animate_preview o_animate o_anim_fade_in_up" tyle="animation-duration: 5s !important;">
+                <img src="/theme_twelve_bizople/static/src/img/f29.png"
+                  class="img-responsive" alt="bizople" />
+              </div>
+              <div class="col-lg-4 text-center m-b-30">
+                <span class="fa fa-id-card display-5"></span>
+                <h5 class="title">On Page Seo</h5>
+                <p>Off-Page SEO includes not only link building but also
+                  social media promotion, bookmarking, etc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_estate_logo_partners pt0" data-name="Partners with logos and paragraph">
+        <div class="spacer bg-light-1 feature14">
+          <div class="container">
+            <div class="client2">
+              <div class="container">
+                <div class="row client-box text-center">
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c1.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c2.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c3.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c4.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c5.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c6.png" alt="bizople"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_web_agency_tesimonial bg-light-1" data-name="Testimonial Fourteen">
+        <div class="testimonial2  pt40">
+          <div class="container">
+            <div class="heading">
+					</div>
+            <div id="myCarousel1580990430674" class="owl-carousel owl-theme testi2 m-t-40 carousel slide s_carousel_default" data-interval="5000">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel1580990430674" data-slide-to="0" class="active"/>
+                <li data-target="#myCarousel1580990430674" data-slide-to="1"/>
+                <li data-target="#myCarousel1580990430674" data-slide-to="2"/>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-name="Slide" style="">
+                  <div class="container">
+                    <div class="item">
+                      <div class="item">
+                        <div class="row po-relative">
+                          <div class="col-lg-6 col-md-6 align-self-center">
+                            <button class="btn btn-circle btn-danger btn-md">
+                              <i class="fa fa-quote-left"/>
+                            </button>
+                            <h3 class="m-t-20 m-b-20 o_default_snippet_text">Customer Reviews</h3>
+                            <p class="custom_p o_default_snippet_text">
+														Lorem ipsum dolor sit amet, consectetur
+														adipisicing elit,
+														sed do eiusmod tempor incididunt ut
+														labore et dolore
+														magna aliqua. Ut enim ad minim veniam,
+														quis nostrud
+														exercitation ullamco laboris nisi ut
+														aliquip ex ea
+														commodo consequat.
+													</p>
+                            <h5 class="m-t-30 o_default_snippet_text">Simon Duo</h5>
+                            <h6 class="subtitle o_default_snippet_text">Partner, Brevin</h6>
+                          </div>
+                          <div class="col-lg-6 col-md-6 image-thumb hidden-md-down">
+                            <img src="/theme_twelve_bizople/static/src/img/1.jpg" alt=" " class="circle img-fluid"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide" style="">
+                  <div class="container">
+                    <div class="item">
+                      <div class="row po-relative">
+                        <div class="col-lg-6 col-md-6 align-self-center">
+                          <button class="btn btn-circle btn-danger btn-md">
+                            <i class="fa fa-quote-left"/>
+                          </button>
+                          <h3 class="m-t-20 m-b-20 o_default_snippet_text">Customer Reviews</h3>
+                          <p class="custom_p o_default_snippet_text">
+													Lorem ipsum dolor sit amet, consectetur
+													adipisicing
+													elit,
+													sed
+													do
+													eiusmod tempor incididunt ut labore
+													et dolore
+													magna
+													aliqua.
+													Ut enim ad minim veniam, quis
+													nostrud
+													exercitation
+													ullamco
+													laboris nisi ut aliquip ex ea
+													commodo
+													consequat.
+												</p>
+                          <h5 class="m-t-30 o_default_snippet_text">Simon Duo</h5>
+                          <h6 class="subtitle o_default_snippet_text">Partner, Brevin</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 image-thumb hidden-sm-down">
+                          <img src="/theme_twelve_bizople/static/src/img/test1.png" alt=" " class="circle img-fluid"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg pb80" data-name="Slide" style="">
+                  <div class="container">
+                    <div class="item">
+                      <div class="row po-relative">
+                        <div class="col-lg-6 col-md-6 align-self-center">
+                          <button class="btn btn-circle btn-danger btn-md">
+                            <i class="fa fa-quote-left"/>
+                          </button>
+                          <h3 class="m-t-20 m-b-20 o_default_snippet_text">Customer Reviews</h3>
+                          <p class="custom_p o_default_snippet_text">
+													Lorem ipsum dolor sit amet, consectetur
+													adipisicing
+													elit,
+													sed
+													do
+													eiusmod tempor incididunt ut labore
+													et dolore
+													magna
+													aliqua.
+													Ut enim ad minim veniam, quis
+													nostrud
+													exercitation
+													ullamco
+													laboris nisi ut aliquip ex ea
+													commodo
+													consequat.
+												</p>
+                          <h5 class="m-t-30 o_default_snippet_text">Simon Duo</h5>
+                          <h6 class="subtitle o_default_snippet_text">Partner, Brevin</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 image-thumb hidden-sm-down">
+                          <img src="/theme_twelve_bizople/static/src/img/3.jpg" alt=" " class="circle img-fluid"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_blog_posts_big_picture" data-name="Latest Posts - Big Images">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="title o_default_snippet_text">Latest Posts</h2>
+              <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+								also
+								our customer services will be great experience for you
+								without
+								doubt and in no-time
+							</h6>
+            </div>
+          </div>
+          <div class="row js_get_posts" data-loading="true" data-template="website_blog.dynamic_filter_template_blog_post_list"/>
+        </div>
+      </section>
+      <section class="s_mini_appoinment_six bg-info c2a9" style="background-image:url(/theme_twelve_bizople/static/src/img/mini_apt_bg1.jpg)" data-name="Mini Appoinment Six">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h6 class="font-16 subtitle text-white o_default_snippet_text">The fast and easiest way to</h6>
+              <h1 class="text-white text-uppercase o_default_snippet_text">showcase your photos</h1>
+              <div class="m-t-40">
+                <button class="btn bg-white text-dark btn-rounded rounded-circle btn-md o_default_snippet_text">Get Free Access</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+			</t>
+		</field>
+	</record>
+
+	<record id="web_agency_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/web-agency-template</field>
+		<field name="view_id" ref="web_agency_template" />
+	</record>
+
+</odoo>
+

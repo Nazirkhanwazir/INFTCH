@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="page_404_twelve" inherit_id="website.page_404">
+	
+		<xpath expr="//div[1]" position="replace">
+			<div></div>
+		</xpath>
+
+	</template>
+
+	<template id="404_twelve" inherit_id="http_routing.404">
+		<xpath expr="//div[hasclass('container')]"
+			position="replace">
+			<div class="oe_structure oe_empty template_404_page">
+				<div class="container">
+					<div class="info row">
+						<div class="col-md-12">
+							<h1 class="">Oops!</h1>
+						</div>
+						<div class="col-md-12">
+							<h2>Where are we?</h2>
+						</div>
+						<div class="col-md-12">
+							<p>
+								The page you are looking for was moved, removed, renamed or
+								<br />
+								might never existed.
+							</p>
+						</div>
+						<div class="col-md-12">
+							<a class="btn home_btn" href="/">Go Home</a>
+						</div>
+						<div class="col-md-12">
+							<a
+								t-attf-href="/website/add/#{ path }#{ from_template and '?template=%s' % from_template }">
+								Create Page ???
+							</a>
+						</div>
+					</div>
+					<div class="bear">
+						<div class="zzz"></div>
+					</div>
+				</div>
+			</div>
+		</xpath>
+	</template>
+</odoo>

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="fashion_template" model="ir.ui.view">
+		<field name="name">Fashion Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.fashion</field>
+		<field name="arch" type="xml">
+			<t name="Fashion Template" t-name="fashion_template">
+				<t t-call="website.layout">
+					<div class="oe_structure"></div>
+					<section class="s_new_homepage_banner">
+						<div id="fashionbanner123"
+							class="s_carousel carousel slide s_carousel_bordered"
+							data-interval="0" style="    height: 700px;">
+							<ol class="carousel-indicators">
+								<li data-target="#fashionbanner123" data-slide-to="0"
+									class="active" />
+								<li data-target="#fashionbanner123" data-slide-to="1" />
+								<li data-target="#fashionbanner123" data-slide-to="2" />
+							</ol>
+							<div class="carousel-inner">
+								<div
+									class="carousel-item oe_custom_bg oe_img_bg bg_image active"
+									data-name="Slide">
+									<div class="container">
+										<div class="row content">
+											<div class="carousel-content offset-lg-3 col-lg-6">
+												<div class="col-md-12 text-center">
+													<h4 class="blue_txt">Twelve</h4>
+												</div>
+												<div class="s_title pb8" data-name="Title">
+													<h2 class="s_title_default" style="text-align: center; ">
+														<font style="font-size: 62px;"
+															class="o_default_snippet_text">Find Products for store</font>
+													</h2>
+												</div>
+												<p class="lead o_default_snippet_text" />
+												<div style="text-align: center;">
+													<span class="sub_text">Oberlo allows you to easily import
+														dropshipped products directly into your ecommerce store
+													</span>
+												</div>
+												<div class="s_btn text-center pt16 pb16"
+													data-name="Buttons">
+													<a href="/shop" class="btn btn-primary gradient-btn btn btn-danger-gradient  shop_btn  ">Shop Now!</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="carousel-item oe_custom_bg oe_img_bg pb256 pt216"
+									style="background-image: url('/theme_twelve_bizople/static/src/img/demo06_13_x1024.png');"
+									data-name="Slide">
+									<div class="container">
+										<div class="row content">
+											<div
+												class="carousel-content  text-center pt48 pb40 offset-lg-5 col-lg-9">
+												<h2 style="font-size: 62px;"
+													class="o_default_snippet_text">
+													<font style="color: rgb(255, 255, 255);">Clever Slogan</font>
+												</h2>
+												<div class="s_hr pt8 pb32">
+													<hr
+														class="s_hr_5px s_hr_dotted border-600 w-25 border-o-color-5 mx-auto text-center" />
+												</div>
+												<p class="lead o_default_snippet_text">
+													<font style="color: rgb(255, 255, 255);">
+														Storytelling is powerful.
+													</font>
+													<font style="color: rgb(255, 255, 255);">
+														It draws readers in and engages them.
+													</font>
+												</p>
+												<div class="s_btn text-center pt16 pb16"
+													data-name="Buttons">
+													<a href="#"
+														class="btn btn-o-color-5 rounded-circle o_default_snippet_text">Start your journey</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="carousel-item oe_custom_bg oe_img_bg pb256 pt216"
+									style="background-image: url('/theme_twelve_bizople/static/src/img/demo08_01_x1024.png');"
+									data-name="Slide">
+									<div class="container">
+										<div class="row content">
+											<div class="carousel-content col-lg-6 offset-lg-6">
+												<h2>
+													<font
+														style="color: rgb(255, 255, 255); font-size: 62px;"
+														class="o_default_snippet_text">Edit this title</font>
+												</h2>
+												<h4>
+													<font style="color: rgb(255, 255, 255);"
+														class="o_default_snippet_text">Good
+														writing is simple, but not simplistic.
+													</font>
+												</h4>
+												<p class="mt24 o_default_snippet_text">
+													<font style="color: rgb(255, 255, 255);">Good copy starts with understanding how
+														your
+														product or service helps your customers. Simple words
+														communicate better than big words and pompous language.
+													</font>
+												</p>
+												<div class="s_share text-left pt16 pb16">
+													<a
+														href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F192.168.0.103%3A9999%2F%23"
+														class="s_share_facebook" target="_blank">
+														<i class="fa fa-1x fa-facebook rounded shadow-sm" />
+													</a>
+													<a
+														href="https://twitter.com/intent/tweet?text=Home%20%7C%20My%20Website&amp;url=http%3A%2F%2F192.168.0.103%3A9999%2F%23"
+														class="s_share_twitter" target="_blank">
+														<i class="fa fa-1x fa-twitter rounded shadow-sm" />
+													</a>
+													<a
+														href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2F192.168.0.103%3A9999%2F%23&amp;title=Home%20%7C%20My%20Website&amp;"
+														class="s_share_linkedin" target="_blank">
+														<i class="fa fa-1x fa-linkedin rounded shadow-sm" />
+													</a>
+													<a
+														href="https://plus.google.com/share?url=http%3A%2F%2F192.168.0.103%3A9999%2F%23"
+														class="s_share_google" target="_blank">
+														<i class="fa fa-1x fa-google-plus rounded shadow-sm" />
+													</a>
+													<a
+														href="mailto:?body=http%3A%2F%2F192.168.0.103%3A9999%2F%23&amp;subject=Home%20%7C%20My%20Website"
+														class="s_share_email">
+														<i class="fa fa-1x fa-envelope rounded shadow-sm" />
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-control-prev"
+								data-target="#fashionbanner123" data-slide="prev" role="img"
+								aria-label="Previous" title="Previous"
+								data-cke-saved-href="#fashionbanner123">
+								<span class="carousel-control-prev-icon" />
+								<span class="sr-only o_default_snippet_text">Previous</span>
+							</div>
+							<div class="carousel-control-next"
+								data-target="#fashionbanner123" data-slide="next" role="img"
+								aria-label="Next" title="Next"
+								data-cke-saved-href="#fashionbanner123">
+								<span class="carousel-control-next-icon" />
+								<span class="sr-only o_default_snippet_text">Next</span>
+							</div>
+						</div>
+					</section>
+					<div class="oe_structure"></div>
+					<section class="s_new_homepage_img_gallery">
+						<div id=" " class="shopify-section index-section">
+							<div class="container-indent nomargin">
+								<div class="container-fluid-custom">
+									<div class="row flex-sm-row-reverse">
+										<div class="col-sm-12 col-md-6">
+											<div class="row">
+												<div class="col-sm-6">
+													<a href="#"
+														class="tt-promo-box tt-one-child hover-type-2"
+														data-hovercolors="">
+														<img class="lazyload"
+															src="/theme_twelve_bizople/static/src/img/home1_05_x800.png"
+															alt="" />
+														<div class="tt-description normal">
+															<div class="tt-description-wrapper">
+																<div class="tt-background"></div>
+																<div class="tt-title-small">MEN</div>
+
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="col-sm-6">
+													<a href="#"
+														class="tt-promo-box tt-one-child hover-type-2"
+														data-hovercolors="">
+														<img class="lazyload"
+															src="/theme_twelve_bizople/static/src/img/home1_07_x800.png" />
+														<div class="tt-description normal">
+															<div class="tt-description-wrapper">
+																<div class="tt-background"></div>
+																<div class="tt-title-small">ACCESSORIES
+																</div>
+
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="col-sm-12">
+													<a href="#"
+														class="tt-promo-box tt-one-child hover-type-2"
+														data-hovercolors="">
+														<img class="lazyload"
+															src="/theme_twelve_bizople/static/src/img/home1_08_10c440e1-7fd8-4025-ab9d-182c7f509284_1024x.png" />
+														<div class="tt-description normal">
+															<div class="tt-description-wrapper">
+																<div class="tt-background"></div>
+																<div class="tt-title-small">SHOES</div>
+
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-6">
+											<div class="row">
+												<div class="col-sm-6">
+													<a href="#"
+														class="tt-promo-box tt-one-child hover-type-2"
+														data-hovercolors="">
+														<img class="lazyload"
+															src="/theme_twelve_bizople/static/src/img/home1_03_x800.png"
+															alt="" />
+														<div class="tt-description normal">
+															<div class="tt-description-wrapper">
+																<div class="tt-background"></div>
+																<div class="tt-title-small">SALE</div>
+
+															</div>
+														</div>
+													</a>
+
+													<a href="#"
+														class="tt-promo-box tt-one-child hover-type-2"
+														data-hovercolors="">
+														<img class="lazyload"
+															src="/theme_twelve_bizople/static/src/img/home1_04_x800.png"
+															alt="" />
+														<div class="tt-description normal">
+															<div class="tt-description-wrapper">
+																<div class="tt-background"></div>
+																<div class="tt-title-small">NEW</div>
+
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="col-sm-6">
+													<a href="#"
+														class="tt-promo-box tt-one-child hover-type-2"
+														data-hovercolors="">
+														<img class="lazyload"
+															src="/theme_twelve_bizople/static/src/img/home1_06_1024x.png?v=1537467467"
+															alt="" />
+														<div class="tt-description normal">
+															<div class="tt-description-wrapper">
+																<div class="tt-background"></div>
+																<div class="tt-title-small">WOMEN</div>
+
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div class="oe_structure"></div>
+					<section class="s_new_three_imgs_block">
+						<div class="container-fluid mt64 mb32">
+							<div class="row">
+								<div class="col-sm-6 col-md-4">
+									<a href="#" class="promobox">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/img01.png" />
+
+										<div class="img_desc">
+											<div class="img_wrapper">
+												<div class="bg_white"></div>
+												<div class="img_title_small">
+													AUTUMN
+													<span class="img_span">2018</span>
+												</div>
+												<div class="img_title_big">NEW ARRIVALS</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<a href="#" class="promobox">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/img02.png" />
+
+										<div class="img_desc">
+											<div class="img_wrapper">
+												<div class="bg_white"></div>
+												<div class="img_title_small">
+													New Collection
+												</div>
+												<div class="img_title_big">
+													<span class="big_span">streestyle</span>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<a href="#" class="promobox">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/img03.png" />
+
+										<div class="img_desc">
+											<div class="img_wrapper">
+												<div class="bg_white"></div>
+												<div class="img_title_small">
+													GREAT SUMMER CLEARANCE SALES
+												</div>
+												<div class="img_title_big">
+													Get up to
+													<span class="big_span">70% off</span>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div class="oe_structure"></div>
+
+					<section class="s_new_home_images_block">
+						<div class="container-fluid mt64 mb32">
+							<div class="">
+								<div class="img_block_title">
+									<h2 class="title_img">
+										<a href="/" class="img_a" target="_blank">@ Follow</a>
+										Us on
+									</h2>
+									<div class="img_desc">Instagram</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="images_block">
+									<a href="/" target="_blank">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/imgs_block1.jpg" />
+									</a>
+									<a href="/" target="_blank">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/imgs_block2.jpg" />
+									</a>
+									<a href="/" target="_blank">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/imgs_block3.jpg" />
+									</a>
+									<a href="/" target="_blank">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/imgs_block4.jpg" />
+									</a>
+									<a href="/" target="_blank">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/imgs_block5.jpg" />
+									</a>
+									<a href="/" target="_blank">
+										<img class="img img-responsive"
+											src="/theme_twelve_bizople/static/src/img/imgs_block6.jpg" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div class="oe_structure"></div>
+					<section class="s_new_homepage_features">
+						<div id="shopify-section" class="shopify-section index-section">
+							<div class="container-indent">
+								<div class="container">
+									<div class="row tt-services-listing">
+										<div class="col-xs-12 col-md-6 col-lg-4">
+											<a href="#" class="tt-services-block" data-hovercolors="">
+												<div class="tt-col-icon">
+													<i class="fa fa-clock-o" style="color: #2879fe"></i>
+												</div>
+												<div class="tt-col-description">
+													<h4 class="tt-title" style="color: rgb(25, 25, 25);"
+														data-c="#191919" data-ac="#2879fe">SUPPORT 24/7</h4>
+													<p style="color: #777777">Contact us 24 hours a day, 7 days a week</p>
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-12 col-md-6 col-lg-4">
+											<a href="#" class="tt-services-block" data-hovercolors="">
+												<div class="tt-col-icon">
+													<i class="fa fa-sign-out" style="color: #2879fe"></i>
+												</div>
+												<div class="tt-col-description">
+													<h4 class="tt-title" style="color: rgb(25, 25, 25);"
+														data-c="#191919" data-ac="#2879fe">30 DAYS RETURN</h4>
+													<p style="color: #777777">Simply return it within 24 days for an exchange.
+													</p>
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-12 col-md-6 col-lg-4">
+											<a href="#" class="tt-services-block" data-hovercolors="">
+												<div class="tt-col-icon">
+													<i class="fa fa-car" style="color: #2879fe"></i>
+												</div>
+												<div class="tt-col-description">
+													<h4 class="tt-title" style="color:#191919;"
+														data-c="#191919" data-ac="#2879fe">FREE SHIPPING</h4>
+													<p style="color: #777777">Free shipping on all US order or order above $99
+													</p>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</section>
+					<div class="oe_structure" />
+
+					<section class="s_news_letter">
+						<div class="container">
+							<div class="row pt-4 pb-4">
+								<div class="tt-col-left">
+									<div class="tt-newsletter">
+
+										<h4 class="news_letter_title">Be In Touch With Us:</h4>
+										<div class="news_letter_content">
+											<div class="form_default input-group js_subscribe"
+												data-list-id="1" data-subscribe="off">
+												<input type="email" name="email"
+													class="js_subscribe_email form-control"
+													placeholder="your email..." />
+												<span class="input-group-append">
+													<a role="button" href="#"
+														class="btn btn-primary gradient-btn btn btn-danger-gradient  js_subscribe_btn o_default_snippet_text  ">Join Us</a>
+													<a role="button" href="#"
+														class="btn btn-success-gradient gradient-btn btn-success-gradient js_subscribed_btn d-none o_default_snippet_text"
+														disabled="disabled">Thanks</a>
+												</span>
+												<div
+													class="alert alert-success d-none o_default_snippet_text"
+													role="status">Thanks for your subscription!</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tt-col-right">
+									<ul class="social_icons">
+										<li>
+											<a class="icon" href="/" target="_blank">
+												<i class="fa fa-facebook" />
+											</a>
+										</li>
+										<li>
+											<a class="icon" href="/" target="_blank">
+												<i class="fa fa-google-plus" />
+											</a>
+										</li>
+										<li>
+											<a class="icon" href="/" target="_blank">
+												<i class="fa fa-twitter" />
+											</a>
+										</li>
+										<li>
+											<a class="icon" href="/" target="_blank">
+												<i class="fa fa-linkedin" />
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+				</t>
+			</t>
+		</field>
+	</record>
+
+	<record id="fashion_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/fashion</field>
+		<field name="view_id" ref="fashion_template" />
+		<field name="track">True</field>
+	</record>
+
+</odoo>
+
+
+

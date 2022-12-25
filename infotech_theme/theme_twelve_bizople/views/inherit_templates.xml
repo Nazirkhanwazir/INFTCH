@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="snippet_options_inherited" inherit_id="website.snippet_options">
+		    <xpath expr="//we-select[@data-variable='header-template']" position="inside">
+			      <we-button title="Twelve Header 1"
+                       data-name="twelve_header_one_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_one"
+                       data-customize-website-variable="'twelve-header-1'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img1.png"/>
+
+            <we-button title="Twelve Header 2"
+                       data-name="twelve_header_two_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_two"
+                       data-customize-website-variable="'twelve-header-2'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img2.png"/>
+            <we-button title="Twelve Header 3"
+                       data-name="twelve_header_three_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_three"
+                       data-customize-website-variable="'twelve-header-3'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img10.png"/>
+            <we-button title="Twelve Header 4"
+                       data-name="twelve_header_four_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_four"
+                       data-customize-website-variable="'twelve-header-4'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img3.png"/>
+            <we-button title="Twelve Header 5"
+                       data-name="twelve_header_five_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_five"
+                       data-customize-website-variable="'twelve-header-5'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img4.png"/>
+            <we-button title="Twelve Header 6"
+                       data-name="twelve_header_six_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_six"
+                       data-customize-website-variable="'twelve-header-6'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img5.png"/>
+            <we-button title="Twelve Header 7"
+                       data-name="twelve_header_seven_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_seven"
+                       data-customize-website-variable="'twelve-header-7'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img6.png"/>
+            <we-button title="Twelve Header 8"
+                       data-name="twelve_header_eight_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_eight"
+                       data-customize-website-variable="'twelve-header-8'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img7.png"/>
+            <we-button title="Twelve Header 9"
+                       data-name="twelve_header_nine_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_nine"
+                       data-customize-website-variable="'twelve-header-9'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img8.png"/>
+            <we-button title="Twelve Header 10"
+                       data-name="twelve_header_ten_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_header_ten"
+                       data-customize-website-variable="'twelve-header-10'"
+                       data-img="/theme_twelve_bizople/static/src/img/header_img9.png"/>
+        </xpath>
+
+        <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+            <we-button title="Twelve Footer 1"
+                       data-name="twelve_footer_one_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_footer_one"
+                       data-customize-website-variable="'twelve-footer-1'"
+                       data-img="/theme_twelve_bizople/static/src/img/footer_img1.png"/>
+            <we-button title="Twelve Footer 2"
+                       data-name="twelve_footer_two_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_footer_two"
+                       data-customize-website-variable="'twelve-footer-2'"
+                       data-img="/theme_twelve_bizople/static/src/img/footer_img2.png"/>
+            <we-button title="Twelve Footer 3"
+                       data-name="twelve_footer_three_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_footer_three"
+                       data-customize-website-variable="'twelve-footer-3'"
+                       data-img="/theme_twelve_bizople/static/src/img/footer_img3.png"/>
+            <we-button title="Twelve Footer 4"
+                       data-name="twelve_footer_four_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_footer_four"
+                       data-customize-website-variable="'twelve-footer-4'"
+                       data-img="/theme_twelve_bizople/static/src/img/footer_img4.png"/>
+            <we-button title="Twelve Footer 5"
+                       data-name="twelve_footer_five_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_footer_five"
+                       data-customize-website-variable="'twelve-footer-5'"
+                       data-img="/theme_twelve_bizople/static/src/img/footer_img5.png"/>
+            <we-button title="Twelve Footer 6"
+                       data-name="twelve_footer_six_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_footer_six"
+                       data-customize-website-variable="'twelve-footer-6'"
+                       data-img="/theme_twelve_bizople/static/src/img/footer_img6.png"/>
+            <we-button title="Twelve Footer 7"
+                       data-name="twelve_footer_seven_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_footer_seven"
+                       data-customize-website-variable="'twelve-footer-7'"
+                       data-img="/theme_twelve_bizople/static/src/img/footer_img7.png"/>
+            <we-button title="Twelve Footer 8"
+                       data-name="twelve_footer_eight_opt"
+                       data-customize-website-views="theme_twelve_bizople.website_multi_footer_eight"
+                       data-customize-website-variable="'twelve-footer-8'"
+                       data-img="/theme_twelve_bizople/static/src/img/footer_img8.png"/>
+		</xpath>
+
+		<xpath expr="//div[@id='so_text_align']" position="before">
+			<div id="btn_sizing" data-selector="a.btn, button.btn" data-exclude=".btn-link">
+				<we-select string="Button Sizing">
+					<we-button data-select-class="btn-sm">Small Button</we-button>
+					<we-button data-select-class="btn-md">Medium Button</we-button>
+					<we-button data-select-class="btn-lg">Large Button</we-button>
+				</we-select>
+			</div>
+		</xpath>
+		<xpath expr="//div[@data-js='ContainerWidth']" position="after">
+			<div id="gradient_bg_color" data-selector="section">
+				<we-select string="Gradient Background Color">
+					<we-button 
+						data-select-class="danger-gradient-bg">Danger Gradient</we-button>
+					<we-button 
+						data-select-class="success-gradient-bg">Success Gradient</we-button>
+					<we-button 
+						data-select-class="info-gradient-bg">Info Gradient</we-button>
+					<we-button 
+						data-select-class="warm-flame-gradient-bg">Warm Flame Gradient</we-button>
+					<we-button 
+						data-select-class="night-fade-gradient-bg">Night Fade Gradient</we-button>
+					<we-button 
+						data-select-class="spring-warmth-gradient-bg">Spring Warmth Gradient</we-button>
+					<we-button 
+						data-select-class="juicy-peach-gradient-bg">Juicy Peach Gradient</we-button>
+					<we-button 
+						data-select-class="amy-crisp-gradient-bg">Amy Crisp Gradient</we-button>
+					<we-button 
+						data-select-class="mean-fruit-gradient-bg">Mean Fruit Gradient</we-button>
+					<we-button 
+						data-select-class="bg-waves-gradient">Waves Gradient</we-button>
+					<we-button 
+						data-select-class="orange-gradient-bg">Orange Gradient</we-button>
+					<we-button 
+						data-select-class="grey-gradient-bg">Grey Gradient</we-button>
+					<we-button 
+						data-select-class="green-gradient-bg">Green Gradient</we-button>
+					<we-button 
+						data-select-class="yellow-blue-gradient-bg">Yellow Blue Gradient</we-button>
+					<we-button 
+						data-select-class="green-blue-gradient-bg">Green Blue Gradient</we-button>
+				</we-select>
+			</div>
+		</xpath>
+    </template>
+
+    <template id="web_editor_colorpicker_inherit" inherit_id="web_editor.colorpicker">
+      <xpath expr="//div[@data-name='predefined_gradients']" position="replace">
+        <div class="o_colorpicker_section" data-name="predefined_gradients" style="width:255px;">
+          <t t-set="gradients" t-value="[
+            'linear-gradient(135deg, rgb(211, 204, 51) 0%, rgb(226, 51, 255) 100%)',
+            'linear-gradient(135deg, rgb(102, 153, 255) 0%, rgb(255, 51, 102) 100%)',
+            'linear-gradient(135deg, rgb(47, 128, 237) 0%, rgb(178, 255, 218) 100%)',
+            'linear-gradient(135deg, rgb(203, 94, 238) 0%, rgb(75, 225, 236) 100%)',
+            'linear-gradient(135deg, rgb(214, 255, 127) 0%, rgb(0, 179, 204) 100%)',
+            'linear-gradient(135deg, rgb(255, 222, 69) 0%, rgb(69, 33, 0) 100%)',
+            'linear-gradient(135deg, rgb(222, 222, 222) 0%, rgb(69, 69, 69) 100%)',
+            'linear-gradient(135deg, rgb(255, 222, 202) 0%, rgb(202, 115, 69) 100%)',
+            'linear-gradient(135deg, rgb(105, 222, 202) 0%, rgb(202, 115, 69) 100%)',
+
+            'linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%)',
+            'linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%)',
+            'linear-gradient(to right, #188ef4 0%, #316ce8 100%)',
+            'linear-gradient(to right, #316ce8 0%, #188ef4 100%)',
+            'linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%)',
+            'linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%)',
+            'linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%)',
+            'linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%)',
+            'linear-gradient(to right, #ff9a9e 0%, #fad0c4 100%)',
+            'linear-gradient(to right, #fad0c4 0%, #ff9a9e 100%)',
+            'linear-gradient(to right, #a18cd1 0%, #fbc2eb 100%)',
+            'linear-gradient(to right, #fbc2eb 0%, #a18cd1 100%)',
+            'linear-gradient(to right, #fad0c4 0%, #ffd1ff 100%)',
+            'linear-gradient(to right, #ffd1ff 0%, #fad0c4 100%)',
+            'linear-gradient(to right, #ffecd2 0%, #fcb69f 100%)',
+            'linear-gradient(to right, #a6c0fe 0%, #f68084 100%)',
+            'linear-gradient(to right, #f68084 0%, #a6c0fe 100%)',
+            'linear-gradient(to right, #fccb90 0%, #d57eeb 100%)',
+            'linear-gradient(to right, #d57eeb 0%, #fccb90 100%)',
+            'linear-gradient(to right, #45cafc 0%, #303f9f 100%)',
+            'linear-gradient(to right, #303f9f 0%, #30cfd0 100%)',
+            'linear-gradient(to right, #ffd86f 0%, #fc6262 100%)',
+            'linear-gradient(to right, #fc6262 0%, #ffd86f 100%)',
+            'linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%)',
+            'linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%)',
+            'linear-gradient(to right, #188ef4 0%, #316ce8 100%)',
+            'linear-gradient(to right, #ff9a9e 0%, #fad0c4 100%)',
+            'linear-gradient(to right, #a18cd1 0%, #fbc2eb 100%)',
+            'linear-gradient(to right, #fad0c4 0%, #ffd1ff 100%)',
+            'linear-gradient(to right, #ffecd2 0%, #fcb69f 100%)',
+            'linear-gradient(to right, #a6c0fe 0%, #f68084 100%)',
+            'linear-gradient(to right, #fccb90 0%, #d57eeb 100%)',
+            'linear-gradient(to right, #45cafc 0%, #303f9f 100%)',
+            'linear-gradient(to right, #ffd86f 0%, #fc6262 100%)',
+            'linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%)',
+            'linear-gradient(to right, #2c3e50 0%, #bdc3c7 100%)',
+            'linear-gradient(to right, #02aab0 0%, #00cdac 100%)',
+            'linear-gradient(to right, #00cdac 0%, #02aab0 100%)',
+            'linear-gradient(to right, #ffd89b 0%, #19547b 100%)',
+            'linear-gradient(to right, #19547b 0%, #ffd89b 100%)',
+            'linear-gradient(to right, #43cea2 0%, #185a9d 100%)',
+            'linear-gradient(to right, #185a9d 0%, #43cea2 100%)',
+
+
+            
+          ]"/>
+          <t t-foreach="gradients" t-as="gradient">
+                <button class="w-50" t-attf-style="background-image: #{gradient};" t-att-data-color="gradient"/>
+          </t>
+        </div>
+        
+      </xpath>
+    </template>
+
+</odoo>

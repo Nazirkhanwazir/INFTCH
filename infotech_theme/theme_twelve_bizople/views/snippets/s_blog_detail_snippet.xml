@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_blog_detail_snippet"
+		name="Blog detail Snippet One">
+		<section class="s_blog_detail_snippet">
+			<div class="container">
+				<div class="row">
+					<div class="m-t-40 m-b-10">
+						<i class="display-5 text-muted op-5 fa fa-quote-left"></i>
+					</div>
+					<h3 class="font-light">
+						Aliquam diam quis dolor aliquam lobortis. Aenean in
+						tortor et eros
+						faucibus porta sit amet sed ipsum Nullam hendrerit
+						dui id diam
+						suscipit.
+					</h3>
+					<ul class="list-block m-t-30 m-b-30">
+						<li>
+							<i class="fa fa-circle font-13 text-info"></i>
+							A DP’s most important skill is previsualisation&#8202;—&#8202;the
+							difference between taking pictures
+						</li>
+						<li>
+							<i class="fa fa-circle font-13 text-info"></i>
+							Important asset is the directors who’ll hire
+							them&#8202;—&#8202;expand and protect that group
+						</li>
+						<li>
+							<i class="fa fa-circle font-13 text-info"></i>
+							There will be many days with no work.
+						</li>
+						<li>
+							<i class="fa fa-circle font-13 text-info"></i>
+							Your credits list and reputation are far more crucial.
+						</li>
+					</ul>
+					<img src="/theme_twelve_bizople/static/src/img/blog2.jpg"
+						class="img-fluid" />
+					<p class="m-t-30 m-b-30 custom_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Duis nec facilisis nullano volutpat justo. Nulla tempus ultricies
+						feugiat. Duis magna risus, luctus id urna dapibus condimentum dui.
+						Maecenas tempor non ex eu vehicula. Sed sit placerat velit,
+					</p>
+
+
+				</div>
+			</div>
+		</section>
+
+	</template>
+
+</odoo>

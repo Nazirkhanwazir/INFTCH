@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_hero_banner" name="Hero Banner Block">
+		<section id="s_hero_banner" class="s_text_block_image_fw oe_img_bg oe_custom_bg bg-black" style="background-image: url(/theme_twelve_bizople/static/src/img/hero-banner.png); overflow: hidden; height: 496px; background-position: 59.23% 15.08%;" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 mt128 mb64 pb32 pt32 bg-black-25">
+						<h2 style="font-size:62px" class="text-white">Headline</h2>
+						<h4 class="text-white">With a great subtitle</h4>
+						<p class="text-white">Write one or two paragraphs describing your product,
+							services or a specific feature. To be successful your content
+							needs to be useful to your readers.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+</odoo>

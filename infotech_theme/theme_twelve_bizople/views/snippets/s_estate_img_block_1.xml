@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_estate_img_block_1"
+		name="Paragraph with images block">
+		<section class="s_estate_img_block_1">
+			<div class="spacer">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-7 text-center">
+							<h2 class="title">Popular Properties</h2>
+							<h6 class="subtitle">You can relay on our amazing features list and
+								also our customer services will be great experience for you
+								without doubt and in no-time
+							</h6>
+						</div>
+					</div>
+					<div class="row portfolio-box"
+						style="position: relative; height: 900.266px;">
+						<div class="col-lg-5 col-md-8 filter abstract print"
+							style="position: absolute; left: 0%; top: 0px;">
+							<div class="overlay-box">
+								<div>
+									<img src="/theme_twelve_bizople/static/src/img/img_1.jpg"
+										alt="bizople" class="img-fluid" />
+								</div>
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>Marine Drive</h5>
+										<span>9 Properties</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 filter typography"
+							style="position: absolute; left: 41.6667%; top: 0px;">
+							<div class="overlay-box">
+								<div>
+									<img src="/theme_twelve_bizople/static/src/img/img_2.jpg"
+									alt="bizople" class="img-fluid" />
+								</div>
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>Juhu Beach</h5>
+										<span>5 Properties</span>
+									</div>
+								</a>
+							</div>
+							<div class="overlay-box">
+								<div>
+									<img src="/theme_twelve_bizople/static/src/img/img_4.jpg"
+										alt="bizople" class="img-fluid" />
+								</div>
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>Summer Hills</h5>
+										<span>6 Properties</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 filter abstract"
+							style="position: absolute; left: 66.6667%; top: 0px;">
+							<div class="overlay-box">
+								<div>
+									<img src="/theme_twelve_bizople/static/src/img/img_3.jpg"
+										alt="bizople" class="img-fluid" />
+								</div>
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>Ahmedabad Air</h5>
+										<span>12 Properties</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-6 filter abstract print"
+							style="position: absolute; left: 0%; top: 609px;">
+							<div class="overlay-box">
+								<div>
+									<img src="/theme_twelve_bizople/static/src/img/img_6.jpg"
+										alt="bizople" class="img-fluid" />
+								</div>
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>Bhavnagar Best</h5>
+										<span>6 Properties</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 filter branding"
+							style="position: absolute; left: 66.6667%; top: 318px;">
+							<div class="overlay-box">
+								<div>
+									<img src="/theme_twelve_bizople/static/src/img/img_5.jpg"
+										alt="bizople" class="img-fluid" />
+								</div>
+								<a href="#" class="overlay">
+									<div class="port-text">
+										<h5>Jaipur Palace</h5>
+										<span>3 Properties</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

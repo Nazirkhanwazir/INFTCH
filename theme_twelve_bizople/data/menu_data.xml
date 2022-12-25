@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+	<record id="menu_fashion_template" model="website.menu">
+		<field name="name">Fashion</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">40</field>
+		<field name="url">/fashion</field>
+	</record>
+
+	<record id="menu_business_template" model="website.menu">
+		<field name="name">Business</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">41</field>
+		<field name="url">/business-template</field>
+	</record>
+
+	<record id="menu_medical_health_template" model="website.menu">
+		<field name="name">Medical &amp; Health</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">42</field>
+		<field name="url">/medical_health-template</field>
+	</record>
+
+	<record id="menu_charity_template" model="website.menu">
+		<field name="name">Charity</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">43</field>
+		<field name="url">/charity-template</field>
+	</record>
+
+	<record id="menu_software_template" model="website.menu">
+		<field name="name">Software</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">44</field>
+		<field name="url">/software-template</field>
+	</record>
+
+	<record id="menu_real_estate_template" model="website.menu">
+		<field name="name">Real Estate</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">45</field>
+		<field name="url">/real_estate-template</field>
+	</record>
+
+	<record id="menu_restaurant_template" model="website.menu">
+		<field name="name">Restaurant</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">46</field>
+		<field name="url">/restaurant-template</field>
+	</record>
+
+	<record id="menu_web_agency_template" model="website.menu">
+		<field name="name">Web Agency</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">47</field>
+		<field name="url">/web-agency-template</field>
+	</record>
+
+	<record id="menu_furniture_template" model="website.menu">
+		<field name="name">Furniture</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">48</field>
+		<field name="url">/furniture-template</field>
+	</record>
+
+	<record id="menu_fitness_template" model="website.menu">
+		<field name="name">Fitness</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">49</field>
+		<field name="url">/fitness-template</field>
+	</record>
+
+	<record id="menu_accounting_template" model="website.menu">
+		<field name="name">Accounting</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">50</field>
+		<field name="url">/accounting-template</field>
+	</record>
+
+	<record id="menu_one_page_template" model="website.menu">
+		<field name="name">One Page</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">51</field>
+		<field name="url">/one_page-template</field>
+	</record>
+
+	<record id="menu_marketing_seo_template" model="website.menu">
+		<field name="name">Marketing &amp; SEO</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">52</field>
+		<field name="url">/marketing_seo-template</field>
+	</record>
+
+	<record id="menu_crypto_currency_template" model="website.menu">
+		<field name="name">Cryptocurrency</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">53</field>
+		<field name="url">/crypto_currency-template</field>
+	</record>
+
+	<record id="menu_industrial_template" model="website.menu">
+		<field name="name">Industrial</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">54</field>
+		<field name="url">/industrial-template</field>
+	</record>
+
+	<record id="menu_demo_creative" model="website.menu">
+		<field name="name">Creative</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">54</field>
+		<field name="url">/creative-demo</field>
+	</record>
+
+	<record id="menu_coming_soon_template" model="website.menu">
+		<field name="name">Coming Soon</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">55</field>
+		<field name="url">/coming-soon</field>
+	</record>
+
+	<record id="menu_demo_contact_one" model="website.menu">
+		<field name="name">Contact Us One</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">56</field>
+		<field name="url">/contact-one</field>
+	</record>
+
+	<record id="menu_demo_contact_two" model="website.menu">
+		<field name="name">Contact Us Two</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">57</field>
+		<field name="url">/contact-two</field>
+	</record>
+
+	<record id="menu_demo_contact_three" model="website.menu">
+		<field name="name">Contact Us Three</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">58</field>
+		<field name="url">/contact-three</field>
+	</record>
+
+	<record id="menu_demo_contact_four" model="website.menu">
+		<field name="name">Contact Us Four</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">59</field>
+		<field name="url">/contact-four</field>
+	</record>
+
+	<record id="menu_demo_contact_five" model="website.menu">
+		<field name="name">Contact Us Five</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">60</field>
+		<field name="url">/contact-five</field>
+	</record>
+
+	<record id="menu_demo_contact_six" model="website.menu">
+		<field name="name">Contact Us Six</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">61</field>
+		<field name="url">/contact-six</field>
+	</record>
+
+</odoo>
+

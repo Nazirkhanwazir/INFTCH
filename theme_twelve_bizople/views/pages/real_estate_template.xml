@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="real_estate_template" model="ir.ui.view">
+		<field name="name">Real Estate Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.real_estate</field>
+		<field name="arch" type="xml">
+			<t name="Real Estate Template" t-name="real_estate_template">
+				<t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section id="slider-sec" class="s_real_estate_banner slider10" data-name="Home Banner Six">
+        <div id="myCarousel1580987018976" class="carousel bs-slider slide control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel1580987018976" data-slide-to="0" class="active"/>
+            <li data-target="#myCarousel1580987018976" data-slide-to="1"/>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img src="/theme_twelve_bizople/static/src/img/estate_slide2.jpg" alt="We are Digital Agency" class="slide-image"/>
+              <div class="slide-text slide_style_left">
+                <div class="container" data-animation="animated fadeInLeft">
+                  <div class="bg-white slide-content po-relative">
+                    <label class="label text-white bg-info o_default_snippet_text">ON RENT</label>
+                    <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                      <a href="#" class="link o_default_snippet_text">Magical Apartment</a>
+                    </h3>
+                    <h6 class="o_default_snippet_text">36, Kingstone Cornern, Melbourne, Australia - 3890</h6>
+                    <p class="m-t-20 o_default_snippet_text">Lorem ipsum dolor sit amet, consectet cing elit,
+										sed diam nonummy.
+									</p>
+                    <h2 class="text-info m-b-0 o_default_snippet_text">
+										$685,000
+										<span class="tag bg-danger o_default_snippet_text">Hot Offer</span>
+									</h2>
+                  </div>
+                  <div class="bg-light slide-content specifiaction-box">
+                    <div class="row">
+                      <div class="col-4">
+                        <h6 class="specifiaction text-muted o_default_snippet_text">Bedrooms</h6>
+                        <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                      </div>
+                      <div class="col-4">
+                        <h6 class="specifiaction text-muted o_default_snippet_text">Bathrooms</h6>
+                        <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                      </div>
+                      <div class="col-4">
+                        <h6 class="specifiaction text-muted o_default_snippet_text">Garages</h6>
+                        <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/theme_twelve_bizople/static/src/img/estate_slide1.jpg" alt="Building Magical Apps" class="slide-image"/>
+              <div class="slide-text">
+                <div class="container" data-animation="animated fadeInUp">
+                  <div class="bg-white slide-content po-relative">
+                    <label class="label text-white bg-info o_default_snippet_text">ON RENT</label>
+                    <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                      <a href="#" class="link o_default_snippet_text">Magical Apartment</a>
+                    </h3>
+                    <h6 class="o_default_snippet_text">36, Kingstone Cornern, Melbourne, Australia - 3890</h6>
+                    <p class="m-t-20 o_default_snippet_text">Lorem ipsum dolor sit amet, consectet cing elit,
+										sed diam nonummy.
+									</p>
+                    <h2 class="text-info m-b-0 o_default_snippet_text">
+										$685,000
+										<span class="tag bg-danger o_default_snippet_text">Hot Offer</span>
+									</h2>
+                  </div>
+                  <div class="bg-light slide-content specifiaction-box">
+                    <div class="row">
+                      <div class="col-4">
+                        <h6 class="specifiaction text-muted o_default_snippet_text">Bedrooms</h6>
+                        <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                      </div>
+                      <div class="col-4">
+                        <h6 class="specifiaction text-muted o_default_snippet_text">Bathrooms</h6>
+                        <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                      </div>
+                      <div class="col-4">
+                        <h6 class="specifiaction text-muted o_default_snippet_text">Garages</h6>
+                        <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-control hide">
+              <a class="left carousel-control-prev text-danger font-14" href="#slider7" role="button" data-slide="prev">
+                <span class="bg-white text-center ti-arrow-left" aria-hidden="true"/>
+                <b class="sr-only font-normal o_default_snippet_text">Previous</b>
+              </a>
+              <a class="right carousel-control-next text-danger font-14" href="#slider7" role="button" data-slide="next">
+                <span class="bg-white text-center ti-arrow-right" aria-hidden="true"/>
+                <b class="sr-only font-normal o_default_snippet_text">Next</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_estate_img_block_1" data-name="Paragraph with images block">
+        <div class="spacer">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <h2 class="title o_default_snippet_text">Popular Properties</h2>
+                <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+								also our customer services will be great experience for you
+								without doubt and in no-time
+							</h6>
+              </div>
+            </div>
+            <div class="row portfolio-box" style="position: relative; height: 900.266px;">
+              <div class="col-lg-5 col-md-8 filter abstract print" style="position: absolute; left: 0%; top: 0px;">
+                <div class="overlay-box">
+                  <div>
+                    <img src="/theme_twelve_bizople/static/src/img/img_1.jpg" alt="bizople" class="img-fluid" data-original-title="" title="" aria-describedby="tooltip586431"/>
+                  </div>
+                  <a href="#" class="overlay">
+                    <div class="port-text">
+                      <h5 data-original-title="" title="" aria-describedby="tooltip247595">Marine Drive</h5>
+                      <span class="o_default_snippet_text">9 Properties</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 filter typography" style="position: absolute; left: 41.6667%; top: 0px;">
+                <div class="overlay-box">
+                  <div>
+                    <img src="/theme_twelve_bizople/static/src/img/img_2.jpg" alt="bizople" class="img-fluid" data-original-title="" title="" aria-describedby="tooltip31296"/>
+                  </div>
+                  <a href="#" class="overlay">
+                    <div class="port-text">
+                      <h5 class="o_default_snippet_text">Juhu Beach</h5>
+                      <span class="o_default_snippet_text">5 Properties</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="overlay-box">
+                  <div>
+                    <img src="/theme_twelve_bizople/static/src/img/img_4.jpg" alt="bizople" class="img-fluid"/>
+                  </div>
+                  <a href="#" class="overlay">
+                    <div class="port-text">
+                      <h5 class="o_default_snippet_text">Summer Hills</h5>
+                      <span class="o_default_snippet_text">6 Properties</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 filter abstract" style="position: absolute; left: 66.6667%; top: 0px;">
+                <div class="overlay-box">
+                  <div>
+                    <img src="/theme_twelve_bizople/static/src/img/img_3.jpg" alt="bizople" class="img-fluid"/>
+                  </div>
+                  <a href="#" class="overlay">
+                    <div class="port-text">
+                      <h5 class="o_default_snippet_text">Ahmedabad Air</h5>
+                      <span class="o_default_snippet_text">12 Properties</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-6 filter abstract print" style="position: absolute; left: 0%; top: 609px;">
+                <div class="overlay-box">
+                  <div>
+                    <img src="/theme_twelve_bizople/static/src/img/img_6.jpg" alt="bizople" class="img-fluid" data-original-title="" title="" aria-describedby="tooltip928862"/>
+                  </div>
+                  <a href="#" class="overlay">
+                    <div class="port-text">
+                      <h5 class="o_default_snippet_text">Bhavnagar Best</h5>
+                      <span class="o_default_snippet_text">6 Properties</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 filter branding" style="position: absolute; left: 66.6667%; top: 318px;">
+                <div class="overlay-box">
+                  <div>
+                    <img src="/theme_twelve_bizople/static/src/img/img_5.jpg" alt="bizople" class="img-fluid"/>
+                  </div>
+                  <a href="#" class="overlay">
+                    <div class="port-text">
+                      <h5 class="o_default_snippet_text">Jaipur Palace</h5>
+                      <span class="o_default_snippet_text">3 Properties</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_estate_carousel_images" data-name="Slider with images and paragraph">
+        <div class="spacer bg-light-1">
+          <div class="container-fluid">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                  <h2 class="title o_default_snippet_text">Popular Properties</h2>
+                  <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+									also
+									our customer services will be great experience for you
+									without
+									doubt and in no-time
+								</h6>
+                </div>
+              </div>
+            </div>
+            <div id="myCarousel1580987080151" class="owl-carousel owl-theme testi3 m-t-40 s_carousel_default carousel slide" data-interval="5000">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel1580987080151" data-slide-to="0" class="active"/>
+                <li data-target="#myCarousel1580987080151" data-slide-to="1"/>
+                <li data-target="#myCarousel1580987080151" data-slide-to="2"/>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-name="Slide">
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c2.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-success o_default_snippet_text">ON SALE</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Paragon Aparments</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">
+												$685,000
+												<span class="tag bg-danger-1 o_default_snippet_text">Hot Offer</span>
+											</h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c3.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-success o_default_snippet_text">ON SALE</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Apollo Residency</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">$685,000 </h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c2.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-info o_default_snippet_text">ON RENT</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Agora Township</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">
+												$685,000
+												<span class="tag bg-danger-1 o_default_snippet_text">Hot Offer</span>
+											</h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide">
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c1.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-info o_default_snippet_text">ON RENT</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Magical Apartment</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">$685,000 </h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c2.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-info o_default_snippet_text">ON RENT</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Agora Township</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">
+												$685,000
+												<span class="tag bg-danger-1 o_default_snippet_text">Hot Offer</span>
+											</h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c3.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-success o_default_snippet_text">ON SALE</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Apollo Residency</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">$685,000 </h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide">
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c2.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-success o_default_snippet_text">ON SALE</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Apollo Residency</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">$685,000 </h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c1.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-success o_default_snippet_text">ON SALE</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Apollo Residency</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">$685,000 </h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c2.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-success o_default_snippet_text">ON SALE</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Apollo Residency</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">$685,000 </h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide">
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c3.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-success o_default_snippet_text">ON SALE</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Apollo Residency</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">$685,000 </h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 block">
+                    <div class="item card-shadow property-box aos-init aos-animate" data-aos="fade-right">
+                      <img src="/theme_twelve_bizople/static/src/img/estate_c1.jpg" alt="bizople" class="img-fluid"/>
+                      <div class="bg-white p-40 po-relative desc_img">
+                        <label class="label text-white bg-info o_default_snippet_text">ON RENT</label>
+                        <h3 data-animation="animated flipInX" class="m-b-10 m-t-0">
+                          <a href="#" class="link o_default_snippet_text">Magical Apartment</a>
+                        </h3>
+                        <p data-animation="animated fadeInLeft " class="m-t-20 custom_p o_default_snippet_text">36,
+												Kingstone Cornern, Melbourne, Australia - 3890
+											</p>
+                        <h3 class="text-info m-b-0 o_default_snippet_text">$685,000 </h3>
+                      </div>
+                      <div class="bg-light-extra p-40 specifiaction-box">
+                        <div class="row">
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bedrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">4</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Bathrooms</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">2</h5>
+                          </div>
+                          <div class="col-4">
+                            <h6 class="specifiaction text-muted-1 o_default_snippet_text">Garages</h6>
+                            <h5 class="m-b-0 font-medium o_default_snippet_text">1</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_estate_latest_news">
+      <div class="blog-home3 spacer">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <h2 class="title">Latest Properties</h2>
+              <h6 class="subtitle">You can relay on our amazing features list and
+                also our customer services will be great experience for you
+                without doubt and in no-time
+              </h6>
+            </div>
+          </div>
+          <div class="row m-t-40">
+            <div class="col-lg-6">
+              <section class="card o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <a href="#">
+                  <img class="card-img-top"
+                    src="/theme_twelve_bizople/static/src/img/news4.jpg"
+                    alt="bizople kit" />
+                </a>
+                <div class="date-pos bg-info-1">JOHN
+                  DOE
+                  SEPT 15, 2017
+                </div>
+                <h5 class="font-medium m-t-30">
+                  <a href="#" class="link">Techonologies started to change
+                    Drastically
+                  </a>
+                </h5>
+                <p class="custom_p m-t-20">You can relay on our amazing features list and
+                  also our customer services will be great experience. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </section>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <section class="card o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+                    <a href="#">
+                      <img class="card-img-top"
+                        src="/theme_twelve_bizople/static/src/img/news5.jpg"
+                        alt="bizople kit" />
+                    </a>
+                    <div class="date-pos bg-info-1">JOHN
+                      DOE
+                      SEPT 15, 2017
+                    </div>
+                    <h6 class="font-medium m-t-20">
+                      <a href="#" class="link">New Seminar on Newest Food Recipe from
+                        World’s Best
+                      </a>
+                    </h6>
+                  </section>
+                </div>
+                <div class="col-md-6">
+                  <section class="card o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+                    <a href="#">
+                      <img class="card-img-top"
+                        src="/theme_twelve_bizople/static/src/img/news6.jpg"
+                        alt="bizople kit" />
+                    </a>
+                    <div class="date-pos bg-info-1">JOHN
+                      DOE
+                      SEPT 15, 2017
+                    </div>
+                    <h6 class="font-medium m-t-20">
+                      <a href="#" class="link">New Seminar on Newest Food Recipe from
+                        World’s Best
+                      </a>
+                    </h6>
+                  </section>
+                </div>
+                <div class="col-md-6">
+                  <section class="card o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+                    <a href="#">
+                      <img class="card-img-top"
+                        src="/theme_twelve_bizople/static/src/img/news7.jpg"
+                        alt="wrappixel kit" />
+                    </a>
+                    <div class="date-pos bg-info-1">JOHN
+                      DOE
+                      SEPT 15, 2017
+                    </div>
+                    <h6 class="font-medium m-t-20">
+                      <a href="#" class="link">New Seminar on Newest Food Recipe from
+                        World’s Best
+                      </a>
+                    </h6>
+                  </section>
+                </div>
+                <div class="col-md-6">
+                  <section class="card o_animate_preview o_animate o_anim_flip_in_x" style="animation-duration: 3s !important;">
+                    <a href="#">
+                      <img class="card-img-top"
+                        src="/theme_twelve_bizople/static/src/img/news8.jpg"
+                        alt="bizople kit" />
+                    </a>
+                    <div class="date-pos bg-info-1">JOHN
+                      DOE
+                      SEPT 15, 2017
+                    </div>
+                    <h6 class="font-medium m-t-20">
+                      <a href="#" class="link">New Seminar on Newest Food Recipe from
+                        World’s Best
+                      </a>
+                    </h6>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section class="s_estate_feature_with_imogies bg-light-1">
+      <div class=" spacer feature3">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="title">Features of Bizople Real Estate</h2>
+              <h6 class="subtitle">You can relay on our amazing features list and
+                also our customer services will be great experience for you
+                without doubt and in no-time
+              </h6>
+            </div>
+          </div>
+          <div class="row m-t-40">
+            <div class="col-md-6 wrap-feature3-box">
+              <section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_left">
+                <div class="card-body d-flex">
+                  <div class="icon-space align-self-center">
+                    <span class="fa fa-globe display-2 text-info-gradient"></span>
+                  </div>
+                  <div class="align-self-center">
+                    <h5 class="font-medium">
+                      <a href="#" class="linking">Covered Lots of Areas
+                      </a>
+                    </h5>
+                    <p class="custom_p m-t-20">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 wrap-feature3-box">
+              <section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_right">
+                <div class="card-body d-flex">
+                  <div class="icon-space align-self-center">
+                    <span class="fa fa-clock-o display-2 text-info-gradient"></span>
+                  </div>
+                  <div class="align-self-center">
+                    <h5 class="font-medium">
+                      <a href="#" class="linking">Faster Property
+                        Results
+                      </a>
+                    </h5>
+                    <p class="custom_p m-t-20">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 wrap-feature3-box">
+              <section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_left">
+                <div class="card-body d-flex">
+                  <div class="icon-space align-self-center">
+                    <span class="fa fa-smile-o display-2 text-info-gradient"></span>
+                  </div>
+                  <div class="align-self-center">
+                    <h5 class="font-medium">
+                      <a href="#" class="linking">Powerful Sorting
+                        Options
+                      </a>
+                    </h5>
+                    <p class="custom_p m-t-20">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 wrap-feature3-box">
+              <section class="card card-shadow o_animate_preview o_animate o_anim_fade_in_left">
+                <div class="card-body d-flex">
+                  <div class="icon-space align-self-center">
+                    <span class="fa fa-file display-2 text-info-gradient"></span>
+                  </div>
+                  <div class="align-self-center">
+                    <h5 class="font-medium">
+                      <a href="#" class="linking">Satisfaction
+                        Guaranteed
+                      </a>
+                    </h5>
+                    <p class="custom_p m-t-20">You can relay on our amazing features list and
+                      also our customer services will be great experience.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="s_estate_carousel_testimonial" data-name="Tesitmonial Five">
+        <div class="testimonial10 spacer ">
+          <div class="container-fluid">
+            <div id="myCarousel1580987295965" class="owl-carousel owl-theme testi10 m-t-40 carousel slide s_carousel_default" data-interval="5000">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-name="Slide" style="">
+                  <div class="col-md-12">
+                    <div class="item">
+                      <div class="quote-bg">
+                        <h3 class="font-light text-white o_default_snippet_text">Bizople has given our websites huge national
+												presence.We are #1 on page one in Google search results
+												for
+												every website we’ve built, and rank for more keywords
+												than I
+												ever expected in a very competitive, high-value
+												customer
+												industry. In addition
+											</h3>
+                      </div>
+                      <div class="customer-thumb">
+                        <img src="/theme_twelve_bizople/static/src/img/2.jpg" alt="bizople" class="circle"/>
+                      </div>
+                      <h6 class="text-white m-b-0 font-medium o_default_snippet_text">Michael Anderson</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide" style="">
+                  <div class="col-md-12">
+                    <div class="item">
+                      <div class="quote-bg">
+                        <h3 class="font-light text-white o_default_snippet_text">Bizople has given our websites huge national
+												presence.We are #1 on page one in Google search results
+												for
+												every website we’ve built, and rank for more keywords
+												than I
+												ever expected in a very competitive, high-value
+												customer
+												industry. In addition
+											</h3>
+                      </div>
+                      <div class="customer-thumb">
+                        <img src="/theme_twelve_bizople/static/src/img/1.jpg" alt="bizople" class="circle"/>
+                      </div>
+                      <h6 class="text-white m-b-0 font-medium o_default_snippet_text">Michael Anderson</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide" style="">
+                  <div class="col-md-12">
+                    <div class="item">
+                      <div class="quote-bg">
+                        <h3 class="font-light text-white o_default_snippet_text">Bizople has given our websites huge national
+												presence.We are #1 on page one in Google search results
+												for
+												every website we’ve built, and rank for more keywords
+												than I
+												ever expected in a very competitive, high-value
+												customer
+												industry. In addition
+											</h3>
+                      </div>
+                      <div class="customer-thumb">
+                        <img src="/theme_twelve_bizople/static/src/img/3.jpg" alt="bizople" class="circle"/>
+                      </div>
+                      <h6 class="text-white m-b-0 font-medium o_default_snippet_text">Michael Anderson</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide" style="">
+                  <div class="col-md-12">
+                    <div class="item">
+                      <div class="quote-bg">
+                        <h3 class="font-light text-white o_default_snippet_text">Bizople has given our websites huge national
+												presence.We are #1 on page one in Google search results
+												for
+												every website we’ve built, and rank for more keywords
+												than I
+												ever expected in a very competitive, high-value
+												customer
+												industry. In addition
+											</h3>
+                      </div>
+                      <div class="customer-thumb">
+                        <img src="/theme_twelve_bizople/static/src/img/2.jpg" alt="bizople" class="circle"/>
+                      </div>
+                      <h6 class="text-white m-b-0 font-medium o_default_snippet_text">Michael Anderson</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide" style="">
+                  <div class="col-md-12">
+                    <div class="item">
+                      <div class="quote-bg">
+                        <h3 class="font-light text-white o_default_snippet_text">Bizople has given our websites huge national
+												presence.We are #1 on page one in Google search results
+												for
+												every website we’ve built, and rank for more keywords
+												than I
+												ever expected in a very competitive, high-value
+												customer
+												industry. In addition
+											</h3>
+                      </div>
+                      <div class="customer-thumb">
+                        <img src="/theme_twelve_bizople/static/src/img/3.jpg" alt="bizople" class="circle"/>
+                      </div>
+                      <h6 class="text-white m-b-0 font-medium o_default_snippet_text">Michael Anderson</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide" style="">
+                  <div class="col-md-12">
+                    <div class="item">
+                      <div class="quote-bg">
+                        <h3 class="font-light text-white o_default_snippet_text">Bizople has given our websites huge national
+												presence.We are #1 on page one in Google search results
+												for
+												every website we’ve built, and rank for more keywords
+												than I
+												ever expected in a very competitive, high-value
+												customer
+												industry. In addition
+											</h3>
+                      </div>
+                      <div class="customer-thumb">
+                        <img src="/theme_twelve_bizople/static/src/img/1.jpg" alt="bizople" class="circle"/>
+                      </div>
+                      <h6 class="text-white m-b-0 font-medium o_default_snippet_text">Michael Anderson</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item oe_img_bg" data-name="Slide" style="">
+                  <div class="col-md-12">
+                    <div class="item">
+                      <div class="quote-bg">
+                        <h3 class="font-light text-white o_default_snippet_text">Bizople has given our websites huge national
+												presence.We are #1 on page one in Google search results
+												for
+												every website we’ve built, and rank for more keywords
+												than I
+												ever expected in a very competitive, high-value
+												customer
+												industry. In addition
+											</h3>
+                      </div>
+                      <div class="customer-thumb">
+                        <img src="/theme_twelve_bizople/static/src/img/2.jpg" alt="bizople" class="circle"/>
+                      </div>
+                      <h6 class="text-white m-b-0 font-medium o_default_snippet_text">Michael Anderson</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_estate_team">
+      <div class="spacer feature14">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="title">Super Agents from Bizople</h2>
+              <h6 class="subtitle">You can relay on our amazing features list and
+                also our customer services will be great experience for you
+                without doubt and in no-time
+              </h6>
+            </div>
+          </div>
+          <div class="row m-t-40 p-t-20">
+            <div class="col-lg-3 col-md-6 wrap-feature14-box">
+              <div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <img class="rounded img-responsive"
+                  src="/theme_twelve_bizople/static/src/img/a1.jpg" alt="Bizople kit" />
+                <div class="m-t-30">
+                  <h5 class="font-medium m-b-0">Micheal Anderson</h5>
+                  <h6 class="subtitle">Property Specialist</h6>
+                  <p class="custom_p m-t-20 text-dark">You can relay on our amazing features list and
+                    also our customer services will be great.
+                  </p>
+                  <a href="#" class="text-info font-medium">Learn More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wrap-feature14-box">
+              <div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <img class="rounded img-responsive"
+                  src="/theme_twelve_bizople/static/src/img/a2.jpg" alt="Bizople kit" />
+                <div class="m-t-30">
+                  <h5 class="font-medium m-b-0">Julia D’Souza</h5>
+                  <h6 class="subtitle">Sales Person</h6>
+                  <p class="custom_p m-t-20 text-dark">You can relay on our amazing features list and
+                    also our customer services will be great.
+                  </p>
+                  <a href="#" class="text-info font-medium">Learn More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wrap-feature14-box">
+              <div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <img class="rounded img-responsive"
+                  src="/theme_twelve_bizople/static/src/img/a3.jpg" alt="Bizople kit" />
+                <div class="m-t-30">
+                  <h5 class="font-medium m-b-0">Megan Doe</h5>
+                  <h6 class="subtitle">Property Manager</h6>
+                  <p class="custom_p m-t-20 text-dark">You can relay on our amazing features list and
+                    also our customer services will be great.
+                  </p>
+                  <a href="#" class="text-info font-medium">Learn More </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wrap-feature14-box">
+              <div class="o_animate_preview o_animate o_anim_flip_in_y" style="animation-duration: 3s !important;">
+                <img class="rounded img-responsive"
+                  src="/theme_twelve_bizople/static/src/img/a4.jpg" alt="Bizople kit" />
+                <div class="m-t-30">
+                  <h5 class="font-medium m-b-0">Johnathan Birt</h5>
+                  <h6 class="subtitle">Site Consultant</h6>
+                  <p class="custom_p m-t-20">You can relay on our amazing features list and
+                    also our customer services will be great.
+                  </p>
+                  <a href="#" class="text-info font-medium">Learn More </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="s_estate_logo_partners" data-name="Partners with logos and paragraph">
+        <div class="spacer bg-light-1 feature14">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <h2 class="title o_default_snippet_text">Our Valuable Partners</h2>
+                <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+								also our customer services will be great experience for you
+								without doubt and in no-time
+							</h6>
+              </div>
+            </div>
+            <div class="client2">
+              <div class="container">
+                <div class="row client-box text-center">
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c1.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c2.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c3.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c4.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c5.png" alt="bizople"/>
+                  </div>
+                  <div class="col-lg-2 col-md-4">
+                    <img src="/theme_twelve_bizople/static/src/img/c6.png" alt="bizople"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_estate_img_with_para" data-name="Paragraph with button and image">
+        <div class="spacer feature14">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <h2 class="title o_default_snippet_text">Are you happy with what we offer? Grab your
+								Theme Twelve Now</h2>
+                <h6 class="subtitle o_default_snippet_text">You can relay on our amazing features list and
+								also our customer services will be great experience for you
+								without doubt and in no-time</h6>
+                <button class="btn btn-danger btn-md m-t-20 o_default_snippet_text">Search Properties</button>
+              </div>
+              <div class="col-md-12 text-center m-t-30">
+                <img src="/theme_twelve_bizople/static/src/img/vectorecity.jpg" alt="bizople" class="img-fluid"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+			</t>
+		</field>
+	</record>
+
+	<record id="real_estate_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/real_estate-template</field>
+		<field name="view_id" ref="real_estate_template" />
+	</record>
+
+</odoo>
+

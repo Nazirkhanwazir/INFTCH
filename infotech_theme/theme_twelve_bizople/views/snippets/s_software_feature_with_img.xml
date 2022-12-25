@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_software_feature_with_img" name="Features with right image">
+		<section class="s_software_feature_with_img">
+			<div class="spacer feature19 p-b-0">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7 align-self-center">
+							<h2 class="title">Awesome with Extra Ordinary Flexibility</h2>
+							<h6 class="subtitle">You can relay on our amazing features list and
+								also our customer services will be great experience for you
+								without doubt and in no-time
+							</h6>
+							<div class="row">
+								<div class="col-md-6 m-t-30">
+									<ul class="list-block">
+										<li>
+											<span class="fa fa-check-circle font-20 text-danger"></span>
+											<span>Fast &amp; Simple WordPress Hosting</span>
+										</li>
+										<li>
+											<span class="fa fa-check-circle font-20 text-danger"></span>
+
+											<span>1-Click Staging Environment</span>
+										</li>
+										<li>
+											<span class="fa fa-check-circle font-20 text-danger"></span>
+											<span>All-in-One Control Panel</span>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-6 m-t-30">
+									<ul class="list-block">
+										<li>
+											<span class="fa fa-check-circle font-20 text-danger"></span>
+											<span>Includes 2 Wordpress Installs</span>
+										</li>
+										<li>
+											<span class="fa fa-check-circle font-20 text-danger"></span>
+											<span>Host Up to 100 Websites</span>
+										</li>
+										<li>
+											<span class="fa fa-check-circle font-20 text-danger"></span>
+											<span>1 TB Monthly BandWidth</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 m-t-40 m-b-30">
+									<a class="btn btn-danger-gradient btn-md arrow-btn"
+										 href="#f19">
+											View Features
+											<span class="fa fa-1x fa-fw fa-long-arrow-right ml-1"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 text-center">
+							<img src="/theme_twelve_bizople/static/src/img/services.jpg"
+								alt="bizople" class=" o_animate_preview o_animate o_anim_fade_in_up" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</template>
+
+</odoo>

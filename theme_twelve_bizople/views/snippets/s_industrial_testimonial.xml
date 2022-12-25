@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_industrial_testimonial" name="Testimonial tabs">
+		<section class="s_industrial_testimonial s_tabs">
+			<div class="testimonial6 spacer">
+				<div class="container">
+					<div class="row s_tabs_main">
+						<div class="col-lg-2 col-md-3 o_animate_preview o_animate o_anim_fade_in_left">
+							
+							<ul class="nav flex-column nav-pills testi6"
+								id="v-pills-tab" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#t6-1" role="tab"
+										aria-controls="t6-1" aria-expanded="true">
+										<img src="/theme_twelve_bizople/static/src/img/1.jpg" alt=""
+											class="circle" />
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#t6-2" role="tab"
+									aria-controls="t6-2" aria-expanded="true">
+									<img src="/theme_twelve_bizople/static/src/img/2.jpg" alt=""
+										class="circle" />
+								</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" data-toggle="pill" href="#t6-3"
+									role="tab" aria-controls="t6-3" aria-expanded="true">
+									<img src="/theme_twelve_bizople/static/src/img/3.jpg" alt=""
+										class="circle" />
+								</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#t6-4" role="tab"
+									aria-controls="t6-4" aria-expanded="true">
+									<img src="/theme_twelve_bizople/static/src/img/testi4.jpg" alt=""
+										class="circle" />
+								</a>
+								</li>
+							
+								
+								
+								
+							</ul>
+						</div>
+						<div
+							class="col-lg-9 col-md-8 ml-auto align-self-center o_animate_preview o_animate o_anim_fade_in_up">
+							<div class="s_tabs_content tab-content" id="v-pills-tabContent">
+								<div class="tab-pane fade" id="t6-1" role="tabpanel">
+									<h2 class="font-bold">What our Customers says</h2>
+									<h6 class="subtitle m-t-40">Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do mode tempor incididunt ut labore
+										et dolore magna aliqua. Ut enim ad minim veniam, quis
+										nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo consequat.
+									</h6>
+									<div class="d-flex m-t-40">
+										<div>
+											<h5 class="m-b-0 text-uppercase">Jon Doe</h5>
+											<h6 class="subtitle">Miami</h6>
+										</div>
+										<section class="icon-div ml-auto">
+				                             <span class="fa fa-quote-left fa-2x bg-o-color-5 text-white"></span>
+			                          	</section>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="t6-2" role="tabpanel">
+									<h2 class="font-bold">What our Customers says</h2>
+									<h6 class="subtitle m-t-40">Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do mode tempor incididunt ut labore
+										et dolore magna aliqua. Ut enim ad minim veniam, quis
+										nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo consequat.
+									</h6>
+									<div class="d-flex m-t-40">
+										<div>
+											<h5 class="m-b-0 text-uppercase">Arina Gover</h5>
+											<h6 class="subtitle">New York</h6>
+										</div>
+										<section class="icon-div ml-auto">
+				                             <span class="fa fa-quote-left fa-2x bg-o-color-5 text-white"></span>
+			                          	</section>
+									</div>
+								</div>
+								<div class="tab-pane fade show active" id="t6-3"
+									role="tabpanel">
+									<h2 class="font-bold">What our Customers says</h2>
+									<h6 class="subtitle m-t-40">Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do mode tempor incididunt ut labore
+										et dolore magna aliqua. Ut enim ad minim veniam, quis
+										nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo consequat.
+									</h6>
+									<div class="d-flex m-t-40">
+										<div>
+											<h5 class="m-b-0 text-uppercase">Hanna Gover</h5>
+											<h6 class="subtitle">Texas</h6>
+										</div>
+										<section class="icon-div ml-auto">
+				                             <span class="fa fa-quote-left fa-2x bg-o-color-5 text-white"></span>
+			                          	</section>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="t6-4" role="tabpanel">
+									<h2 class="font-bold">What our Customers says</h2>
+									<h6 class="subtitle m-t-40">Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do mode tempor incididunt ut labore
+										et dolore magna aliqua. Ut enim ad minim veniam, quis
+										nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo consequat.
+									</h6>
+									<div class="d-flex m-t-40">
+										<div>
+											<h5 class="m-b-0 text-uppercase">Jane Martins</h5>
+											<h6 class="subtitle">Palo Alto</h6>
+										</div>
+										<section class="icon-div ml-auto">
+				                             <span class="fa fa-quote-left fa-2x bg-o-color-5 text-white"></span>
+			                          	</section>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>
